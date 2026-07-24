@@ -518,9 +518,9 @@ This repository accompanies a survey on the **data pyramid** for robotics and em
 
 | Year | Acronym | Paper | Venue | Project | Repo@GitHub |
 |------|---------|-------|-------|---------|-------------|
-| 2026 | RoVid-X | [Ro Vid-X](https://arxiv.org/abs/2601.15282) | ICML | [![link](https://img.shields.io/badge/Website-9cf)](https://huggingface.co/datasets/DAGroup-PKU/RoVid-X) | [![GitHub](https://img.shields.io/badge/GitHub-ReVidgen-ff8800?logo=github)](https://github.com/DAGroup-PKU/ReVidgen) |
-| 2024 | Moment-10M | [Moment-10M](https://arxiv.org/abs/2402.11435) | ICML |  | [![GitHub](https://img.shields.io/badge/GitHub-Momentor-ff8800?logo=github)](https://github.com/DCDmllm/Momentor) |
-| 2024 | RH20T-P | [RH20T-P: A Primitive-Level Robotic Manipulation Dataset Towards Composable Generalization Agents in Real-world Scenarios](https://arxiv.org/abs/2403.19622) | IROS | [![link](https://img.shields.io/badge/Website-9cf)](https://sites.google.com/view/rh20t-primitive/main) |  |
+| 2026 | RoVid-X | [Rethinking Video Generation Model for the Embodied World](https://arxiv.org/abs/2601.15282) | ICML | [![link](https://img.shields.io/badge/Website-9cf)](https://huggingface.co/datasets/DAGroup-PKU/RoVid-X) | [![GitHub](https://img.shields.io/badge/GitHub-ReVidgen-ff8800?logo=github)](https://github.com/DAGroup-PKU/ReVidgen) |
+| 2024 | Moment-10M | [Momentor: Advancing Video Large Language Model with Fine-Grained Temporal Reasoning](https://arxiv.org/abs/2402.11435) | ICML |  | [![GitHub](https://img.shields.io/badge/GitHub-Momentor-ff8800?logo=github)](https://github.com/DCDmllm/Momentor) |
+| 2024 | RH20T-P | [RH20T-P: A Primitive-Level Robotic Manipulation Dataset Towards Composable Generalization Agents in Real-world Scenarios](https://doi.org/10.1109/iros60139.2025.11246228) | IROS | [![link](https://img.shields.io/badge/Website-9cf)](https://sites.google.com/view/rh20t-primitive/main) |  |
 | 2023 | HiREST | [Hierarchical Video-Moment Retrieval and Step-Captioning](https://arxiv.org/abs/2303.16406) | CVPR | [![link](https://img.shields.io/badge/Website-9cf)](https://hirest-cvpr2023.github.io/) | [![GitHub](https://img.shields.io/badge/GitHub-HiREST-ff8800?logo=github)](https://github.com/j-min/HiREST) |
 | 2023 | RoboFail | [REFLECT: Summarizing Robot Experiences for Failure Explanation and Correction (RoboFail dataset)](https://arxiv.org/abs/2306.15724) | CoRL | [![link](https://img.shields.io/badge/Website-9cf)](https://roboreflect.github.io/) | [![GitHub](https://img.shields.io/badge/GitHub-reflect-ff8800?logo=github)](https://github.com/real-stanford/reflect) |
 | 2023 | RoboVQA | [RoboVQA: Multimodal Long-Horizon Reasoning for Robotics](https://arxiv.org/abs/2311.00899) | ICRA | [![link](https://img.shields.io/badge/Website-9cf)](https://robovqa.github.io/) | [![GitHub](https://img.shields.io/badge/GitHub-robovqa-ff8800?logo=github)](https://github.com/google-deepmind/robovqa) |
@@ -530,10 +530,10 @@ This repository accompanies a survey on the **data pyramid** for robotics and em
 | 2017 | Charades-STA | [TALL: Temporal Activity Localization via Language Query (Charades-STA dataset)](https://arxiv.org/abs/1705.02101) | ICCV |  | [![GitHub](https://img.shields.io/badge/GitHub-TALL-ff8800?logo=github)](https://github.com/jiyanggao/TALL) |
 | 2017 | DiDeMo | [Localizing Moments in Video with Natural Language](https://arxiv.org/abs/1708.01641) | ICCV | [![link](https://img.shields.io/badge/Website-9cf)](https://people.eecs.berkeley.edu/~lisa_anne/didemo.html) | [![GitHub](https://img.shields.io/badge/GitHub-LocalizingMoments-ff8800?logo=github)](https://github.com/LisaAnne/LocalizingMoments) |
 | 2017 | ScanNet | [ScanNet: Richly-annotated 3D Reconstructions of Indoor Scenes](https://arxiv.org/abs/1702.04405) | CVPR | [![link](https://img.shields.io/badge/Website-9cf)](http://www.scan-net.org/) | [![GitHub](https://img.shields.io/badge/GitHub-ScanNet-ff8800?logo=github)](https://github.com/ScanNet/ScanNet) |
-|  | Cornell Grasp Dataset | [Efficient Grasping from RGBD Images: Learning using a New Rectangle Representation](https://doi.org/10.1109/ICRA.2011.5980145) |  | [![link](https://img.shields.io/badge/Website-9cf)](http://pr.cs.cornell.edu/grasping/rect_data/data.php) |  |
-|  | InfLevel | [Benchmarking Progress to Infant-Level Physical Reasoning in AI](https://openreview.net/forum?id=9NjqD9i48M) | TMLR |  | [![GitHub](https://img.shields.io/badge/GitHub-inflevel-ff8800?logo=github)](https://github.com/allenai/inflevel) |
-|  | OCR-VQA | [OCR-VQA: Visual Question Answering by Reading Text in Images](https://ieeexplore.ieee.org/document/8978122/) | ICDAR | [![link](https://img.shields.io/badge/Website-9cf)](https://ocr-vqa.github.io/) |  |
-|  | RobAVA | [RobAVA: A Large-scale Dataset and Baseline Towards Video-based Robotic Arm Action Understanding](https://openaccess.thecvf.com/content/ICCV2025/papers/Sun_RobAVA_A_Large-scale_Dataset_and_Baseline_Towards_Video_based_Robotic_ICCV_2025_paper.pdf) | ICCV |  | [![GitHub](https://img.shields.io/badge/GitHub-RobAVA-ff8800?logo=github)](https://github.com/Sunbaoli/RobAVA) |
+| 2011 | Cornell Grasp Dataset | [Efficient Grasping from RGBD Images: Learning using a New Rectangle Representation](https://doi.org/10.1109/ICRA.2011.5980145) | ICRA | [![link](https://img.shields.io/badge/Website-9cf)](http://pr.cs.cornell.edu/grasping/rect_data/data.php) |  |
+| 2022 | InfLevel | [Benchmarking Progress to Infant-Level Physical Reasoning in AI](https://openreview.net/forum?id=9NjqD9i48M) | TMLR |  | [![GitHub](https://img.shields.io/badge/GitHub-inflevel-ff8800?logo=github)](https://github.com/allenai/inflevel) |
+| 2019 | OCR-VQA | [OCR-VQA: Visual Question Answering by Reading Text in Images](https://ieeexplore.ieee.org/document/8978122/) | ICDAR | [![link](https://img.shields.io/badge/Website-9cf)](https://ocr-vqa.github.io/) |  |
+| 2025 | RobAVA | [RobAVA: A Large-scale Dataset and Baseline Towards Video-based Robotic Arm Action Understanding](https://openaccess.thecvf.com/content/ICCV2025/papers/Sun_RobAVA_A_Large-scale_Dataset_and_Baseline_Towards_Video_based_Robotic_ICCV_2025_paper.pdf) | ICCV |  | [![GitHub](https://img.shields.io/badge/GitHub-RobAVA-ff8800?logo=github)](https://github.com/Sunbaoli/RobAVA) |
 
 </details>
 
@@ -548,7 +548,7 @@ This repository accompanies a survey on the **data pyramid** for robotics and em
 | 2023 | EmbodiedGPT | [EmbodiedGPT: Vision-Language Pre-Training via Embodied Chain of Thought](https://arxiv.org/abs/2305.15021) | NeurIPS | [![link](https://img.shields.io/badge/Website-9cf)](https://embodiedgpt.github.io/) | [![GitHub](https://img.shields.io/badge/GitHub-EmbodiedGPT-ff8800?logo=github)](https://github.com/OpenGVLab/EmbodiedGPT) |
 | 2023 | LLaRP | [Large Language Models as Generalizable Policies for Embodied Tasks](https://arxiv.org/abs/2310.17722) | ICLR | [![link](https://img.shields.io/badge/Website-9cf)](https://llm-rl.github.io/) | [![GitHub](https://img.shields.io/badge/GitHub-ml--llarp-ff8800?logo=github)](https://github.com/apple/ml-llarp) |
 | 2022 | EgoTaskQA | [EgoTaskQA: Understanding Human Tasks in Egocentric Videos](https://arxiv.org/abs/2210.03929) | NeurIPS | [![link](https://img.shields.io/badge/Website-9cf)](https://sites.google.com/view/egotaskqa) | [![GitHub](https://img.shields.io/badge/GitHub-EgoTaskQA-ff8800?logo=github)](https://github.com/Buzz-Beater/EgoTaskQA) |
-|  | WAP | WAP | NeurIPS |  |  |
+| 2025 | WAP | [World-aware Planning Narratives Enhance Large Vision-Language Model Planner](https://arxiv.org/abs/2506.21230) | NeurIPS | [![link](https://img.shields.io/badge/Website-9cf)](https://huggingface.co/datasets/sii-research/World-Aware-Planning) | [![GitHub](https://img.shields.io/badge/GitHub-World--Aware--Planning-ff8800?logo=github)](https://github.com/sjh0354/World-Aware-Planning) |
 
 </details>
 
@@ -565,7 +565,7 @@ This repository accompanies a survey on the **data pyramid** for robotics and em
 | 2024 | Grasp-Anything | [Grasp-Anything: Large-scale Grasp Dataset from Foundation Models](https://arxiv.org/abs/2309.09818) | ICRA | [![link](https://img.shields.io/badge/Website-9cf)](https://airvlab.github.io/grasp-anything/) | [![GitHub](https://img.shields.io/badge/GitHub-Grasp--Anything-ff8800?logo=github)](https://github.com/Fsoft-AIC/Grasp-Anything) |
 | 2021 | SuctionNet-1Billion | [SuctionNet-1Billion: A Large-Scale Benchmark for Suction Grasping](https://arxiv.org/abs/2103.12311) | RAL | [![link](https://img.shields.io/badge/Website-9cf)](https://graspnet.net/suction) | [![GitHub](https://img.shields.io/badge/GitHub-suctionnetAPI-ff8800?logo=github)](https://github.com/graspnet/suctionnetAPI) |
 | 2018 | Jacquard | [Jacquard: A Large Scale Dataset for Robotic Grasp Detection](https://arxiv.org/abs/1803.11469) | IROS | [![link](https://img.shields.io/badge/Website-9cf)](https://jacquard.liris.cnrs.fr) |  |
-|  | GraspNet-1Billion | [GraspNet-1Billion: A Large-Scale Benchmark for General Object Grasping](https://openaccess.thecvf.com/content_CVPR_2020/html/Fang_GraspNet-1Billion_A_Large-Scale_Benchmark_for_General_Object_Grasping_CVPR_2020_paper.html) | CVPR | [![link](https://img.shields.io/badge/Website-9cf)](https://graspnet.net) | [![GitHub](https://img.shields.io/badge/GitHub-graspnet--baseline-ff8800?logo=github)](https://github.com/graspnet/graspnet-baseline) |
+| 2020 | GraspNet-1Billion | [GraspNet-1Billion: A Large-Scale Benchmark for General Object Grasping](https://openaccess.thecvf.com/content_CVPR_2020/html/Fang_GraspNet-1Billion_A_Large-Scale_Benchmark_for_General_Object_Grasping_CVPR_2020_paper.html) | CVPR | [![link](https://img.shields.io/badge/Website-9cf)](https://graspnet.net) | [![GitHub](https://img.shields.io/badge/GitHub-graspnet--baseline-ff8800?logo=github)](https://github.com/graspnet/graspnet-baseline) |
 
 </details>
 
@@ -622,12 +622,12 @@ Data sources: `Real` = real-robot data; `UMI` = UMI data; `Ego` = egocentric dat
 | 2026.1 | LingbotVA | Ant Group | [Project](https://technology.robbyant.com/lingbot-va) | WAM | Real / UMI / Sim |
 | 2026.2 | RDT2 | THU | [Project](https://rdt-robotics.github.io/rdt2/) | VLA | UMI / General |
 | 2026.2 | Xiaomi-Robotics-0 | Xiaomi | [Project](https://robotics.xiaomi.com/xiaomi-robotics-0.html) | VLA | Real / General |
-| 2026.2 | ABot-M0 | AMAP CV Lab | [Project](https://amap-cvlab.github.io/ABot-Manipulation/) | VLA | Real |
+| 2026.2 | ABot-M0 | AMAP CV Lab | [Project](https://amap-cvlab.github.io/ABot-Manipulation/m0/index.html) | VLA | Real |
 | 2026.2 | DM0 | Dexmal | [GitHub](https://github.com/Dexmal/dexbotic) | VLA | Real / Sim / General |
 | 2026.2 | LDA-1B | PKU | [GitHub](https://github.com/jiangranlv/LDA-1B) | WAM | Real / Ego / Sim |
 | 2026.2 | DreamZero | NVIDIA | [Project](https://dreamzero0.github.io/) | WAM | Real |
 | 2026.2 | EgoScale | NVIDIA | [Project](https://research.nvidia.com/labs/gear/egoscale/) | VLA | Real / Ego |
-| 2026.3 | GigaWorld-Policy | GigaAI | [Project](https://open-gigaai.github.io/giga-world-policy/) | WAM | Real / Ego / General |
+| 2026.3 | GigaWorld-Policy | GigaAI | [GitHub](https://github.com/open-gigaai/giga-world-policy) | WAM | Real / Ego / General |
 | 2026.3 | UniDex | THU | [Project](https://unidex-ai.github.io/) | VLA | Ego |
 | 2026.4 | JoyAI-RA 0.1 | JD | [Project](https://joyai-ra.github.io/) | VLA | Real / Ego / Sim / General |
 | 2026.4 | π0.7 | Physical Intelligence | [Blog](https://www.pi.website/blog/pi07) | VLA | Real / Ego / General |
