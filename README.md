@@ -88,6 +88,7 @@ This repository accompanies a survey on the **data pyramid** for robotics and em
 
 | Year | Dataset | Paper | Scale | Venue | Project | Repo@GitHub |
 |------|---------|-------|-------|-------|---------|-------------|
+| 2026 | ABC-130K | [Scalable Behavior Cloning with Open Data, Training, and Evaluation](https://arxiv.org/pdf/2606.27375) | 130.7K trajectories |  | [![link](https://img.shields.io/badge/Website-9cf)](https://abc.bot/) | [![GitHub](https://img.shields.io/badge/GitHub-ABC--130K-ff8800?logo=github)](https://github.com/amazon-far/abc) |
 | 2026 | AgiBot World 2026 | AgiBot World 2026: Real-World Embodied Intelligence Dataset |  |  | [![link](https://img.shields.io/badge/Website-9cf)](https://huggingface.co/datasets/agibot-world/AgiBotWorld2026) |  |
 | 2026 | DECO-50 | [DECO: Decoupled Multimodal Diffusion Transformer for Bimanual Dexterous Manipulation with a Plugin Tactile Adapter](https://arxiv.org/abs/2602.05513) | 8K trajectories | ICML | [![link](https://img.shields.io/badge/Website-9cf)](https://baai-humanoid.github.io/DECO-webpage/) | [![GitHub](https://img.shields.io/badge/GitHub-DECO-ff8800?logo=github)](https://github.com/BAAI-Humanoid/DECO) |
 | 2026 | Dexora | [Dexora: Open-source VLA for High-DoF Bimanual Dexterity](https://arxiv.org/abs/2605.18722) | 12.2K trajectories | ICRA |  | [![GitHub](https://img.shields.io/badge/GitHub-Dexora-ff8800?logo=github)](https://github.com/ZZongzheng0918/Dexora) |
