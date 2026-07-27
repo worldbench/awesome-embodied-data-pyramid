@@ -1,4 +1,6 @@
-# Awesome Embodied Data [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome) [![PR's Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat)](#) ![Visitors](https://visitor-badge.laobi.icu/badge?page_id=Jasper-aaa.Awesome-Embodied-Data-Pyramid&left_color=gray&right_color=blue)
+[![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome) [![PR's Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat)](#) ![Visitors](https://visitor-badge.laobi.icu/badge?page_id=Jasper-aaa.Awesome-Embodied-Data-Pyramid&left_color=gray&right_color=blue)
+
+# Awesome Embodied Data Pyramid
 
 <p align="center">
   <img src="assets/data_pyramid.png" alt="Embodied Data Pyramid" width="100%">
