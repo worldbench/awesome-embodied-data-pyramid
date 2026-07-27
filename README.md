@@ -582,80 +582,80 @@ Data sources: ![Real][data-real] = real-robot data; ![UMI][data-umi] = UMI data;
 
 | Time | Method | Institution | Project | Model | Data |
 |------|--------|-------------|:-------:|-------|------|
-| 2023.3 | PaLM-E | Google | [Project](https://palm-e.github.io/) | VLA | ![Real][data-real] ![Sim][data-sim] ![General][data-general] |
-| 2023.7 | RT-2 | DeepMind | [Project](https://robotics-transformer2.github.io/) | VLA | ![Real][data-real] ![General][data-general] |
-| 2024.5 | Octo | UC Berkeley | [Project](https://octo-models.github.io/) | VLA | ![Real][data-real] |
-| 2024.6 | OpenVLA | Stanford University | [Project](https://openvla.github.io/) | VLA | ![Real][data-real] |
-| 2024.10 | GR-2 | ByteDance | [Project](https://gr2-manipulation.github.io/) | VLA | ![Real][data-real] ![Ego][data-ego] |
-| 2024.10 | π0 | Physical Intelligence | [Blog](https://www.pi.website/blog/pi0) | VLA | ![Real][data-real] |
-| 2024.10 | RDT-1B | THU | [Project](https://rdt-robotics.github.io/rdt-robotics/) | VLA | ![Real][data-real] |
-| 2024.11 | CogACT | THU | [Project](https://cogact.github.io/) | VLA | ![Real][data-real] |
-| 2025.1 | SpatialVLA | Shanghai AI Lab | [GitHub](https://github.com/SpatialVLA/SpatialVLA) | VLA | ![Real][data-real] |
-| 2025.1 | UP-VLA | THU | [GitHub](https://github.com/CladernyJorn/UP-VLA) | VLA | ![Real][data-real] ![General][data-general] |
-| 2025.3 | HybridVLA | PKU | [Project](https://hybrid-vla.github.io/) | VLA | ![Real][data-real] |
-| 2025.3 | GR00T N1 | NVIDIA | [GitHub](https://github.com/NVIDIA/Isaac-GR00T) | VLA | ![Real][data-real] ![Ego][data-ego] ![Sim][data-sim] |
-| 2025.3 | GO-1 | Shanghai AI Lab & AgiBot | [Model](https://huggingface.co/agibot-world/GO-1) | VLA | ![Real][data-real] ![Ego][data-ego] ![General][data-general] |
-| 2025.3 | CoT-VLA | NVIDIA | [Project](https://cot-vla.github.io/) | VLA | ![Real][data-real] ![Ego][data-ego] ![General][data-general] |
-| 2025.4 | UWM | University of Washington | [Project](https://weirdlabuw.github.io/uwm/) | WAM | ![Real][data-real] |
-| 2025.4 | π0.5 | Physical Intelligence | [Blog](https://www.pi.website/blog/pi05) | VLA | ![Real][data-real] ![General][data-general] |
-| 2025.5 | UniVLA | HKU | [GitHub](https://github.com/OpenDriveLab/UniVLA) | VLA | ![Real][data-real] ![Ego][data-ego] |
-| 2025.6 | SmolVLA | Hugging Face | [Model](https://huggingface.co/lerobot/smolvla_base) | VLA | ![Real][data-real] |
-| 2025.6 | GR00T N1.5 | NVIDIA | [Project](https://research.nvidia.com/labs/gear/gr00t-n1_5/) | VLA | ![Real][data-real] ![Sim][data-sim] |
-| 2025.7 | DreamVLA | SJTU | [Project](https://zhangwenyao1.github.io/DreamVLA/) | VLA | ![Real][data-real] ![Sim][data-sim] |
-| 2025.7 | EgoVLA | UC San Diego | [Project](https://rchalyang.github.io/EgoVLA/) | VLA | ![Ego][data-ego] |
-| 2025.7 | Being-H0 | PKU | [Project](https://beingbeyond.github.io/Being-H0/) | VLA | ![Ego][data-ego] |
-| 2025.7 | GR-3 | ByteDance Seed | [Project](https://seed.bytedance.com/GR3) | VLA | ![Real][data-real] ![Ego][data-ego] ![General][data-general] |
-| 2025.7 | H-RDT | THU | [Project](https://embodiedfoundation.github.io/hrdt) | VLA | ![Ego][data-ego] |
-| 2025.8 | GalaxeaVLA(G0) | Galaxea | [Project](https://opengalaxea.github.io/G0/) | VLA | ![Real][data-real] |
-| 2025.8 | ReconVLA | HKUST | [Project](https://zionchow.github.io/ReconVLA/) | VLA | ![Real][data-real] ![Sim][data-sim] |
-| 2025.8 | MolmoAct | AI2 & UW | [GitHub](https://github.com/allenai/molmoact) | VLA | ![Real][data-real] ![General][data-general] |
-| 2025.8 | EO-1 | Shanghai AI Lab | [Project](https://eo-robotics.ai/eo-1) | VLA | ![Real][data-real] ![General][data-general] |
-| 2025.9 | RynnVLA-001 | DAMO | [GitHub](https://github.com/alibaba-damo-academy/RynnVLA-001) | VLA | ![Real][data-real] ![Ego][data-ego] |
-| 2025.10 | X-VLA | THU | [Project](https://thu-air-dream.github.io/X-VLA/) | VLA | ![Real][data-real] |
-| 2025.10 | InternVLA-M1 | Shanghai AI Lab | [Project](https://internrobotics.github.io/internvla-m1.github.io/) | VLA | ![Real][data-real] ![Sim][data-sim] ![General][data-general] |
-| 2025.10 | VITRA | THU | [Project](https://microsoft.github.io/VITRA/) | VLA | ![Ego][data-ego] |
-| 2025.11 | METIS | PKU | [Paper](https://arxiv.org/abs/2511.17366) | VLA | ![Real][data-real] ![Ego][data-ego] |
-| 2025.11 | iFlyBot-VLA | iFLYTEK & LindenBot | [Paper](https://arxiv.org/abs/2511.01914) | VLA | ![Real][data-real] ![Ego][data-ego] ![General][data-general] |
-| 2025.12 | VideoVLA | XJTU | [Project](https://videovla-nips2025.github.io/) | VLA | ![Real][data-real] |
-| 2025.12 | Motus | THU | [Project](https://motus-robotics.github.io/motus) | WAM | ![Real][data-real] ![Ego][data-ego] ![Sim][data-sim] ![General][data-general] |
-| 2025.12 | GR00T N1.6 | NVIDIA | [GitHub](https://github.com/NVIDIA/Isaac-GR00T) | VLA | ![Real][data-real] ![Sim][data-sim] |
-| 2026.1 | InternVLA-A1 | Shanghai AI Lab | [GitHub](https://github.com/InternRobotics/InternVLA-A1) | VLA | ![Real][data-real] ![Ego][data-ego] ![Sim][data-sim] |
-| 2026.1 | LaST_0 | PKU | [Project](https://vla-last0.github.io/) | VLA | ![Real][data-real] |
-| 2026.1 | Being-H0.5 | BeingBeyond | [Project](https://research.beingbeyond.com/being-h05) | VLA | ![Real][data-real] ![Ego][data-ego] ![Sim][data-sim] ![General][data-general] |
-| 2026.1 | LingbotVLA | Ant Group | [Project](https://technology.robbyant.com/lingbot-vla) | VLA | ![Real][data-real] |
-| 2026.1 | LingbotVA | Ant Group | [Project](https://technology.robbyant.com/lingbot-va) | WAM | ![Real][data-real] ![UMI][data-umi] ![Sim][data-sim] |
-| 2026.2 | RDT2 | THU | [Project](https://rdt-robotics.github.io/rdt2/) | VLA | ![UMI][data-umi] ![General][data-general] |
-| 2026.2 | Xiaomi-Robotics-0 | Xiaomi | [Project](https://robotics.xiaomi.com/xiaomi-robotics-0.html) | VLA | ![Real][data-real] ![General][data-general] |
-| 2026.2 | ABot-M0 | AMAP CV Lab | [Project](https://amap-cvlab.github.io/ABot-Manipulation/m0/index.html) | VLA | ![Real][data-real] |
-| 2026.2 | DM0 | Dexmal | [GitHub](https://github.com/Dexmal/dexbotic) | VLA | ![Real][data-real] ![Sim][data-sim] ![General][data-general] |
-| 2026.2 | LDA-1B | PKU | [GitHub](https://github.com/jiangranlv/LDA-1B) | WAM | ![Real][data-real] ![Ego][data-ego] ![Sim][data-sim] |
-| 2026.2 | DreamZero | NVIDIA | [Project](https://dreamzero0.github.io/) | WAM | ![Real][data-real] |
-| 2026.2 | EgoScale | NVIDIA | [Project](https://research.nvidia.com/labs/gear/egoscale/) | VLA | ![Real][data-real] ![Ego][data-ego] |
-| 2026.3 | GigaWorld-Policy | GigaAI | [GitHub](https://github.com/open-gigaai/giga-world-policy) | WAM | ![Real][data-real] ![Ego][data-ego] ![General][data-general] |
-| 2026.3 | MolmoB0T | AI2 | [Paper](https://arxiv.org/abs/2603.16861) | VLA | ![Sim][data-sim] |
-| 2026.3 | UniDex | THU | [Project](https://unidex-ai.github.io/) | VLA | ![Ego][data-ego] |
-| 2026.4 | JoyAI-RA 0.1 | JD | [Project](https://joyai-ra.github.io/) | VLA | ![Real][data-real] ![Ego][data-ego] ![Sim][data-sim] ![General][data-general] |
-| 2026.4 | π0.7 | Physical Intelligence | [Blog](https://www.pi.website/blog/pi07) | VLA | ![Real][data-real] ![Ego][data-ego] ![General][data-general] |
-| 2026.4 | GR00T N1.7 | NVIDIA | [Project](https://developer.nvidia.com/isaac/gr00t) | VLA | ![Real][data-real] ![Ego][data-ego] ![Sim][data-sim] |
-| 2026.4 | Being-H0.7 | BeingBeyond | [Project](https://research.beingbeyond.com/being-h07) | WAM | ![Real][data-real] ![Ego][data-ego] ![Sim][data-sim] ![General][data-general] |
-| 2026.4 | MotuBrain | Shengshu | [Project](https://www.motubrain.com/en/) | WAM | ![Real][data-real] ![Ego][data-ego] ![General][data-general] |
-| 2026.5 | Qwen-VLA | Qwen | [Blog](https://qwen.ai/blog?id=qwenvla) | VLA | ![Real][data-real] ![Ego][data-ego] ![Sim][data-sim] ![General][data-general] |
-| 2026.5 | Wall-OSS-0.5 | X Square Robot | [Project](https://x2robot.com/oss#resources) | VLA | ![Real][data-real] ![General][data-general] |
-| 2026.5 | MolmoAct2 | UW & AI2 | [GitHub](https://github.com/allenai/molmoact2) | VLA | ![Real][data-real] ![Ego][data-ego] ![General][data-general] |
-| 2026.6 | Wall-WM | X Square Robot | [GitHub](https://github.com/X-Square-Robot/wall-x) | WAM | ![Real][data-real] ![Ego][data-ego] ![UMI][data-umi] ![General][data-general] |
-| 2026.6 | LaST-HD | PKU | [Project](https://siriyep.github.io/last-hd-project-page/) | VLA | ![Real][data-real] ![Ego][data-ego] |
-| 2026.6 | Hy-Embodied-0.5-VLA | Tencent Robotics X | [GitHub](https://github.com/Tencent-Hunyuan/Hy-Embodied-0.5-VLA) | VLA | ![UMI][data-umi] |
-| 2026.6 | Kairos | ACE Robotics | [Paper](https://arxiv.org/abs/2606.16533) | WAM | ![Real][data-real] ![Ego][data-ego] ![General][data-general] |
-| 2026.6 | Qwen-RobotManip | Qwen | [Blog](https://qwen.ai/blog?id=qwen-robotmanip) | VLA | ![Real][data-real] ![Ego][data-ego] ![Sim][data-sim] ![General][data-general] |
-| 2026.7 | ABot-M0.5 | AMAP CV Lab | [GitHub](https://github.com/amap-cvlab/ABot-Manipulation) | WAM | ![Real][data-real] ![Sim][data-sim] |
-| 2026.7 | ACE-Brain-0.5 | ACE-Robotics | [GitHub](https://github.com/ACE-BRAIN-Team/ACE-Brain-0.5) | VLA | ![Real][data-real] ![General][data-general] |
-| 2026.7 | InternVLA-A1.5 | Shanghai AI Lab | [Project](https://internrobotics.github.io/internvla-a15.github.io/) | VLA | ![Real][data-real] ![UMI][data-umi] ![Sim][data-sim] ![General][data-general] |
-| 2026.7 | LingbotVLA 2.0 | Ant Group | [Project](https://technology.robbyant.com/lingbot-vla-v2) | VLA | ![Real][data-real] ![Ego][data-ego] |
-| 2026.7 | LingbotVA 2.0 | Ant Group | [Project](https://technology.robbyant.com/lingbot-va-v2) | WAM | ![Real][data-real] ![Ego][data-ego] ![UMI][data-umi] ![Sim][data-sim] ![General][data-general] |
-| 2026.7 | HumanScale | PKU | [Code](https://github.com/DAGroup-PKU/HumanNet/) | WAM | ![Ego][data-ego] |
-| 2026.7 | GigaWorld-Policy-0.5 | GigaAI | [Project](https://open-gigaai.github.io/giga-world-policy/) | WAM | ![Real][data-real] |
-| 2026.7 | Xiaomi-Robotics-1 | Xiaomi | [Project](https://robotics.xiaomi.com/xiaomi-robotics-1.html) | VLA | ![Real][data-real] ![UMI][data-umi] ![General][data-general] |
-| 2026.7 | Xiaomi-Robotics-U0 | Xiaomi Robotics | [Project](https://robotics.xiaomi.com/xiaomi-robotics-u0.html) | WAM | ![Real][data-real] ![Ego][data-ego] ![Sim][data-sim] ![General][data-general] |
+| 2023.3 | PaLM-E | Google | [![Website](https://img.shields.io/badge/Website-0A7DBD)](https://palm-e.github.io/) | VLA | ![Real][data-real] ![Sim][data-sim] ![General][data-general] |
+| 2023.7 | RT-2 | DeepMind | [![Website](https://img.shields.io/badge/Website-0A7DBD)](https://robotics-transformer2.github.io/) | VLA | ![Real][data-real] ![General][data-general] |
+| 2024.5 | Octo | UC Berkeley | [![Website](https://img.shields.io/badge/Website-0A7DBD)](https://octo-models.github.io/) | VLA | ![Real][data-real] |
+| 2024.6 | OpenVLA | Stanford University | [![Website](https://img.shields.io/badge/Website-0A7DBD)](https://openvla.github.io/) | VLA | ![Real][data-real] |
+| 2024.10 | GR-2 | ByteDance | [![Website](https://img.shields.io/badge/Website-0A7DBD)](https://gr2-manipulation.github.io/) | VLA | ![Real][data-real] ![Ego][data-ego] |
+| 2024.10 | π0 | Physical Intelligence | [![Website](https://img.shields.io/badge/Website-0A7DBD)](https://www.pi.website/blog/pi0) | VLA | ![Real][data-real] |
+| 2024.10 | RDT-1B | THU | [![Website](https://img.shields.io/badge/Website-0A7DBD)](https://rdt-robotics.github.io/rdt-robotics/) | VLA | ![Real][data-real] |
+| 2024.11 | CogACT | THU | [![Website](https://img.shields.io/badge/Website-0A7DBD)](https://cogact.github.io/) | VLA | ![Real][data-real] |
+| 2025.1 | SpatialVLA | Shanghai AI Lab | [![Website](https://img.shields.io/badge/Website-0A7DBD)](https://spatialvla.github.io/) | VLA | ![Real][data-real] |
+| 2025.1 | UP-VLA | THU | [![Website](https://img.shields.io/badge/Website-0A7DBD)](https://github.com/CladernyJorn/UP-VLA) | VLA | ![Real][data-real] ![General][data-general] |
+| 2025.3 | HybridVLA | PKU | [![Website](https://img.shields.io/badge/Website-0A7DBD)](https://hybrid-vla.github.io/) | VLA | ![Real][data-real] |
+| 2025.3 | GR00T N1 | NVIDIA | [![Website](https://img.shields.io/badge/Website-0A7DBD)](https://github.com/NVIDIA/Isaac-GR00T) | VLA | ![Real][data-real] ![Ego][data-ego] ![Sim][data-sim] |
+| 2025.3 | GO-1 | Shanghai AI Lab & AgiBot | [![Website](https://img.shields.io/badge/Website-0A7DBD)](https://agibot-world.com/) | VLA | ![Real][data-real] ![Ego][data-ego] ![General][data-general] |
+| 2025.3 | CoT-VLA | NVIDIA | [![Website](https://img.shields.io/badge/Website-0A7DBD)](https://cot-vla.github.io/) | VLA | ![Real][data-real] ![Ego][data-ego] ![General][data-general] |
+| 2025.4 | UWM | University of Washington | [![Website](https://img.shields.io/badge/Website-0A7DBD)](https://weirdlabuw.github.io/uwm/) | WAM | ![Real][data-real] |
+| 2025.4 | π0.5 | Physical Intelligence | [![Website](https://img.shields.io/badge/Website-0A7DBD)](https://www.pi.website/blog/pi05) | VLA | ![Real][data-real] ![General][data-general] |
+| 2025.5 | UniVLA | HKU | [![Website](https://img.shields.io/badge/Website-0A7DBD)](https://github.com/OpenDriveLab/UniVLA) | VLA | ![Real][data-real] ![Ego][data-ego] |
+| 2025.6 | SmolVLA | Hugging Face | [![Website](https://img.shields.io/badge/Website-0A7DBD)](https://huggingface.co/lerobot/smolvla_base) | VLA | ![Real][data-real] |
+| 2025.6 | GR00T N1.5 | NVIDIA | [![Website](https://img.shields.io/badge/Website-0A7DBD)](https://research.nvidia.com/labs/gear/gr00t-n1_5/) | VLA | ![Real][data-real] ![Sim][data-sim] |
+| 2025.7 | DreamVLA | SJTU | [![Website](https://img.shields.io/badge/Website-0A7DBD)](https://zhangwenyao1.github.io/DreamVLA/) | VLA | ![Real][data-real] ![Sim][data-sim] |
+| 2025.7 | EgoVLA | UC San Diego | [![Website](https://img.shields.io/badge/Website-0A7DBD)](https://rchalyang.github.io/EgoVLA/) | VLA | ![Ego][data-ego] |
+| 2025.7 | Being-H0 | PKU | [![Website](https://img.shields.io/badge/Website-0A7DBD)](https://beingbeyond.github.io/Being-H0/) | VLA | ![Ego][data-ego] |
+| 2025.7 | GR-3 | ByteDance Seed | [![Website](https://img.shields.io/badge/Website-0A7DBD)](https://seed.bytedance.com/GR3) | VLA | ![Real][data-real] ![Ego][data-ego] ![General][data-general] |
+| 2025.7 | H-RDT | THU | [![Website](https://img.shields.io/badge/Website-0A7DBD)](https://embodiedfoundation.github.io/hrdt) | VLA | ![Ego][data-ego] |
+| 2025.8 | GalaxeaVLA(G0) | Galaxea | [![Website](https://img.shields.io/badge/Website-0A7DBD)](https://opengalaxea.github.io/G0/) | VLA | ![Real][data-real] |
+| 2025.8 | ReconVLA | HKUST | [![Website](https://img.shields.io/badge/Website-0A7DBD)](https://zionchow.github.io/ReconVLA/) | VLA | ![Real][data-real] ![Sim][data-sim] |
+| 2025.8 | MolmoAct | AI2 & UW | [![Website](https://img.shields.io/badge/Website-0A7DBD)](https://github.com/allenai/molmoact) | VLA | ![Real][data-real] ![General][data-general] |
+| 2025.8 | EO-1 | Shanghai AI Lab | [![Website](https://img.shields.io/badge/Website-0A7DBD)](https://eo-robotics.ai/eo-1) | VLA | ![Real][data-real] ![General][data-general] |
+| 2025.9 | RynnVLA-001 | DAMO | [![Website](https://img.shields.io/badge/Website-0A7DBD)](https://github.com/alibaba-damo-academy/RynnVLA-001) | VLA | ![Real][data-real] ![Ego][data-ego] |
+| 2025.10 | X-VLA | THU | [![Website](https://img.shields.io/badge/Website-0A7DBD)](https://thu-air-dream.github.io/X-VLA/) | VLA | ![Real][data-real] |
+| 2025.10 | InternVLA-M1 | Shanghai AI Lab | [![Website](https://img.shields.io/badge/Website-0A7DBD)](https://internrobotics.github.io/internvla-m1.github.io/) | VLA | ![Real][data-real] ![Sim][data-sim] ![General][data-general] |
+| 2025.10 | VITRA | THU | [![Website](https://img.shields.io/badge/Website-0A7DBD)](https://microsoft.github.io/VITRA/) | VLA | ![Ego][data-ego] |
+| 2025.11 | METIS | PKU | [![Website](https://img.shields.io/badge/Website-0A7DBD)](https://aureleopku.github.io/METIS/) | VLA | ![Real][data-real] ![Ego][data-ego] |
+| 2025.11 | iFlyBot-VLA | iFLYTEK & LindenBot | [![Website](https://img.shields.io/badge/Website-0A7DBD)](https://xuwenjie401.github.io/iFlyBot-VLA.github.io/) | VLA | ![Real][data-real] ![Ego][data-ego] ![General][data-general] |
+| 2025.12 | VideoVLA | XJTU | [![Website](https://img.shields.io/badge/Website-0A7DBD)](https://videovla-nips2025.github.io/) | VLA | ![Real][data-real] |
+| 2025.12 | Motus | THU | [![Website](https://img.shields.io/badge/Website-0A7DBD)](https://motus-robotics.github.io/motus) | WAM | ![Real][data-real] ![Ego][data-ego] ![Sim][data-sim] ![General][data-general] |
+| 2025.12 | GR00T N1.6 | NVIDIA | [![Website](https://img.shields.io/badge/Website-0A7DBD)](https://github.com/NVIDIA/Isaac-GR00T) | VLA | ![Real][data-real] ![Sim][data-sim] |
+| 2026.1 | InternVLA-A1 | Shanghai AI Lab | [![Website](https://img.shields.io/badge/Website-0A7DBD)](https://github.com/InternRobotics/InternVLA-A1) | VLA | ![Real][data-real] ![Ego][data-ego] ![Sim][data-sim] |
+| 2026.1 | LaST_0 | PKU | [![Website](https://img.shields.io/badge/Website-0A7DBD)](https://vla-last0.github.io/) | VLA | ![Real][data-real] |
+| 2026.1 | Being-H0.5 | BeingBeyond | [![Website](https://img.shields.io/badge/Website-0A7DBD)](https://research.beingbeyond.com/being-h05) | VLA | ![Real][data-real] ![Ego][data-ego] ![Sim][data-sim] ![General][data-general] |
+| 2026.1 | LingbotVLA | Ant Group | [![Website](https://img.shields.io/badge/Website-0A7DBD)](https://technology.robbyant.com/lingbot-vla) | VLA | ![Real][data-real] |
+| 2026.1 | LingbotVA | Ant Group | [![Website](https://img.shields.io/badge/Website-0A7DBD)](https://technology.robbyant.com/lingbot-va) | WAM | ![Real][data-real] ![UMI][data-umi] ![Sim][data-sim] |
+| 2026.2 | RDT2 | THU | [![Website](https://img.shields.io/badge/Website-0A7DBD)](https://rdt-robotics.github.io/rdt2/) | VLA | ![UMI][data-umi] ![General][data-general] |
+| 2026.2 | Xiaomi-Robotics-0 | Xiaomi | [![Website](https://img.shields.io/badge/Website-0A7DBD)](https://robotics.xiaomi.com/xiaomi-robotics-0.html) | VLA | ![Real][data-real] ![General][data-general] |
+| 2026.2 | ABot-M0 | AMAP CV Lab | [![Website](https://img.shields.io/badge/Website-0A7DBD)](https://amap-cvlab.github.io/ABot-Manipulation/m0/index.html) | VLA | ![Real][data-real] |
+| 2026.2 | DM0 | Dexmal | [![Website](https://img.shields.io/badge/Website-0A7DBD)](https://github.com/Dexmal/dexbotic) | VLA | ![Real][data-real] ![Sim][data-sim] ![General][data-general] |
+| 2026.2 | LDA-1B | PKU | [![Website](https://img.shields.io/badge/Website-0A7DBD)](https://github.com/jiangranlv/LDA-1B) | WAM | ![Real][data-real] ![Ego][data-ego] ![Sim][data-sim] |
+| 2026.2 | DreamZero | NVIDIA | [![Website](https://img.shields.io/badge/Website-0A7DBD)](https://dreamzero0.github.io/) | WAM | ![Real][data-real] |
+| 2026.2 | EgoScale | NVIDIA | [![Website](https://img.shields.io/badge/Website-0A7DBD)](https://research.nvidia.com/labs/gear/egoscale/) | VLA | ![Real][data-real] ![Ego][data-ego] |
+| 2026.3 | GigaWorld-Policy | GigaAI | [![Website](https://img.shields.io/badge/Website-0A7DBD)](https://github.com/open-gigaai/giga-world-policy) | WAM | ![Real][data-real] ![Ego][data-ego] ![General][data-general] |
+| 2026.3 | MolmoB0T | AI2 | [![Website](https://img.shields.io/badge/Website-0A7DBD)](https://allenai.github.io/MolmoBot/) | VLA | ![Sim][data-sim] |
+| 2026.3 | UniDex | THU | [![Website](https://img.shields.io/badge/Website-0A7DBD)](https://unidex-ai.github.io/) | VLA | ![Ego][data-ego] |
+| 2026.4 | JoyAI-RA 0.1 | JD | [![Website](https://img.shields.io/badge/Website-0A7DBD)](https://joyai-ra.github.io/) | VLA | ![Real][data-real] ![Ego][data-ego] ![Sim][data-sim] ![General][data-general] |
+| 2026.4 | π0.7 | Physical Intelligence | [![Website](https://img.shields.io/badge/Website-0A7DBD)](https://www.pi.website/blog/pi07) | VLA | ![Real][data-real] ![Ego][data-ego] ![General][data-general] |
+| 2026.4 | GR00T N1.7 | NVIDIA | [![Website](https://img.shields.io/badge/Website-0A7DBD)](https://developer.nvidia.com/isaac/gr00t) | VLA | ![Real][data-real] ![Ego][data-ego] ![Sim][data-sim] |
+| 2026.4 | Being-H0.7 | BeingBeyond | [![Website](https://img.shields.io/badge/Website-0A7DBD)](https://research.beingbeyond.com/being-h07) | WAM | ![Real][data-real] ![Ego][data-ego] ![Sim][data-sim] ![General][data-general] |
+| 2026.4 | MotuBrain | Shengshu | [![Website](https://img.shields.io/badge/Website-0A7DBD)](https://www.motubrain.com/en/) | WAM | ![Real][data-real] ![Ego][data-ego] ![General][data-general] |
+| 2026.5 | Qwen-VLA | Qwen | [![Website](https://img.shields.io/badge/Website-0A7DBD)](https://qwen.ai/blog?id=qwenvla) | VLA | ![Real][data-real] ![Ego][data-ego] ![Sim][data-sim] ![General][data-general] |
+| 2026.5 | Wall-OSS-0.5 | X Square Robot | [![Website](https://img.shields.io/badge/Website-0A7DBD)](https://x2robot.com/oss#resources) | VLA | ![Real][data-real] ![General][data-general] |
+| 2026.5 | MolmoAct2 | UW & AI2 | [![Website](https://img.shields.io/badge/Website-0A7DBD)](https://github.com/allenai/molmoact2) | VLA | ![Real][data-real] ![Ego][data-ego] ![General][data-general] |
+| 2026.6 | Wall-WM | X Square Robot | [![Website](https://img.shields.io/badge/Website-0A7DBD)](https://github.com/X-Square-Robot/wall-x) | WAM | ![Real][data-real] ![Ego][data-ego] ![UMI][data-umi] ![General][data-general] |
+| 2026.6 | LaST-HD | PKU | [![Website](https://img.shields.io/badge/Website-0A7DBD)](https://siriyep.github.io/last-hd-project-page/) | VLA | ![Real][data-real] ![Ego][data-ego] |
+| 2026.6 | Hy-Embodied-0.5-VLA | Tencent Robotics X | [![Website](https://img.shields.io/badge/Website-0A7DBD)](https://github.com/Tencent-Hunyuan/Hy-Embodied-0.5-VLA) | VLA | ![UMI][data-umi] |
+| 2026.6 | Kairos | ACE Robotics | [![Website](https://img.shields.io/badge/Website-0A7DBD)](https://github.com/kairos-agi/kairos-sensenova) | WAM | ![Real][data-real] ![Ego][data-ego] ![General][data-general] |
+| 2026.6 | Qwen-RobotManip | Qwen | [![Website](https://img.shields.io/badge/Website-0A7DBD)](https://qwen.ai/blog?id=qwen-robotmanip) | VLA | ![Real][data-real] ![Ego][data-ego] ![Sim][data-sim] ![General][data-general] |
+| 2026.7 | ABot-M0.5 | AMAP CV Lab | [![Website](https://img.shields.io/badge/Website-0A7DBD)](https://github.com/amap-cvlab/ABot-Manipulation) | WAM | ![Real][data-real] ![Sim][data-sim] |
+| 2026.7 | ACE-Brain-0.5 | ACE-Robotics | [![Website](https://img.shields.io/badge/Website-0A7DBD)](https://github.com/ACE-BRAIN-Team/ACE-Brain-0.5) | VLA | ![Real][data-real] ![General][data-general] |
+| 2026.7 | InternVLA-A1.5 | Shanghai AI Lab | [![Website](https://img.shields.io/badge/Website-0A7DBD)](https://internrobotics.github.io/internvla-a15.github.io/) | VLA | ![Real][data-real] ![UMI][data-umi] ![Sim][data-sim] ![General][data-general] |
+| 2026.7 | LingbotVLA 2.0 | Ant Group | [![Website](https://img.shields.io/badge/Website-0A7DBD)](https://technology.robbyant.com/lingbot-vla-v2) | VLA | ![Real][data-real] ![Ego][data-ego] |
+| 2026.7 | LingbotVA 2.0 | Ant Group | [![Website](https://img.shields.io/badge/Website-0A7DBD)](https://technology.robbyant.com/lingbot-va-v2) | WAM | ![Real][data-real] ![Ego][data-ego] ![UMI][data-umi] ![Sim][data-sim] ![General][data-general] |
+| 2026.7 | HumanScale | PKU | [![Website](https://img.shields.io/badge/Website-0A7DBD)](https://github.com/DAGroup-PKU/HumanNet/) | WAM | ![Ego][data-ego] |
+| 2026.7 | GigaWorld-Policy-0.5 | GigaAI | [![Website](https://img.shields.io/badge/Website-0A7DBD)](https://open-gigaai.github.io/giga-world-policy/) | WAM | ![Real][data-real] |
+| 2026.7 | Xiaomi-Robotics-1 | Xiaomi | [![Website](https://img.shields.io/badge/Website-0A7DBD)](https://robotics.xiaomi.com/xiaomi-robotics-1.html) | VLA | ![Real][data-real] ![UMI][data-umi] ![General][data-general] |
+| 2026.7 | Xiaomi-Robotics-U0 | Xiaomi Robotics | [![Website](https://img.shields.io/badge/Website-0A7DBD)](https://robotics.xiaomi.com/xiaomi-robotics-u0.html) | WAM | ![Real][data-real] ![Ego][data-ego] ![Sim][data-sim] ![General][data-general] |
 
 </details>
 
