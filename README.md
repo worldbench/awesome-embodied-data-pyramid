@@ -77,7 +77,13 @@ This repository accompanies a survey on the **data pyramid** for robotics and em
 
 </details>
 
+<details open>
+<summary><strong>Repository</strong></summary>
+
 - [Contributing](#contributing)
+- [Acknowledgement](#acknowledgement)
+
+</details>
 
 ## The Data Pyramid: Data Sources
 
@@ -669,10 +675,22 @@ Data sources: ![Real][data-real] = real-robot data; ![UMI][data-umi] = UMI data;
 
 ## Contributing
 
-This is an active repository and your contributions are always welcome!
-
-If you would like to add a resource, please open a pull request with the paper, project page, and code links where available. I may keep some pull requests open when I am not sure whether they fit this awesome list; you can vote for them by adding :+1: to the PR.
+Contributions are welcome! Please open an issue or pull request to add resources, fix links, update metadata, or suggest improvements. For new resources, please include the paper title, project page, code link if available, release date, scale, and the most relevant data category.
 
 ---
 
-If you have any question about this opinionated list, do not hesitate to open an issue or start a discussion in this repository.
+## Acknowledgement
+
+If you find this repository useful, please consider citing our paper:
+
+```bibtex
+@misc{ye2026datapyramid,
+      title={{Data Pyramid for Embodied Manipulation}},
+      author={Yifan Ye and Yankai Fu and Yaoxu Lv and Bohan Hou and Jun Cen and Lingdong Kong and Duo Zheng and Tianxing Chen and Jiaming Liu and Ziang Cao and Yunfan Lou and Wei Chow and Xian Sun and Yingshuo Wang and Kuangzhi Ge and Xiaowei Chi and Xidong Zhang and Zhibo Pang and Yiwu Zhong and Sirui Han and Zhihe Lu and Weihao Yuan and Qifeng Chen and Michael Yu Wang and Yao Mu and Ziwei Liu and Jianfei Yang and Ping Luo and Shanghang Zhang},
+      year={2026},
+      eprint={2607.24744},
+      archivePrefix={arXiv},
+      primaryClass={cs.RO},
+      url={https://arxiv.org/abs/2607.24744}
+}
+```
