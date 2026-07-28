@@ -1,9 +1,11 @@
-# Awesome Embodied Data [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome) [![PR's Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat)](#) ![Visitors](https://visitor-badge.laobi.icu/badge?page_id=Jasper-aaa.Awesome-Embodied-Data-Pyramid&left_color=gray&right_color=blue)
+[![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome) [![PR's Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat)](#) ![Visitors](https://visitor-badge.laobi.icu/badge?page_id=Jasper-aaa.Awesome-Embodied-Data-Pyramid&left_color=gray&right_color=blue)
+
+# Awesome Embodied Data Pyramid
 
 <p align="center">
   <img src="assets/data_pyramid.png" alt="Embodied Data Pyramid" width="100%">
   <br>
-  <a href="assets/data_pyramid.pdf">High-resolution PDF</a>
+  <a href="assets/data_pyramid.pdf">High-Resolution PDF</a>
 </p>
 
 This repository accompanies a survey on the **data pyramid** for robotics and embodied AI. It curates the datasets, data-collection paradigms, simulators, and data-hungry model families reviewed in the survey — spanning **real-robot data**, **UMI (in-the-wild) data**, **egocentric / ego-exo human data**, **simulation data**, and broad **general (web-scale) data** — together with the **VLA / world-action / embodied-VLM** models that consume them. Each entry links to its paper, project page, and code where available.
