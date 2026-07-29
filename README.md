@@ -192,7 +192,7 @@ This repository accompanies a survey on the **data pyramid** for robotics and em
 
 | Year | Acronym | Paper | Venue | Project | Repo@GitHub |
 |------|---------|-------|-------|:-------:|:-----------:|
-| 2026 | Open-AoE | [Open-AoE: An Open Egocentric Manipulation Dataset and Toolchain for Embodied Learning](https://arxiv.org/abs/2607.14183) | arXiv | [![link](https://img.shields.io/badge/Website-0A7DBD)](https://huggingface.co/datasets/inclusionAI/OpenAoE-2000h) |  |
+| 2026 | Open-AoE | [Open-AoE: An Open Egocentric Manipulation Dataset and Toolchain for Embodied Learning](https://arxiv.org/abs/2607.14183) | arXiv | [![link](https://img.shields.io/badge/Website-0A7DBD)](https://huggingface.co/datasets/inclusionAI/OpenAoE-2000h) | [![GitHub](https://img.shields.io/badge/GitHub-5A5A5A?logo=github&logoColor=white)](https://github.com/ant-research/Open-AoE) |
 | 2026 | EgoTactile | [EgoTactile: Learning Grasp Pressure for Everyday Objects from Egocentric Video](https://arxiv.org/abs/2606.09243) | ICML | [![link](https://img.shields.io/badge/Website-0A7DBD)](https://egotactile.github.io/) |  |
 | 2026 | EgoEMG | [EgoEMG: A Multimodal Egocentric Dataset with Bilateral EMG and Vision for Hand Pose Estimation](https://arxiv.org/abs/2605.05712) | arXiv |  | [![GitHub](https://img.shields.io/badge/GitHub-5A5A5A?logo=github&logoColor=white)](https://github.com/zhenqis123/EgoEMG) |
 | 2026 | EgoEVHands | [EgoEV-HandPose: Egocentric 3D Hand Pose Estimation and Gesture Recognition with Stereo Event Cameras](https://arxiv.org/abs/2605.12297) | arXiv |  | [![GitHub](https://img.shields.io/badge/GitHub-5A5A5A?logo=github&logoColor=white)](https://github.com/ZJUWang01/EgoEV-HandPose) |
