@@ -195,6 +195,7 @@ This repository accompanies a survey on the **data pyramid** for robotics and em
 |------|---------|-------|-------|:-------:|:-----------:|
 | 2026 | Ego2Robot | [Ego2Robot: Scalable Robot Data Synthesis from Egocentric Human Data](https://arxiv.org/abs/2608.02580) | arXiv | [![link](https://img.shields.io/badge/Website-0A7DBD)](https://www-ye.github.io/ego2robot_blog/) |  |
 | 2026 | EgoEngine | [EgoEngine: From Egocentric Human Videos to High-Fidelity Dexterous Robot Demonstrations](https://arxiv.org/abs/2606.12604) | arXiv | [![link](https://img.shields.io/badge/Website-0A7DBD)](https://egoengine.github.io/) |  |
+| 2025 | HaWoR | [HaWoR: World-Space Hand Motion Reconstruction from Egocentric Videos](https://arxiv.org/abs/2501.02973) | CVPR | [![link](https://img.shields.io/badge/Website-0A7DBD)](https://hawor-project.github.io/) | [![GitHub](https://img.shields.io/badge/GitHub-5A5A5A?logo=github&logoColor=white)](https://github.com/ThunderVVV/HaWoR) |
 
 </details>
 
