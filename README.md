@@ -10,6 +10,16 @@
 
 This repository accompanies a survey on the **data pyramid** for robotics and embodied AI. It curates the datasets, data-collection paradigms, simulators, and data-hungry model families reviewed in the survey — spanning **real-robot data**, **UMI (in-the-wild) data**, **egocentric / ego-exo human data**, **simulation data**, and broad **general (web-scale) data** — together with the **VLA / world-action / embodied-VLM** models that consume them. Each entry links to its paper, project page, and code where available.
 
+## News
+
+This project is actively maintained and continuously updated to make embodied data resources easier for the open-source community to discover, access, and download.
+
+- **2026-08-10:** Added [N0-Foundation](https://github.com/neoteai/N0-Foundation) and its [OpenNeoData](https://huggingface.co/datasets/NeoteAIEmbodied/OpenNeoData) release to the real-robot data collection.
+- **2026-08-07:** Updated the data accumulation figure; introduced the [EgoData Engineering](#table-egodata-engineering) collection with [Ego2Robot](https://www-ye.github.io/ego2robot_blog/) and [EgoEngine](https://egoengine.github.io/); and added the [CS2-10k](https://huggingface.co/datasets/RekaAI/CS2-10k) and [RekaDaily-10k](https://huggingface.co/datasets/RekaAI/RekaDaily-10k-raw) datasets from Reka AI.
+- **2026-07-27:** Open-sourced the [project website](https://jasper-aaa.github.io/embodied-data-pyramid/) and this GitHub project. You are welcome to use the curated links throughout this repository to access and download the collected resources. Issues and pull requests are encouraged to help keep these resources accessible and useful.
+
+We sincerely thank all open-source dataset creators and contributors for their valuable work and continued support of the community.
+
 > If you have suggestions for new resources, improvements to methodologies, or corrections for broken links, please don't hesitate to open an issue or submit a pull request. Contributions of all kinds are welcome and greatly appreciated.
 
 ## Table of Contents
