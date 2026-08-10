@@ -18,7 +18,7 @@ This project is actively maintained and continuously updated to make embodied da
 - **2026-08-07:** Updated the data accumulation figure; introduced the [EgoData Engineering](#table-egodata-engineering) collection with [Ego2Robot](https://www-ye.github.io/ego2robot_blog/) and [EgoEngine](https://egoengine.github.io/); and added the [CS2-10k](https://huggingface.co/datasets/RekaAI/CS2-10k) and [RekaDaily-10k](https://huggingface.co/datasets/RekaAI/RekaDaily-10k-raw) datasets from Reka AI.
 - **2026-07-27:** Open-sourced the [project website](https://jasper-aaa.github.io/embodied-data-pyramid/) and this GitHub project. You are welcome to use the curated links throughout this repository to access and download the collected resources. Issues and pull requests are encouraged to help keep these resources accessible and useful.
 
-We sincerely thank all open-source dataset creators and contributors for their valuable work and continued support of the community.
+We sincerely thank all open-source dataset creators and contributors for their valuable work and continued support of the community. You can also use task-based search on the [project website](https://jasper-aaa.github.io/embodied-data-pyramid/) to find and download datasets.
 
 > If you have suggestions for new resources, improvements to methodologies, or corrections for broken links, please don't hesitate to open an issue or submit a pull request. Contributions of all kinds are welcome and greatly appreciated.
 
