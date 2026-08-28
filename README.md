@@ -228,6 +228,7 @@ We sincerely thank all open-source dataset creators and contributors for their v
 
 | Year | Acronym | Paper | Venue | Project | Repo@GitHub |
 |------|---------|-------|-------|:-------:|:-----------:|
+| 2026 | EgoSuite-Open100K | [EgoSuite-Open100K: 100,000 Hours of Egocentric Human Data for Physical AI](https://huggingface.co/blog/LightwheelAI/egosuite-open100k) |  | [![link](https://img.shields.io/badge/Website-0A7DBD)](https://huggingface.co/collections/LightwheelAI/egosuite-open100k) | [![GitHub](https://img.shields.io/badge/GitHub-5A5A5A?logo=github&logoColor=white)](https://github.com/LightwheelAI/LW-Egosuite-DevKit) |
 | 2026 | ACE-Data-0 | [ACE-Data-0: Human-Centric Ambient Capture as Embodied Data Engine](https://arxiv.org/abs/2607.28625) | arXiv | [![link](https://img.shields.io/badge/Website-0A7DBD)](https://ace-data-engine.github.io/ACE-Data-0/) |  |
 | 2026 | MOVE | [DreamTraj: Generating 6-DoF Object Trajectories by Reading Unrendered Video Diffusion Latents](https://arxiv.org/abs/2608.00486) | arXiv | [![link](https://img.shields.io/badge/Website-0A7DBD)](https://whathappen0.github.io/DreamTraj/) |  |
 | 2026 | RekaDaily-10k | [RekaDaily-10k: Collecting 10,000+ Hours of Egocentric Household Manipulation Data](https://reka.ai/news/rekadaily-10k-egocentric-household-manipulation-data) |  | [![link](https://img.shields.io/badge/Website-0A7DBD)](https://huggingface.co/datasets/RekaAI/RekaDaily-10k-raw) |  |
