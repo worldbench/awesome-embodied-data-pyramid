@@ -1,4 +1,4 @@
-[![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome) [![PR's Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat)](#) ![Visitors](https://visitor-badge.laobi.icu/badge?page_id=Jasper-aaa.Awesome-Embodied-Data-Pyramid&left_color=gray&right_color=blue) [![arXiv](https://img.shields.io/badge/arXiv-2607.24744-b31b1b?style=flat&logo=arxiv)](https://arxiv.org/abs/2607.24744v1) [![Project](https://img.shields.io/badge/Project-Website-0A7DBD?style=flat)](https://jasper-aaa.github.io/embodied-data-pyramid/)
+[![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome) [![PR's Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat)](#) ![Visitors](https://visitor-badge.laobi.icu/badge?page_id=Jasper-aaa.Awesome-Embodied-Data-Pyramid&left_color=gray&right_color=blue) [![arXiv](https://img.shields.io/badge/arXiv-2607.24744-b31b1b?style=flat&logo=arxiv)](https://arxiv.org/abs/2607.24744) [![Project](https://img.shields.io/badge/Project-Website-0A7DBD?style=flat)](https://jasper-aaa.github.io/embodied-data-pyramid/)
 
 # Awesome Embodied Data Pyramid
 
@@ -90,6 +90,14 @@ We sincerely thank all open-source dataset creators and contributors for their v
 
 - [Section: Embodied Foundation Models](#embodied-foundation-models)
 - [Table: Representative VLA and WAM methods](#table-embodied-foundation-models-vla-wam)
+
+</details>
+
+<details open>
+<summary><strong>Related Surveys</strong></summary>
+
+- [Section: Related Surveys](#related-surveys)
+- [Table: Related surveys](#table-related-surveys)
 
 </details>
 
@@ -422,6 +430,7 @@ We sincerely thank all open-source dataset creators and contributors for their v
 | 2021 | ThreeDWorld (TDW) | [ThreeDWorld: A Platform for Interactive Multi-Modal Physical Simulation](https://arxiv.org/abs/2007.04954) | NeurIPS | [![link](https://img.shields.io/badge/Website-0A7DBD)](https://www.threedworld.org/) | [![GitHub](https://img.shields.io/badge/GitHub-5A5A5A?logo=github&logoColor=white)](https://github.com/threedworld-mit/tdw) |
 | 2020 | SAPIEN | [SAPIEN: A SimulAted Part-based Interactive ENvironment](https://arxiv.org/abs/2003.08515) | CVPR | [![link](https://img.shields.io/badge/Website-0A7DBD)](https://sapien.ucsd.edu/) | [![GitHub](https://img.shields.io/badge/GitHub-5A5A5A?logo=github&logoColor=white)](https://github.com/haosulab/SAPIEN) |
 | 2019 | PyRep | [PyRep: Bringing V-REP to Deep Robot Learning](https://arxiv.org/abs/1906.11176) | arXiv | [![link](https://img.shields.io/badge/Website-0A7DBD)](https://pyrep.readthedocs.io/en/latest/) | [![GitHub](https://img.shields.io/badge/GitHub-5A5A5A?logo=github&logoColor=white)](https://github.com/stepjam/PyRep) |
+| 2016 | DeepMind Lab | [DeepMind Lab](https://arxiv.org/abs/1612.03801) | arXiv | [![link](https://img.shields.io/badge/Website-0A7DBD)](https://deepmind.google/blog/open-sourcing-deepmind-lab/) | [![GitHub](https://img.shields.io/badge/GitHub-5A5A5A?logo=github&logoColor=white)](https://github.com/google-deepmind/lab) |
 | 2013 | V-REP (now CoppeliaSim) | [V-REP: A Versatile and Scalable Robot Simulation Framework](https://doi.org/10.1109/IROS.2013.6696520) | IROS | [![link](https://img.shields.io/badge/Website-0A7DBD)](https://www.coppeliarobotics.com/) |  |
 | 2012 | MuJoCo | [MuJoCo: A physics engine for model-based control](https://ieeexplore.ieee.org/document/6386109) | IROS | [![link](https://img.shields.io/badge/Website-0A7DBD)](https://mujoco.org) | [![GitHub](https://img.shields.io/badge/GitHub-5A5A5A?logo=github&logoColor=white)](https://github.com/google-deepmind/mujoco) |
 
@@ -522,14 +531,12 @@ We sincerely thank all open-source dataset creators and contributors for their v
 | 2026 | ViTacWorld | [ViTacWorld: Scaling Visuo-Tactile World Models for Contact-Rich Robot Manipulation](https://arxiv.org/abs/2607.22530) | arXiv | [![link](https://img.shields.io/badge/Website-0A7DBD)](https://vitacworld.github.io/) |  |
 | 2026 | N0-TWAM | [$N_0$-TWAM: Scaling Tactile-Native World-Action Model for Contact-Rich Manipulation](https://arxiv.org/abs/2607.23783) | arXiv |  |  |
 | 2026 | OVTF | [Disentangling Visuo-Tactile Foresight: Oracle-Guided Interface Discovery for World Action Models](https://arxiv.org/abs/2608.00547) | arXiv |  |  |
-| 2026 |  | [World Model for Robot Learning: A Comprehensive Survey](https://arxiv.org/abs/2605.00080) | arXiv | [![link](https://img.shields.io/badge/Website-0A7DBD)](https://ntumars.github.io/wm-robot-survey/) | [![GitHub](https://img.shields.io/badge/GitHub-5A5A5A?logo=github&logoColor=white)](https://github.com/NTUMARS/Awesome-World-Model-for-Robotics-Policy) |
 | 2026 | GigaBrain-0.5M* | [GigaBrain-0.5M*: a VLA That Learns From World Model-Based Reinforcement Learning](https://arxiv.org/abs/2602.12099) | arXiv | [![link](https://img.shields.io/badge/Website-0A7DBD)](https://gigabrain05m.github.io/) | [![GitHub](https://img.shields.io/badge/GitHub-5A5A5A?logo=github&logoColor=white)](https://github.com/open-gigaai/giga-brain-0) |
 | 2026 | PlayWorld | [PlayWorld: Learning Robot World Models from Autonomous Play](https://arxiv.org/abs/2603.09030) | arXiv | [![link](https://img.shields.io/badge/Website-0A7DBD)](https://robot-playworld.github.io/) |  |
 | 2026 | RehearseVLA (formerly World-Env) | [RehearseVLA: Simulated Post-Training for VLAs with Physically-Consistent World Model](https://openaccess.thecvf.com/content/CVPR2026/html/Xiao_RehearseVLA_Simulated_Post-Training_for_VLAs_with_Physically-Consistent_World_Model_CVPR_2026_paper.html) ([arXiv](https://arxiv.org/abs/2509.24948v4)) | CVPR | [![link](https://img.shields.io/badge/Website-0A7DBD)](https://isee-laboratory.github.io/world-env.github.io/) | [![GitHub](https://img.shields.io/badge/GitHub-5A5A5A?logo=github&logoColor=white)](https://github.com/amap-cvlab/world-env) |
 | 2026 | RISE | [RISE: Self-Improving Robot Policy with Compositional World Model](https://arxiv.org/abs/2602.11075) | RSS | [![link](https://img.shields.io/badge/Website-0A7DBD)](https://opendrivelab.com/RISE/) | [![GitHub](https://img.shields.io/badge/GitHub-5A5A5A?logo=github&logoColor=white)](https://github.com/OpenDriveLab/RISE) |
 | 2026 | WMPO | [WMPO: World Model-based Policy Optimization for Vision-Language-Action Models](https://arxiv.org/abs/2511.09515) | ICLR | [![link](https://img.shields.io/badge/Website-0A7DBD)](https://wm-po.github.io/) | [![GitHub](https://img.shields.io/badge/GitHub-5A5A5A?logo=github&logoColor=white)](https://github.com/WM-PO/WMPO) |
 | 2026 | World-Gymnast | [World-Gymnast: Training Robots with Reinforcement Learning in a World Model](https://arxiv.org/abs/2602.02454) | arXiv | [![link](https://img.shields.io/badge/Website-0A7DBD)](https://world-gymnast.github.io/) | [![GitHub](https://img.shields.io/badge/GitHub-5A5A5A?logo=github&logoColor=white)](https://github.com/world-gymnast/world-gymnast) |
-| 2025 |  | [A Survey of Sim-to-Real Methods in RL: Progress, Prospects and Challenges with Foundation Models](https://arxiv.org/abs/2502.13187) | arXiv |  | [![GitHub](https://img.shields.io/badge/GitHub-5A5A5A?logo=github&logoColor=white)](https://github.com/LongchaoDa/AwesomeSim2Real) |
 | 2025 |  | [Evaluating Gemini Robotics Policies in a Veo World Simulator](https://arxiv.org/abs/2512.10675) | arXiv | [![link](https://img.shields.io/badge/Website-0A7DBD)](https://veo-robotics.github.io/) |  |
 | 2025 | DiWA | [DiWA: Diffusion Policy Adaptation with World Models](https://arxiv.org/abs/2508.03645) | CoRL | [![link](https://img.shields.io/badge/Website-0A7DBD)](https://imanema.com/publication/diwa/) | [![GitHub](https://img.shields.io/badge/GitHub-5A5A5A?logo=github&logoColor=white)](https://github.com/acl21/diwa) |
 | 2025 | DreamGen | [DreamGen: Unlocking Generalization in Robot Learning through Video World Models](https://arxiv.org/abs/2505.12705) | CoRL | [![link](https://img.shields.io/badge/Website-0A7DBD)](https://research.nvidia.com/labs/gear/dreamgen/) | [![GitHub](https://img.shields.io/badge/GitHub-5A5A5A?logo=github&logoColor=white)](https://github.com/NVIDIA/GR00T-Dreams) |
@@ -546,7 +553,6 @@ We sincerely thank all open-source dataset creators and contributors for their v
 | 2020 | Dreamer | [Dream to Control: Learning Behaviors by Latent Imagination](https://arxiv.org/abs/1912.01603) | ICLR | [![link](https://img.shields.io/badge/Website-0A7DBD)](https://danijar.com/project/dreamer/) | [![GitHub](https://img.shields.io/badge/GitHub-5A5A5A?logo=github&logoColor=white)](https://github.com/danijar/dreamer) |
 | 2019 | PlaNet | [Learning Latent Dynamics for Planning from Pixels](https://arxiv.org/abs/1811.04551) | ICML | [![link](https://img.shields.io/badge/Website-0A7DBD)](https://danijar.com/project/planet/) | [![GitHub](https://img.shields.io/badge/GitHub-5A5A5A?logo=github&logoColor=white)](https://github.com/google-research/planet) |
 | 2018 | World Models | [Recurrent World Models Facilitate Policy Evolution](https://arxiv.org/abs/1809.01999) | NeurIPS | [![link](https://img.shields.io/badge/Website-0A7DBD)](https://worldmodels.github.io/) | [![GitHub](https://img.shields.io/badge/GitHub-5A5A5A?logo=github&logoColor=white)](https://github.com/hardmaru/WorldModelsExperiments) |
-| 2016 |  | [DeepMind Lab](https://arxiv.org/abs/1612.03801) | arXiv | [![link](https://img.shields.io/badge/Website-0A7DBD)](https://deepmind.google/blog/open-sourcing-deepmind-lab/) | [![GitHub](https://img.shields.io/badge/GitHub-5A5A5A?logo=github&logoColor=white)](https://github.com/google-deepmind/lab) |
 
 </details>
 
@@ -767,9 +773,25 @@ Data sources: ![Real][data-real] = real-robot data; ![UMI][data-umi] = UMI data;
 
 ---
 
+## Related Surveys
+
+These surveys provide background on robot learning and simulation-to-real transfer.
+
+<details open id="table-related-surveys">
+<summary>Table: Related surveys</summary>
+
+| Year | Scope | Paper | Venue | Project | Repo@GitHub |
+|------|-------|-------|-------|:-------:|:-----------:|
+| 2026 | World models for robot learning | [World Model for Robot Learning: A Comprehensive Survey](https://arxiv.org/abs/2605.00080) | arXiv | [![link](https://img.shields.io/badge/Website-0A7DBD)](https://ntumars.github.io/wm-robot-survey/) | [![GitHub](https://img.shields.io/badge/GitHub-5A5A5A?logo=github&logoColor=white)](https://github.com/NTUMARS/Awesome-World-Model-for-Robotics-Policy) |
+| 2025 | Sim-to-real reinforcement learning | [A Survey of Sim-to-Real Methods in RL: Progress, Prospects and Challenges with Foundation Models](https://arxiv.org/abs/2502.13187) | arXiv |  | [![GitHub](https://img.shields.io/badge/GitHub-5A5A5A?logo=github&logoColor=white)](https://github.com/LongchaoDa/AwesomeSim2Real) |
+
+</details>
+
+---
+
 ## Contributing
 
-Contributions are welcome! Please open an issue or pull request to add resources, fix links, update metadata, or suggest improvements. For new resources, please include the paper title, project page, code link if available, release date, scale, and the most relevant data category.
+Contributions are welcome! Please open an issue or pull request to add resources, fix links, update metadata, or suggest improvements. For new resources, please include the paper title, project page, code link if available, release date, and most relevant category. For datasets, distinguish collected, processed, and publicly released scale. Include the checked paper version/date and any known access or license restrictions, and mark unavailable or unverified resources explicitly.
 
 ---
 
@@ -779,7 +801,7 @@ If you find this repository useful, please consider citing our paper:
 
 ```bibtex
 @misc{ye2026datapyramid,
-      title={{Data Pyramid for Embodied Manipulation}},
+      title={{Data Pyramid for Embodied Manipulation: A Survey}},
       author={Yifan Ye and Yankai Fu and Yaoxu Lv and Bohan Hou and Jun Cen and Lingdong Kong and Duo Zheng and Tianxing Chen and Jiaming Liu and Ziang Cao and Yunfan Lou and Wei Chow and Xian Sun and Yingshuo Wang and Kuangzhi Ge and Xiaowei Chi and Xidong Zhang and Zhibo Pang and Yiwu Zhong and Sirui Han and Zhihe Lu and Weihao Yuan and Qifeng Chen and Michael Yu Wang and Yao Mu and Ziwei Liu and Jianfei Yang and Ping Luo and Shanghang Zhang},
       year={2026},
       eprint={2607.24744},
