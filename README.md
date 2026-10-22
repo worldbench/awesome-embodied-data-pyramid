@@ -1,4 +1,4 @@
-[![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome) [![PR's Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat)](#) ![Visitors](https://visitor-badge.laobi.icu/badge?page_id=Jasper-aaa.Awesome-Embodied-Data-Pyramid&left_color=gray&right_color=blue) [![arXiv](https://img.shields.io/badge/arXiv-2607.24744-b31b1b?style=flat&logo=arxiv)](https://arxiv.org/abs/2607.24744v1) [![Project](https://img.shields.io/badge/Project-Website-0A7DBD?style=flat)](https://jasper-aaa.github.io/embodied-data-pyramid/)
+[![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome) [![PR's Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat)](#) ![Visitors](https://visitor-badge.laobi.icu/badge?page_id=Jasper-aaa.Awesome-Embodied-Data-Pyramid&left_color=gray&right_color=blue) [![arXiv](https://img.shields.io/badge/arXiv-2607.24744-b31b1b?style=flat&logo=arxiv)](https://arxiv.org/abs/2607.24744) [![Project](https://img.shields.io/badge/Project-Website-0A7DBD?style=flat)](https://jasper-aaa.github.io/embodied-data-pyramid/)
 
 # Awesome Embodied Data Pyramid
 
@@ -14,6 +14,7 @@ This repository accompanies a survey on the **data pyramid** for robotics and em
 
 This project is actively maintained and continuously updated to make embodied data resources easier for the open-source community to discover, access, and download.
 
+- **2026-10-21:** Added 11 paper/resource records on gaze-aligned teleoperation, human vision-motion-touch capture, human-to-robot data conversion, and simulation data generation; retained explicit release, access, and asset-license limits.
 - **2026-10-11:** Added 12 verified literature/resource entries across real-robot data, UMI engineering, egocentric supervision, simulation generation, and data curation; separated collected scale from released scale and consolidated World-Env / RehearseVLA.
 - **2026-08-22:** Added 20 resources from a July–August 2026 arXiv sweep, spanning contact-rich and industrial real-robot datasets ([PRISM](https://tengbo-yu.github.io/PRISM/), [SoftVTBench](https://arxiv.org/abs/2608.18701), [RoboInter-Data](https://arxiv.org/abs/2607.18709)), [EgoData Engineering](#table-egodata-engineering) (7 new human-to-robot conversion works), and visuo-tactile world models used as simulators ([ViTacWorld](https://vitacworld.github.io/), N0-TWAM, OVTF).
 - **2026-08-10:** Added [N0-Foundation](https://github.com/neoteai/N0-Foundation) and its [OpenNeoData](https://huggingface.co/datasets/NeoteAIEmbodied/OpenNeoData) release to the real-robot data collection.
@@ -93,6 +94,14 @@ We sincerely thank all open-source dataset creators and contributors for their v
 </details>
 
 <details open>
+<summary><strong>Related Surveys</strong></summary>
+
+- [Section: Related Surveys](#related-surveys)
+- [Table: Related surveys](#table-related-surveys)
+
+</details>
+
+<details open>
 <summary><strong>Repository</strong></summary>
 
 - [Contributing](#contributing)
@@ -109,6 +118,7 @@ We sincerely thank all open-source dataset creators and contributors for their v
 
 | Year | Dataset | Paper | Scale | Venue | Project | Repo@GitHub |
 |------|---------|-------|-------|-------|:-------:|:-----------:|
+| 2026 | GazeAct | [GazeAct: A Human-Gaze-Annotated Manipulation Dataset for Attention-Regularized Policies](https://arxiv.org/abs/2610.24507) | 12,000 recorded demonstrations / 40 tasks; 300 Hz operator gaze; public corpus not verified | arXiv | Not independently located | Not verified released |
 | 2026 | DROID-3D | [DepthWorld: 3D World Model for Robot Manipulation](https://arxiv.org/abs/2610.08780) | 70K+ existing DROID episodes with calibration / estimated depth; access approval required | CoRL 2026 | [![link](https://img.shields.io/badge/Website-0A7DBD)](https://jaibardhan.com/depthworld/) | [![GitHub](https://img.shields.io/badge/GitHub-5A5A5A?logo=github&logoColor=white)](https://github.com/Jai2500/depthworld) |
 | 2026 | PrimeBot Household (real-robot subset) | [Scaling Bimanual Household Manipulation from 1,500 hours of Demonstrations to On-Policy Corrections](https://arxiv.org/abs/2609.03591) | 531.7 collected hours / 32,518 episodes; 500+ hours released | arXiv preprint | [![link](https://img.shields.io/badge/Website-0A7DBD)](https://huggingface.co/datasets/challenge-2026/challenge_data) | Not verified released |
 | 2026 | EgoSteer-RealWorld | [EgoSteer: A Full-Stack System Towards Steerable Dexterous Manipulation from Egocentric Videos](https://arxiv.org/abs/2607.09701) | 54,454 episodes / 192.1 hours | arXiv | [![link](https://img.shields.io/badge/Website-0A7DBD)](https://huggingface.co/datasets/EgoSteer/EgoSteer-RealWorld) | [![GitHub](https://img.shields.io/badge/GitHub-5A5A5A?logo=github&logoColor=white)](https://github.com/egosteer/egosteer) |
@@ -223,6 +233,7 @@ We sincerely thank all open-source dataset creators and contributors for their v
 
 | Year | Acronym | Paper | Venue | Project | Repo@GitHub |
 |------|---------|-------|-------|:-------:|:-----------:|
+| 2026 | EgoMatrix (human-video conversion; release not verified) | [EgoMatrix: Physically Faithful Dexterous Robot Demonstrations from Egocentric Human Videos](https://arxiv.org/abs/2610.18822) | arXiv | [Project](https://spikew726.github.io/EgoMatrix/) | Not verified released |
 | 2026 | HuRo (conversion code; full corpus pending) | [HuRo: Robotizing Human Videos for Scalable VLA Pretraining](https://arxiv.org/abs/2609.10706) | CoRL 2026 (accepted stated in arXiv comments and official page) | [![link](https://img.shields.io/badge/Website-0A7DBD)](https://3587jjh.github.io/HuRo/) | [![GitHub](https://img.shields.io/badge/GitHub-5A5A5A?logo=github&logoColor=white)](https://github.com/3587jjh/HuRo) |
 | 2026 | EgoWild2Dex / EgoWild (538.9 hours collected; release pending) | [EgoWild2Dex: Learning Dexterous Robotic Manipulation from In-the-Wild Human Experience](https://arxiv.org/abs/2609.23755) | arXiv | [![link](https://img.shields.io/badge/Website-0A7DBD)](https://mmlab.hk/egowild2dex/) | Not verified released |
 | 2026 | Pegasus | [From Passive Video to Editable Experience: Physically Grounded Experience Synthesis for Embodied Intelligence](https://arxiv.org/abs/2607.26903) | arXiv |  |  |
@@ -246,6 +257,10 @@ We sincerely thank all open-source dataset creators and contributors for their v
 
 | Year | Acronym | Paper | Venue | Project | Repo@GitHub |
 |------|---------|-------|-------|:-------:|:-----------:|
+| 2026 | EgoX-Data-6M / EgoXperience (50 hours; code, data and weights coming soon) | [EgoXperience: Learning World-Grounded Egocentric Representations from Human Experience](https://arxiv.org/abs/2610.26625) | arXiv | [Project](https://ropedia.github.io/EgoXperience/) | [Release repository (coming soon)](https://github.com/Ropedia/EgoXperience) |
+| 2026 | React / ACTS (4.9 human-collected hours / three objects; code and data upon acceptance) | [ACTS: Learning Visuo-Tactile World Models from Human Physical Interaction](https://arxiv.org/abs/2610.24285) | arXiv | [Project](https://acts-anon.github.io/) | Not verified released |
+| 2026 | EgoExplorer (100 recorded hours; one-hour gated mini release, CC BY-NC 4.0) | [EgoExplorer: A Vision-Motion-Touch Observatory for Human Loco-Manipulation In Situ](https://arxiv.org/abs/2610.18872) | arXiv | [Project](https://internrobotics.github.io/egoexplorer.github.io/) | [Toolkit (pending)](https://github.com/InternRobotics/EgoExplorer) |
+| 2026 | HumanVerse / lambda0 (500 recorded hours; full mid-training corpus not included in code release) | [$λ_0$: Scaling Open-World Egocentric Human Data for Humanoid Loco-Manipulation](https://arxiv.org/abs/2610.18950) | arXiv | [Project](https://lambdahumanoid.github.io/) | [GitHub](https://github.com/LambdaHumanoid/openlambda) |
 | 2026 | Ego-Exo4D-HM (2,649 takes / 104.6 motion hours; CC BY 4.0 annotations) | [Ego-Exo4D Human Meshes Dataset: 4D Human Motion Reconstruction for Ego-Exo Captures](https://arxiv.org/abs/2609.30187) | arXiv | [![link](https://img.shields.io/badge/Website-0A7DBD)](https://abhiram824.github.io/egoexo4d_human_meshes/) | [![GitHub](https://img.shields.io/badge/GitHub-5A5A5A?logo=github&logoColor=white)](https://github.com/Abhiram824/egoexo4d_human_meshes) |
 | 2026 | EgoSuite-Open100K | [EgoSuite-Open100K: 100,000 Hours of Egocentric Human Data for Physical AI](https://huggingface.co/blog/LightwheelAI/egosuite-open100k) |  | [![link](https://img.shields.io/badge/Website-0A7DBD)](https://huggingface.co/collections/LightwheelAI/egosuite-open100k) | [![GitHub](https://img.shields.io/badge/GitHub-5A5A5A?logo=github&logoColor=white)](https://github.com/LightwheelAI/LW-Egosuite-DevKit) |
 | 2026 | ACE-Data-0 | [ACE-Data-0: Human-Centric Ambient Capture as Embodied Data Engine](https://arxiv.org/abs/2607.28625) | arXiv | [![link](https://img.shields.io/badge/Website-0A7DBD)](https://ace-data-engine.github.io/ACE-Data-0/) |  |
@@ -344,6 +359,9 @@ We sincerely thank all open-source dataset creators and contributors for their v
 
 </details>
 
+
+**October 2026 availability notes (checked 2026-10-21).** EgoExplorer reports 100 collected hours, while its official data card currently describes a one-hour mini release requiring manual access approval under CC BY-NC 4.0; the capture/reconstruction toolkit is still scheduled for release. HumanVerse reports 500 collected hours, but the code repository excludes the full mid-training datasets and complete deployment workflow; its linked sample endpoint was inaccessible in this check. EgoXperience labels its code, EgoX-Data-6M, benchmark, and weights as coming soon. React/ACTS announces code and data upon acceptance. These statuses do not establish that the full collected corpora can be downloaded.
+
 ### Simulation Data
 
 > **Curation note.** For peer-reviewed work, `Year` and `Publication / Type` use the formal publication year and venue. For arXiv-only work, `Year` is the first public preprint year. Software without a canonical paper is labeled `Software`. The sections below distinguish reusable 3D/scene assets, simulation backends, evaluation benchmarks, and both downloadable synthetic datasets and systems that generate such data.
@@ -412,6 +430,7 @@ We sincerely thank all open-source dataset creators and contributors for their v
 | 2021 | ThreeDWorld (TDW) | [ThreeDWorld: A Platform for Interactive Multi-Modal Physical Simulation](https://arxiv.org/abs/2007.04954) | NeurIPS | [![link](https://img.shields.io/badge/Website-0A7DBD)](https://www.threedworld.org/) | [![GitHub](https://img.shields.io/badge/GitHub-5A5A5A?logo=github&logoColor=white)](https://github.com/threedworld-mit/tdw) |
 | 2020 | SAPIEN | [SAPIEN: A SimulAted Part-based Interactive ENvironment](https://arxiv.org/abs/2003.08515) | CVPR | [![link](https://img.shields.io/badge/Website-0A7DBD)](https://sapien.ucsd.edu/) | [![GitHub](https://img.shields.io/badge/GitHub-5A5A5A?logo=github&logoColor=white)](https://github.com/haosulab/SAPIEN) |
 | 2019 | PyRep | [PyRep: Bringing V-REP to Deep Robot Learning](https://arxiv.org/abs/1906.11176) | arXiv | [![link](https://img.shields.io/badge/Website-0A7DBD)](https://pyrep.readthedocs.io/en/latest/) | [![GitHub](https://img.shields.io/badge/GitHub-5A5A5A?logo=github&logoColor=white)](https://github.com/stepjam/PyRep) |
+| 2016 | DeepMind Lab | [DeepMind Lab](https://arxiv.org/abs/1612.03801) | arXiv | [![link](https://img.shields.io/badge/Website-0A7DBD)](https://deepmind.google/blog/open-sourcing-deepmind-lab/) | [![GitHub](https://img.shields.io/badge/GitHub-5A5A5A?logo=github&logoColor=white)](https://github.com/google-deepmind/lab) |
 | 2013 | V-REP (now CoppeliaSim) | [V-REP: A Versatile and Scalable Robot Simulation Framework](https://doi.org/10.1109/IROS.2013.6696520) | IROS | [![link](https://img.shields.io/badge/Website-0A7DBD)](https://www.coppeliarobotics.com/) |  |
 | 2012 | MuJoCo | [MuJoCo: A physics engine for model-based control](https://ieeexplore.ieee.org/document/6386109) | IROS | [![link](https://img.shields.io/badge/Website-0A7DBD)](https://mujoco.org) | [![GitHub](https://img.shields.io/badge/GitHub-5A5A5A?logo=github&logoColor=white)](https://github.com/google-deepmind/mujoco) |
 
@@ -424,6 +443,8 @@ We sincerely thank all open-source dataset creators and contributors for their v
 
 | Year | Resource / Acronym | Reference | Publication / Type | Project | Official Code |
 |------|---------|-------|-------|---------|-------------|
+| 2026 | LIBERO-PeRM (312 simulated tasks; public download not verified) | [LIBERO-PeRM: Benchmarking Personalized Robotic Manipulation](https://arxiv.org/abs/2610.22372) | arXiv | [Project](https://libero-perm.github.io/) | Not verified released |
+| 2026 | Evo-DexBench (1,248 simulated demonstrations / 30 tasks) | [Evo-DexBench: Benchmarking Generalization across Related Tasks for Dexterous Manipulation](https://arxiv.org/abs/2610.21180) | arXiv | [Project](https://mint-sjtu.github.io/Evo-DexBench.io/) | [GitHub](https://github.com/MINT-SJTU/Evo-DexBench) |
 | 2026 | RoboQuest | [RoboQuest: Generalist Physical Agents that Search, Inspect and Test](https://arxiv.org/abs/2610.10388) | arXiv / simulation benchmark | [![link](https://img.shields.io/badge/Website-0A7DBD)](https://declare-lab.github.io/RoboQuest/) | [![GitHub](https://img.shields.io/badge/GitHub-5A5A5A?logo=github&logoColor=white)](https://github.com/declare-lab/RoboQuest) |
 | 2026 | FlatLab | [FlatLab: A Unified Methodology Framework and Simulation-Based Benchmark for Robotic Manipulation of Flat Objects](https://arxiv.org/abs/2608.14049) | arXiv / simulation benchmark | [![link](https://img.shields.io/badge/Website-0A7DBD)](https://flatlab-web.github.io/) |  |
 | 2026 | BiCoord | [BiCoord: A Bimanual Manipulation Benchmark towards Long-Horizon Spatial-Temporal Coordination](https://arxiv.org/abs/2604.05831) | arXiv | [![link](https://img.shields.io/badge/Website-0A7DBD)](https://buaa-colalab.github.io/BiCoord/) | [![GitHub](https://img.shields.io/badge/GitHub-5A5A5A?logo=github&logoColor=white)](https://github.com/buaa-colalab/BiCoord-Bench) |
@@ -465,6 +486,9 @@ We sincerely thank all open-source dataset creators and contributors for their v
 
 </details>
 
+
+**Benchmark access.** Evo-DexBench separates its Apache 2.0 code/documentation from third-party asset terms; some PartNet assets require upstream access approval. A code license does not grant rights to every bundled or downloaded asset.
+
 #### Simulation/Synthetic Datasets & Data-Generation Systems
 
 <details open id="table-simulation-synthetic-datasets">
@@ -472,6 +496,9 @@ We sincerely thank all open-source dataset creators and contributors for their v
 
 | Year | Resource / Acronym | Reference | Publication / Type | Project | Official Code |
 |------|---------|-------|-------|---------|-------------|
+| 2026 | DemoStream | [DemoStream: Batched Task-and-Motion-Plan Optimization for Automated Learning from Demonstration](https://arxiv.org/abs/2610.22020) | arXiv / batched task-and-motion-planned demonstrations; release not verified | [Project](https://demostream.github.io/) | Not verified released |
+| 2026 | AutoRSR | [AutoRSR: Automated Real-to-Sim-to-Real Data Generation for Scalable Robot Learning](https://arxiv.org/abs/2610.20336) | arXiv / metric real-to-sim data generation; three physical tasks; release not verified | Not independently located | Not verified released |
+| 2026 | MetaGenSim | [Active Generative Simulation: Meta-Learning What to Simulate for Sim-and-Real Policy Co-Training](https://arxiv.org/abs/2610.19479) | arXiv / target-dependent simulation distribution selection; code coming soon | [Project](https://meta-gensim.github.io/) | Not verified released |
 | 2026 | AXIS (50,129 episodes / 207 tasks) | [AXIS: A Growable Community-Driven Data Engine for Scalable Robot Manipulation](https://arxiv.org/abs/2607.21588) | arXiv / browser teleoperation; approval required, non-commercial data terms | [![link](https://img.shields.io/badge/Website-0A7DBD)](https://axisaiorg.github.io/AXIS-V1/) | [![GitHub](https://img.shields.io/badge/GitHub-5A5A5A?logo=github&logoColor=white)](https://github.com/AxisAIOrg/Axis-V1-Training) |
 | 2026 | ARSTAG | [ARSTAG: An Agentic Real2Sim2Real System for Task-Specific Robot Data Generation](https://arxiv.org/abs/2609.24563) | arXiv / task-specific Real2Sim2Real data generation; release not verified | [![link](https://img.shields.io/badge/Website-0A7DBD)](https://boweili666.github.io/ARSTAG/) | Not verified released |
 | 2026 | MATE (2,500 joint simulated episodes / 24.1 hours) | [MATE: Multi-Agent Virtual Teleoperation Platform for Humanoid Collaboration Data Collection](https://arxiv.org/abs/2609.26520) | arXiv / multi-humanoid virtual teleoperation; release pending | [![link](https://img.shields.io/badge/Website-0A7DBD)](https://yerik-yu.github.io/MATE/) | Not verified released |
@@ -505,14 +532,12 @@ We sincerely thank all open-source dataset creators and contributors for their v
 | 2026 | ViTacWorld | [ViTacWorld: Scaling Visuo-Tactile World Models for Contact-Rich Robot Manipulation](https://arxiv.org/abs/2607.22530) | arXiv | [![link](https://img.shields.io/badge/Website-0A7DBD)](https://vitacworld.github.io/) |  |
 | 2026 | N0-TWAM | [$N_0$-TWAM: Scaling Tactile-Native World-Action Model for Contact-Rich Manipulation](https://arxiv.org/abs/2607.23783) | arXiv |  |  |
 | 2026 | OVTF | [Disentangling Visuo-Tactile Foresight: Oracle-Guided Interface Discovery for World Action Models](https://arxiv.org/abs/2608.00547) | arXiv |  |  |
-| 2026 |  | [World Model for Robot Learning: A Comprehensive Survey](https://arxiv.org/abs/2605.00080) | arXiv | [![link](https://img.shields.io/badge/Website-0A7DBD)](https://ntumars.github.io/wm-robot-survey/) | [![GitHub](https://img.shields.io/badge/GitHub-5A5A5A?logo=github&logoColor=white)](https://github.com/NTUMARS/Awesome-World-Model-for-Robotics-Policy) |
 | 2026 | GigaBrain-0.5M* | [GigaBrain-0.5M*: a VLA That Learns From World Model-Based Reinforcement Learning](https://arxiv.org/abs/2602.12099) | arXiv | [![link](https://img.shields.io/badge/Website-0A7DBD)](https://gigabrain05m.github.io/) | [![GitHub](https://img.shields.io/badge/GitHub-5A5A5A?logo=github&logoColor=white)](https://github.com/open-gigaai/giga-brain-0) |
 | 2026 | PlayWorld | [PlayWorld: Learning Robot World Models from Autonomous Play](https://arxiv.org/abs/2603.09030) | arXiv | [![link](https://img.shields.io/badge/Website-0A7DBD)](https://robot-playworld.github.io/) |  |
 | 2026 | RehearseVLA (formerly World-Env) | [RehearseVLA: Simulated Post-Training for VLAs with Physically-Consistent World Model](https://openaccess.thecvf.com/content/CVPR2026/html/Xiao_RehearseVLA_Simulated_Post-Training_for_VLAs_with_Physically-Consistent_World_Model_CVPR_2026_paper.html) ([arXiv](https://arxiv.org/abs/2509.24948v4)) | CVPR | [![link](https://img.shields.io/badge/Website-0A7DBD)](https://isee-laboratory.github.io/world-env.github.io/) | [![GitHub](https://img.shields.io/badge/GitHub-5A5A5A?logo=github&logoColor=white)](https://github.com/amap-cvlab/world-env) |
 | 2026 | RISE | [RISE: Self-Improving Robot Policy with Compositional World Model](https://arxiv.org/abs/2602.11075) | RSS | [![link](https://img.shields.io/badge/Website-0A7DBD)](https://opendrivelab.com/RISE/) | [![GitHub](https://img.shields.io/badge/GitHub-5A5A5A?logo=github&logoColor=white)](https://github.com/OpenDriveLab/RISE) |
 | 2026 | WMPO | [WMPO: World Model-based Policy Optimization for Vision-Language-Action Models](https://arxiv.org/abs/2511.09515) | ICLR | [![link](https://img.shields.io/badge/Website-0A7DBD)](https://wm-po.github.io/) | [![GitHub](https://img.shields.io/badge/GitHub-5A5A5A?logo=github&logoColor=white)](https://github.com/WM-PO/WMPO) |
 | 2026 | World-Gymnast | [World-Gymnast: Training Robots with Reinforcement Learning in a World Model](https://arxiv.org/abs/2602.02454) | arXiv | [![link](https://img.shields.io/badge/Website-0A7DBD)](https://world-gymnast.github.io/) | [![GitHub](https://img.shields.io/badge/GitHub-5A5A5A?logo=github&logoColor=white)](https://github.com/world-gymnast/world-gymnast) |
-| 2025 |  | [A Survey of Sim-to-Real Methods in RL: Progress, Prospects and Challenges with Foundation Models](https://arxiv.org/abs/2502.13187) | arXiv |  | [![GitHub](https://img.shields.io/badge/GitHub-5A5A5A?logo=github&logoColor=white)](https://github.com/LongchaoDa/AwesomeSim2Real) |
 | 2025 |  | [Evaluating Gemini Robotics Policies in a Veo World Simulator](https://arxiv.org/abs/2512.10675) | arXiv | [![link](https://img.shields.io/badge/Website-0A7DBD)](https://veo-robotics.github.io/) |  |
 | 2025 | DiWA | [DiWA: Diffusion Policy Adaptation with World Models](https://arxiv.org/abs/2508.03645) | CoRL | [![link](https://img.shields.io/badge/Website-0A7DBD)](https://imanema.com/publication/diwa/) | [![GitHub](https://img.shields.io/badge/GitHub-5A5A5A?logo=github&logoColor=white)](https://github.com/acl21/diwa) |
 | 2025 | DreamGen | [DreamGen: Unlocking Generalization in Robot Learning through Video World Models](https://arxiv.org/abs/2505.12705) | CoRL | [![link](https://img.shields.io/badge/Website-0A7DBD)](https://research.nvidia.com/labs/gear/dreamgen/) | [![GitHub](https://img.shields.io/badge/GitHub-5A5A5A?logo=github&logoColor=white)](https://github.com/NVIDIA/GR00T-Dreams) |
@@ -529,7 +554,6 @@ We sincerely thank all open-source dataset creators and contributors for their v
 | 2020 | Dreamer | [Dream to Control: Learning Behaviors by Latent Imagination](https://arxiv.org/abs/1912.01603) | ICLR | [![link](https://img.shields.io/badge/Website-0A7DBD)](https://danijar.com/project/dreamer/) | [![GitHub](https://img.shields.io/badge/GitHub-5A5A5A?logo=github&logoColor=white)](https://github.com/danijar/dreamer) |
 | 2019 | PlaNet | [Learning Latent Dynamics for Planning from Pixels](https://arxiv.org/abs/1811.04551) | ICML | [![link](https://img.shields.io/badge/Website-0A7DBD)](https://danijar.com/project/planet/) | [![GitHub](https://img.shields.io/badge/GitHub-5A5A5A?logo=github&logoColor=white)](https://github.com/google-research/planet) |
 | 2018 | World Models | [Recurrent World Models Facilitate Policy Evolution](https://arxiv.org/abs/1809.01999) | NeurIPS | [![link](https://img.shields.io/badge/Website-0A7DBD)](https://worldmodels.github.io/) | [![GitHub](https://img.shields.io/badge/GitHub-5A5A5A?logo=github&logoColor=white)](https://github.com/hardmaru/WorldModelsExperiments) |
-| 2016 |  | [DeepMind Lab](https://arxiv.org/abs/1612.03801) | arXiv | [![link](https://img.shields.io/badge/Website-0A7DBD)](https://deepmind.google/blog/open-sourcing-deepmind-lab/) | [![GitHub](https://img.shields.io/badge/GitHub-5A5A5A?logo=github&logoColor=white)](https://github.com/google-deepmind/lab) |
 
 </details>
 
@@ -750,9 +774,25 @@ Data sources: ![Real][data-real] = real-robot data; ![UMI][data-umi] = UMI data;
 
 ---
 
+## Related Surveys
+
+These surveys provide background on robot learning and simulation-to-real transfer.
+
+<details open id="table-related-surveys">
+<summary>Table: Related surveys</summary>
+
+| Year | Scope | Paper | Venue | Project | Repo@GitHub |
+|------|-------|-------|-------|:-------:|:-----------:|
+| 2026 | World models for robot learning | [World Model for Robot Learning: A Comprehensive Survey](https://arxiv.org/abs/2605.00080) | arXiv | [![link](https://img.shields.io/badge/Website-0A7DBD)](https://ntumars.github.io/wm-robot-survey/) | [![GitHub](https://img.shields.io/badge/GitHub-5A5A5A?logo=github&logoColor=white)](https://github.com/NTUMARS/Awesome-World-Model-for-Robotics-Policy) |
+| 2025 | Sim-to-real reinforcement learning | [A Survey of Sim-to-Real Methods in RL: Progress, Prospects and Challenges with Foundation Models](https://arxiv.org/abs/2502.13187) | arXiv |  | [![GitHub](https://img.shields.io/badge/GitHub-5A5A5A?logo=github&logoColor=white)](https://github.com/LongchaoDa/AwesomeSim2Real) |
+
+</details>
+
+---
+
 ## Contributing
 
-Contributions are welcome! Please open an issue or pull request to add resources, fix links, update metadata, or suggest improvements. For new resources, please include the paper title, project page, code link if available, release date, scale, and the most relevant data category.
+Contributions are welcome! Please open an issue or pull request to add resources, fix links, update metadata, or suggest improvements. For new resources, please include the paper title, project page, code link if available, release date, and most relevant category. For datasets, distinguish collected, processed, and publicly released scale. Include the checked paper version/date and any known access or license restrictions, and mark unavailable or unverified resources explicitly.
 
 ---
 
@@ -762,7 +802,7 @@ If you find this repository useful, please consider citing our paper:
 
 ```bibtex
 @misc{ye2026datapyramid,
-      title={{Data Pyramid for Embodied Manipulation}},
+      title={{Data Pyramid for Embodied Manipulation: A Survey}},
       author={Yifan Ye and Yankai Fu and Yaoxu Lv and Bohan Hou and Jun Cen and Lingdong Kong and Duo Zheng and Tianxing Chen and Jiaming Liu and Ziang Cao and Yunfan Lou and Wei Chow and Xian Sun and Yingshuo Wang and Kuangzhi Ge and Xiaowei Chi and Xidong Zhang and Zhibo Pang and Yiwu Zhong and Sirui Han and Zhihe Lu and Weihao Yuan and Qifeng Chen and Michael Yu Wang and Yao Mu and Ziwei Liu and Jianfei Yang and Ping Luo and Shanghang Zhang},
       year={2026},
       eprint={2607.24744},
