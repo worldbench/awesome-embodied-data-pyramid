@@ -118,6 +118,7 @@ We sincerely thank all open-source dataset creators and contributors for their v
 
 | Year | Dataset | Paper | Scale | Venue | Project | Repo@GitHub |
 |------|---------|-------|-------|-------|:-------:|:-----------:|
+| 2026 | SharpaDex v1.0 | [SharpaDex v1.0: Large-Scale Bimanual Dexterous Manipulation Demonstrations](https://huggingface.co/datasets/Sharpa-Robotics/SharpaDex-v1.0) | 28,993 episodes / 59 tasks; approximately 300 hours; CC BY-NC 4.0; v2.1 and v3.0 are the same demonstrations | Dataset release | [Dataset](https://huggingface.co/datasets/Sharpa-Robotics/SharpaDex-v1.0) | No dedicated code repository verified |
 | 2026 | GazeAct | [GazeAct: A Human-Gaze-Annotated Manipulation Dataset for Attention-Regularized Policies](https://arxiv.org/abs/2610.24507) | 12,000 recorded demonstrations / 40 tasks; 300 Hz operator gaze; public corpus not verified | arXiv | Not independently located | Not verified released |
 | 2026 | DROID-3D | [DepthWorld: 3D World Model for Robot Manipulation](https://arxiv.org/abs/2610.08780) | 70K+ existing DROID episodes with calibration / estimated depth; access approval required | CoRL 2026 | [![link](https://img.shields.io/badge/Website-0A7DBD)](https://jaibardhan.com/depthworld/) | [![GitHub](https://img.shields.io/badge/GitHub-5A5A5A?logo=github&logoColor=white)](https://github.com/Jai2500/depthworld) |
 | 2026 | PrimeBot Household (real-robot subset) | [Scaling Bimanual Household Manipulation from 1,500 hours of Demonstrations to On-Policy Corrections](https://arxiv.org/abs/2609.03591) | 531.7 collected hours / 32,518 episodes; 500+ hours released | arXiv preprint | [![link](https://img.shields.io/badge/Website-0A7DBD)](https://huggingface.co/datasets/challenge-2026/challenge_data) | Not verified released |
@@ -233,6 +234,7 @@ We sincerely thank all open-source dataset creators and contributors for their v
 
 | Year | Acronym | Paper | Venue | Project | Repo@GitHub |
 |------|---------|-------|-------|:-------:|:-----------:|
+| 2026 | EgoHand (hand reconstruction; training corpus not verified released) | [EgoHand: Monocular 3D Hand Reconstruction from Egocentric Video](https://arxiv.org/abs/2610.30293) | arXiv | [Model](https://huggingface.co/nvidia/EgoHand-v1) | [Inference](https://github.com/NVIDIA/IsaacCapture/tree/main/src/python/isaaccapture_egopost) |
 | 2026 | EgoMatrix (human-video conversion; release not verified) | [EgoMatrix: Physically Faithful Dexterous Robot Demonstrations from Egocentric Human Videos](https://arxiv.org/abs/2610.18822) | arXiv | [Project](https://spikew726.github.io/EgoMatrix/) | Not verified released |
 | 2026 | HuRo (conversion code; full corpus pending) | [HuRo: Robotizing Human Videos for Scalable VLA Pretraining](https://arxiv.org/abs/2609.10706) | CoRL 2026 (accepted stated in arXiv comments and official page) | [![link](https://img.shields.io/badge/Website-0A7DBD)](https://3587jjh.github.io/HuRo/) | [![GitHub](https://img.shields.io/badge/GitHub-5A5A5A?logo=github&logoColor=white)](https://github.com/3587jjh/HuRo) |
 | 2026 | EgoWild2Dex / EgoWild (538.9 hours collected; release pending) | [EgoWild2Dex: Learning Dexterous Robotic Manipulation from In-the-Wild Human Experience](https://arxiv.org/abs/2609.23755) | arXiv | [![link](https://img.shields.io/badge/Website-0A7DBD)](https://mmlab.hk/egowild2dex/) | Not verified released |
@@ -257,6 +259,7 @@ We sincerely thank all open-source dataset creators and contributors for their v
 
 | Year | Acronym | Paper | Venue | Project | Repo@GitHub |
 |------|---------|-------|-------|:-------:|:-----------:|
+| 2026 | EgoAIM / Gaze2HOI (HOT3D-derived annotations; demo only, full dataset pending) | [Gaze2HOI: Gaze-Aware Intention Disambiguation for Egocentric Hand-Object Interaction Forecasting](https://arxiv.org/abs/2610.27877) | arXiv / derived benchmark | [Project](https://gaze2hoi.github.io/) | [GitHub](https://github.com/gaze2hoi/Gaze2HOI) |
 | 2026 | EgoX-Data-6M / EgoXperience (50 hours; code, data and weights coming soon) | [EgoXperience: Learning World-Grounded Egocentric Representations from Human Experience](https://arxiv.org/abs/2610.26625) | arXiv | [Project](https://ropedia.github.io/EgoXperience/) | [Release repository (coming soon)](https://github.com/Ropedia/EgoXperience) |
 | 2026 | React / ACTS (4.9 human-collected hours / three objects; code and data upon acceptance) | [ACTS: Learning Visuo-Tactile World Models from Human Physical Interaction](https://arxiv.org/abs/2610.24285) | arXiv | [Project](https://acts-anon.github.io/) | Not verified released |
 | 2026 | EgoExplorer (100 recorded hours; one-hour gated mini release, CC BY-NC 4.0) | [EgoExplorer: A Vision-Motion-Touch Observatory for Human Loco-Manipulation In Situ](https://arxiv.org/abs/2610.18872) | arXiv | [Project](https://internrobotics.github.io/egoexplorer.github.io/) | [Toolkit (pending)](https://github.com/InternRobotics/EgoExplorer) |
@@ -496,6 +499,7 @@ We sincerely thank all open-source dataset creators and contributors for their v
 
 | Year | Resource / Acronym | Reference | Publication / Type | Project | Official Code |
 |------|---------|-------|-------|---------|-------------|
+| 2026 | DiscoDemo (RL-generated demonstrations; four-task evaluation) | [DiscoDemo: Discovering Efficient and Diverse Robot Demonstrations for Imitation Learning](https://arxiv.org/abs/2610.32093) | arXiv / data-generation system | [Project](https://davian-robotics.github.io/DiscoDemo/) | [GitHub](https://github.com/DAVIAN-Robotics/DiscoDemo) |
 | 2026 | DemoStream | [DemoStream: Batched Task-and-Motion-Plan Optimization for Automated Learning from Demonstration](https://arxiv.org/abs/2610.22020) | arXiv / batched task-and-motion-planned demonstrations; release not verified | [Project](https://demostream.github.io/) | Not verified released |
 | 2026 | AutoRSR | [AutoRSR: Automated Real-to-Sim-to-Real Data Generation for Scalable Robot Learning](https://arxiv.org/abs/2610.20336) | arXiv / metric real-to-sim data generation; three physical tasks; release not verified | Not independently located | Not verified released |
 | 2026 | MetaGenSim | [Active Generative Simulation: Meta-Learning What to Simulate for Sim-and-Real Policy Co-Training](https://arxiv.org/abs/2610.19479) | arXiv / target-dependent simulation distribution selection; code coming soon | [Project](https://meta-gensim.github.io/) | Not verified released |
@@ -623,6 +627,8 @@ We sincerely thank all open-source dataset creators and contributors for their v
 
 | Year | Acronym | Paper | Venue | Project | Repo@GitHub |
 |------|---------|-------|-------|:-------:|:-----------:|
+| 2026 | FLORA (caption and reward annotation models) | [FLORA: An Open Model Suite for Scaling Robotics Data Engines](https://arxiv.org/abs/2610.31779) | arXiv / annotation engine | [Models](https://huggingface.co/collections/nvidia/flora) | No dedicated code release verified |
+| 2026 | KiRoSe (kinematic temporal annotation) | [KiRoSe: Using Kinematic Data for Efficient Segmentation of Robot Demonstrations](https://arxiv.org/abs/2610.31801) | arXiv / segmentation method | [Project](https://berkeleyautomation.github.io/kirose/) | Not verified released |
 | 2026 | RoVid-X | [Rethinking Video Generation Model for the Embodied World](https://arxiv.org/abs/2601.15282) | ICML | [![link](https://img.shields.io/badge/Website-0A7DBD)](https://huggingface.co/datasets/DAGroup-PKU/RoVid-X) | [![GitHub](https://img.shields.io/badge/GitHub-5A5A5A?logo=github&logoColor=white)](https://github.com/DAGroup-PKU/ReVidgen) |
 | 2026 | D2E | [D2E: Scaling Vision-Action Pretraining on Desktop Data for Transfer to Embodied AI](https://arxiv.org/abs/2510.05684) | ICLR | [![link](https://img.shields.io/badge/Website-0A7DBD)](https://worv-ai.github.io/d2e/) | [![GitHub](https://img.shields.io/badge/GitHub-5A5A5A?logo=github&logoColor=white)](https://github.com/worv-ai/D2E) |
 | 2025 | PLAICraft | [PLAICraft: Large-Scale Time-Aligned Vision-Speech-Action Dataset for Embodied AI](https://arxiv.org/abs/2505.12707) | arXiv | [![link](https://img.shields.io/badge/Website-0A7DBD)](https://blog.plaicraft.ai/2025/05/11/download-user-data/) |  |
@@ -651,6 +657,7 @@ We sincerely thank all open-source dataset creators and contributors for their v
 
 | Year | Acronym | Paper | Venue | Project | Repo@GitHub |
 |------|---------|-------|-------|:-------:|:-----------:|
+| 2026 | SCOPE (planner-feedback data generation) | [SCOPE: Scene-graph Construction Optimized by Plan Error-correction for Robot Long-term Planning Datasets](https://arxiv.org/abs/2610.31518) | arXiv / planning-data generation | [Project](https://scope-page.github.io/) | Not verified released |
 | 2023 | EgoPlan-IT | [EgoPlan-Bench: Benchmarking Multimodal Large Language Models for Human-Level Planning](https://arxiv.org/abs/2312.06722) | IJCV | [![link](https://img.shields.io/badge/Website-0A7DBD)](https://chenyi99.github.io/ego_plan/) | [![GitHub](https://img.shields.io/badge/GitHub-5A5A5A?logo=github&logoColor=white)](https://github.com/ChenYi99/EgoPlan) |
 | 2023 | EmbodiedGPT | [EmbodiedGPT: Vision-Language Pre-Training via Embodied Chain of Thought](https://arxiv.org/abs/2305.15021) | NeurIPS | [![link](https://img.shields.io/badge/Website-0A7DBD)](https://embodiedgpt.github.io/) | [![GitHub](https://img.shields.io/badge/GitHub-5A5A5A?logo=github&logoColor=white)](https://github.com/OpenGVLab/EmbodiedGPT) |
 | 2023 | LLaRP | [Large Language Models as Generalizable Policies for Embodied Tasks](https://arxiv.org/abs/2310.17722) | ICLR | [![link](https://img.shields.io/badge/Website-0A7DBD)](https://llm-rl.github.io/) | [![GitHub](https://img.shields.io/badge/GitHub-5A5A5A?logo=github&logoColor=white)](https://github.com/apple/ml-llarp) |
