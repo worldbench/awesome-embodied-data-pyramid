@@ -14,7 +14,7 @@ This repository accompanies a survey on the **data pyramid** for robotics and em
 
 This project is actively maintained and continuously updated to make embodied data resources easier for the open-source community to discover, access, and download.
 
-- **2026-11-11:** Added [EgoForce](https://huggingface.co/datasets/zhicao/EgoForce), [Open-HumanWAM-50K](https://huggingface.co/datasets/DAGroup-PKU/Open-HumanWAM-50K/tree/main/egostandard), and [NVIDIA PhysicalAI Human-1M-100K](https://huggingface.co/buckets/nvidia/human-1m-100k-oss/tree/release-staging). Added [release timelines and demonstration trends](#data-accumulation) to this README.
+- **2026-11-11:** Added [EgoForce](https://huggingface.co/datasets/zhicao/EgoForce), [Open-HumanWAM-50K](https://huggingface.co/datasets/DAGroup-PKU/Open-HumanWAM-50K/tree/main/egostandard), and [NVIDIA PhysicalAI Human-1M-100K](https://huggingface.co/buckets/nvidia/human-1m-100k-oss/tree/release-staging).
 - **2026-10-30:** Added [FineART](https://huggingface.co/datasets/lerobot/FineART) to real-robot datasets and updated the existing [Daimon-Infinity / TacClaw-Infinity](https://huggingface.co/datasets/daimonrobotics/Daimon-Infinity) UMI entry with its paper and Hugging Face download link; distinguished the paper's 10,000+ hours from the dataset card's first 1,000-hour release.
 - **2026-10-21:** Added 11 paper/resource records on gaze-aligned teleoperation, human vision-motion-touch capture, human-to-robot data conversion, and simulation data generation; retained explicit release, access, and asset-license limits.
 - **2026-10-11:** Added 12 verified literature/resource entries across real-robot data, UMI engineering, egocentric supervision, simulation generation, and data curation; separated collected scale from released scale and consolidated World-Env / RehearseVLA.
@@ -26,16 +26,6 @@ This project is actively maintained and continuously updated to make embodied da
 We sincerely thank all open-source dataset creators and contributors for their valuable work and continued support of the community. **You can also use task-based search on the [project website](https://jasper-aaa.github.io/embodied-data-pyramid/) to find and download datasets.**
 
 > If you have suggestions for new resources, improvements to methodologies, or corrections for broken links, please don't hesitate to open an issue or submit a pull request. Contributions of all kinds are welcome and greatly appreciated.
-
-## Data accumulation
-
-[![Cumulative released dataset hours for egocentric, real-robot, and UMI data, through November 11, 2026](assets/data-trends/released-hours.png)](assets/data-trends/released-hours.png)
-
-The hour curves cover selected releases with documented durations, including datasets with access conditions. See the [release ledger](assets/data-trends/released-hours.md) for sources, inclusion rules, and overlap limits.
-
-[![Project website demonstration count trends for real-robot and UMI data](assets/data-trends/website-demo-counts.png)](assets/data-trends/website-demo-counts.png)
-
-The demonstration curves extend the numeric counts from the [project website](https://jasper-aaa.github.io/embodied-data-pyramid/) with additional 2026 releases documented in the [release ledger](assets/data-trends/released-hours.md#website-demonstration-counts).
 
 ## Table of Contents
 
