@@ -1,0 +1,15 @@
+name: portable-tests
+on: [push, pull_request]
+jobs:
+  core:
+    defaults:
+      run:
+        working-directory: tools/lerobot_pipeline
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install numpy==2.2.6 pyarrow==25.0.1 'pytest>=8,<10' 'packaging>=24.2,<26'
+      - run: python -m pytest -q tests/test_pipeline.py quality/tests/test_schema.py quality/tests/test_signal_quality.py

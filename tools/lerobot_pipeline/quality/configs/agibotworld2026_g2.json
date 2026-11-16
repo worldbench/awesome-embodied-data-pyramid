@@ -1,0 +1,47 @@
+{
+  "schema_version": "lerobot_fk_config_v1",
+  "dataset": "agibotworld2026_2lerobot",
+  "robot": "AgiBot G2A",
+  "qpos_widths": [16],
+  "urdf": "../robot_models/geniesim/G2_omnipicker_fixed_dual.urdf",
+  "urdf_sha256": "eb782de0b6f1faf1fcddfb5e2f7004a39e350c4f297ca51a56003ce8f9ad8319",
+  "base_link": "arm_base_link",
+  "left_ee_link": "arm_l_end_link",
+  "right_ee_link": "arm_r_end_link",
+  "left_joint_names": [
+    "idx21_arm_l_joint1",
+    "idx22_arm_l_joint2",
+    "idx23_arm_l_joint3",
+    "idx24_arm_l_joint4",
+    "idx25_arm_l_joint5",
+    "idx26_arm_l_joint6",
+    "idx27_arm_l_joint7"
+  ],
+  "right_joint_names": [
+    "idx61_arm_r_joint1",
+    "idx62_arm_r_joint2",
+    "idx63_arm_r_joint3",
+    "idx64_arm_r_joint4",
+    "idx65_arm_r_joint5",
+    "idx66_arm_r_joint6",
+    "idx67_arm_r_joint7"
+  ],
+  "dataset_from_fk_base": [
+    [1, 0, 0, 0],
+    [0, 1, 0, 0],
+    [0, 0, 1, 0],
+    [0, 0, 0, 1]
+  ],
+  "left_ee_link_to_dataset_ee": [
+    [1, 0, 0, 0],
+    [0, 1, 0, 0],
+    [0, 0, 1, 0],
+    [0, 0, 0, 1]
+  ],
+  "right_ee_link_to_dataset_ee": [
+    [1, 0, 0, 0],
+    [0, 1, 0, 0],
+    [0, 0, 1, 0],
+    [0, 0, 0, 1]
+  ]
+}

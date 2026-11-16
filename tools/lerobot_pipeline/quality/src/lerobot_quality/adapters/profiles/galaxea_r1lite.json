@@ -1,0 +1,100 @@
+{
+  "id": "galaxea_r1lite",
+  "robot_type": "r1lite",
+  "source_family": "galaxea",
+  "format_version": "converted_release_20261013",
+  "qpos_width": 14,
+  "qpos_names": {
+    "state.qpos": [
+      "state/qpos.left_joint_0",
+      "state/qpos.left_joint_1",
+      "state/qpos.left_joint_2",
+      "state/qpos.left_joint_3",
+      "state/qpos.left_joint_4",
+      "state/qpos.left_joint_5",
+      "state/qpos.left_gripper",
+      "state/qpos.right_joint_0",
+      "state/qpos.right_joint_1",
+      "state/qpos.right_joint_2",
+      "state/qpos.right_joint_3",
+      "state/qpos.right_joint_4",
+      "state/qpos.right_joint_5",
+      "state/qpos.right_gripper"
+    ],
+    "action.qpos": [
+      "action/qpos.left_joint_0",
+      "action/qpos.left_joint_1",
+      "action/qpos.left_joint_2",
+      "action/qpos.left_joint_3",
+      "action/qpos.left_joint_4",
+      "action/qpos.left_joint_5",
+      "action/qpos.left_gripper",
+      "action/qpos.right_joint_0",
+      "action/qpos.right_joint_1",
+      "action/qpos.right_joint_2",
+      "action/qpos.right_joint_3",
+      "action/qpos.right_joint_4",
+      "action/qpos.right_joint_5",
+      "action/qpos.right_gripper"
+    ]
+  },
+  "arm_indices": {
+    "left": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "right": [
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ]
+  },
+  "action_mask_groups": [
+    [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    [
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13
+    ]
+  ],
+  "ee_representation": "xyz_xyzw",
+  "ee_sides": [
+    "left",
+    "right"
+  ],
+  "feature_widths": {
+    "state.qpos": 14,
+    "state.waist": 4,
+    "state.ee": 14,
+    "state.ee_valid": 2,
+    "action.qpos": 14,
+    "action.qpos_valid": 2,
+    "action.waist_velocity": 6,
+    "action.ee": 14,
+    "action.ee_valid": 2
+  },
+  "default_fk_config": "galaxea_open_world_r1lite_current.json",
+  "notes": [
+    "state.waist is a four-value joint vector; Lite action.waist_velocity is a six-value spatial twist. They are separate signals and are never compared as joint targets."
+  ],
+  "fk_calibration_status": "validated_current_samples"
+}

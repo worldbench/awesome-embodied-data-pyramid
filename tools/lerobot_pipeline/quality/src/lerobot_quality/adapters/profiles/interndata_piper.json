@@ -1,0 +1,99 @@
+{
+  "id": "interndata_piper",
+  "robot_type": "piper",
+  "source_family": "interndata",
+  "format_version": "converted_release_20261013",
+  "qpos_width": 14,
+  "qpos_names": {
+    "state.qpos": [
+      "left_joint_0",
+      "left_joint_1",
+      "left_joint_2",
+      "left_joint_3",
+      "left_joint_4",
+      "left_joint_5",
+      "left_gripper_0",
+      "right_joint_0",
+      "right_joint_1",
+      "right_joint_2",
+      "right_joint_3",
+      "right_joint_4",
+      "right_joint_5",
+      "right_gripper_0"
+    ],
+    "action.qpos": [
+      "left_joint_0",
+      "left_joint_1",
+      "left_joint_2",
+      "left_joint_3",
+      "left_joint_4",
+      "left_joint_5",
+      "left_gripper_0",
+      "right_joint_0",
+      "right_joint_1",
+      "right_joint_2",
+      "right_joint_3",
+      "right_joint_4",
+      "right_joint_5",
+      "right_gripper_0"
+    ]
+  },
+  "arm_indices": {
+    "left": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "right": [
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ]
+  },
+  "action_mask_groups": [
+    [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    [
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13
+    ]
+  ],
+  "ee_representation": "xyz_xyzw",
+  "ee_sides": [
+    "left",
+    "right"
+  ],
+  "feature_widths": {
+    "state.qpos": 14,
+    "state.ee": 14,
+    "state.ee_valid": 2,
+    "action.qpos": 14,
+    "action.qpos_valid": 2,
+    "action.ee": 14,
+    "action.ee_valid": 2
+  },
+  "default_fk_config": null,
+  "notes": [
+    "Source units are preserved. Joint and EE-position step thresholds are source-native numeric thresholds; confirm units before interpreting them as rad/metres."
+  ],
+  "fk_calibration_status": "candidate_no_observed_ee",
+  "fk_comparison_unavailable_reason": "Current physical release has no independent EE observations (EE masks are zero); candidate model/frame mapping is not validated. Generic piper metadata covers source arx_lift2 and agilex_split_aloha; do not infer identical physical kinematics from this label."
+}

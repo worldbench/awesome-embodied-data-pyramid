@@ -1,0 +1,32 @@
+{
+  "robot_models/interndata_a1/piper_description_v100.urdf": {
+    "model_source": "InternData-A1 Piper100 asset"
+  },
+  "robot_models/geniesim/G1_omnipicker.urdf": {
+    "model_source": "AgiBot GenieSimAssets G1_omnipicker.urdf"
+  },
+  "robot_models/geniesim/G2_omnipicker_fixed_dual.urdf": {
+    "model_source": "AgiBot GenieSimAssets G2_omnipicker_fixed_dual.urdf"
+  },
+  "robot_models/galaxea/r1_lite_galaxea_manip_sim.urdf": {
+    "model_source": "OpenGalaxea/GalaxeaManipSim R1Lite URDF"
+  },
+  "robot_models/franka/panda_arm_polymetis.urdf": {
+    "model_source": "Polymetis Franka Panda URDF"
+  },
+  "robot_models/franka/fr3_arm_kinematic.urdf": {
+    "model_source": "frankarobotics/franka_ros2 FR3, commit ee1b79b77e473751852b4f884d1f7ce86041dfff"
+  },
+  "robot_models/i2rt/yam_v1.urdf": {
+    "model_source": "https://github.com/i2rt-robotics/i2rt/blob/main/i2rt/robot_models/arm/yam/v1/yam.urdf"
+  },
+  "robot_models/interndata_a1/arx5_ac1.urdf": {
+    "model_source": "InternData-A1 urdf/ARX_Lift2.zip; X5_ac1 chain cross-checked with robot-descriptions-arx"
+  },
+  "robot_models/galaxea/r1pro_2025_kinematic.urdf": {
+    "model_source": "Galaxea official R1Pro 2025 URDF; kinematic subset. Original source URL is recorded in the URDF comment."
+  },
+  "robot_models/universal_robots/ur5e_kinematic.urdf": {
+    "model_source": "UniversalRobots ROS2 Description default UR5e kinematics"
+  }
+}

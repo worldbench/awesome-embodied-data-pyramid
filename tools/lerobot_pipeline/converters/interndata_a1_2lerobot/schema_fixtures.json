@@ -1,0 +1,2604 @@
+{
+  "franka": {
+    "features": {
+      "images.rgb.head": {
+        "dtype": "video",
+        "shape": [
+          360,
+          640,
+          3
+        ],
+        "names": [
+          "height",
+          "width",
+          "channel"
+        ],
+        "info": {
+          "video.height": 360,
+          "video.width": 640,
+          "video.codec": "av1",
+          "video.pix_fmt": "yuv420p",
+          "video.is_depth_map": false,
+          "video.fps": 30,
+          "video.channels": 3,
+          "has_audio": false
+        }
+      },
+      "images.rgb.hand": {
+        "dtype": "video",
+        "shape": [
+          480,
+          640,
+          3
+        ],
+        "names": [
+          "height",
+          "width",
+          "channel"
+        ],
+        "info": {
+          "video.height": 480,
+          "video.width": 640,
+          "video.codec": "av1",
+          "video.pix_fmt": "yuv420p",
+          "video.is_depth_map": false,
+          "video.fps": 30,
+          "video.channels": 3,
+          "has_audio": false
+        }
+      },
+      "head_camera_intrinsics": {
+        "dtype": "float32",
+        "shape": [
+          4
+        ],
+        "names": [
+          "fx",
+          "fy",
+          "cx",
+          "cy"
+        ],
+        "fps": 30
+      },
+      "hand_camera_intrinsics": {
+        "dtype": "float32",
+        "shape": [
+          4
+        ],
+        "names": [
+          "fx",
+          "fy",
+          "cx",
+          "cy"
+        ],
+        "fps": 30
+      },
+      "head_camera_to_robot_extrinsics": {
+        "dtype": "float32",
+        "shape": [
+          7
+        ],
+        "names": [
+          "position.x",
+          "position.y",
+          "position.z",
+          "quaternion.w",
+          "quaternion.x",
+          "quaternion.y",
+          "quaternion.z"
+        ],
+        "fps": 30
+      },
+      "hand_camera_to_robot_extrinsics": {
+        "dtype": "float32",
+        "shape": [
+          7
+        ],
+        "names": [
+          "position.x",
+          "position.y",
+          "position.z",
+          "quaternion.w",
+          "quaternion.x",
+          "quaternion.y",
+          "quaternion.z"
+        ],
+        "fps": 30
+      },
+      "states.joint.position": {
+        "dtype": "float32",
+        "shape": [
+          7
+        ],
+        "names": [
+          "joint_0",
+          "joint_1",
+          "joint_2",
+          "joint_3",
+          "joint_4",
+          "joint_5",
+          "joint_6"
+        ],
+        "fps": 30
+      },
+      "states.gripper.position": {
+        "dtype": "float32",
+        "shape": [
+          1
+        ],
+        "names": [
+          "gripper_0"
+        ],
+        "fps": 30
+      },
+      "states.gripper.pose": {
+        "dtype": "float32",
+        "shape": [
+          6
+        ],
+        "names": [
+          "x",
+          "y",
+          "z",
+          "roll",
+          "pitch",
+          "yaw"
+        ],
+        "fps": 30
+      },
+      "states.ee_to_armbase_pose": {
+        "dtype": "float32",
+        "shape": [
+          7
+        ],
+        "names": [
+          "position.x",
+          "position.y",
+          "position.z",
+          "quaternion.w",
+          "quaternion.x",
+          "quaternion.y",
+          "quaternion.z"
+        ],
+        "fps": 30
+      },
+      "states.ee_to_robot_pose": {
+        "dtype": "float32",
+        "shape": [
+          7
+        ],
+        "names": [
+          "position.x",
+          "position.y",
+          "position.z",
+          "quaternion.w",
+          "quaternion.x",
+          "quaternion.y",
+          "quaternion.z"
+        ],
+        "fps": 30
+      },
+      "states.tcp_to_armbase_pose": {
+        "dtype": "float32",
+        "shape": [
+          7
+        ],
+        "names": [
+          "position.x",
+          "position.y",
+          "position.z",
+          "quaternion.w",
+          "quaternion.x",
+          "quaternion.y",
+          "quaternion.z"
+        ],
+        "fps": 30
+      },
+      "states.tcp_to_robot_pose": {
+        "dtype": "float32",
+        "shape": [
+          7
+        ],
+        "names": [
+          "position.x",
+          "position.y",
+          "position.z",
+          "quaternion.w",
+          "quaternion.x",
+          "quaternion.y",
+          "quaternion.z"
+        ],
+        "fps": 30
+      },
+      "states.robot_to_env_pose": {
+        "dtype": "float32",
+        "shape": [
+          7
+        ],
+        "names": [
+          "position.x",
+          "position.y",
+          "position.z",
+          "quaternion.w",
+          "quaternion.x",
+          "quaternion.y",
+          "quaternion.z"
+        ],
+        "fps": 30
+      },
+      "actions.joint.position": {
+        "dtype": "float32",
+        "shape": [
+          7
+        ],
+        "names": [
+          "joint_0",
+          "joint_1",
+          "joint_2",
+          "joint_3",
+          "joint_4",
+          "joint_5",
+          "joint_6"
+        ],
+        "fps": 30
+      },
+      "actions.gripper.position": {
+        "dtype": "float32",
+        "shape": [
+          1
+        ],
+        "names": [
+          "gripper_0"
+        ],
+        "fps": 30
+      },
+      "actions.gripper.openness": {
+        "dtype": "float32",
+        "shape": [
+          1
+        ],
+        "names": [
+          "gripper_0"
+        ],
+        "fps": 30
+      },
+      "actions.gripper.pose": {
+        "dtype": "float32",
+        "shape": [
+          6
+        ],
+        "names": [
+          "x",
+          "y",
+          "z",
+          "roll",
+          "pitch",
+          "yaw"
+        ],
+        "fps": 30
+      },
+      "actions.ee_to_armbase_pose": {
+        "dtype": "float32",
+        "shape": [
+          7
+        ],
+        "names": [
+          "position.x",
+          "position.y",
+          "position.z",
+          "quaternion.w",
+          "quaternion.x",
+          "quaternion.y",
+          "quaternion.z"
+        ],
+        "fps": 30
+      },
+      "actions.ee_to_robot_pose": {
+        "dtype": "float32",
+        "shape": [
+          7
+        ],
+        "names": [
+          "position.x",
+          "position.y",
+          "position.z",
+          "quaternion.w",
+          "quaternion.x",
+          "quaternion.y",
+          "quaternion.z"
+        ],
+        "fps": 30
+      },
+      "actions.tcp_to_armbase_pose": {
+        "dtype": "float32",
+        "shape": [
+          7
+        ],
+        "names": [
+          "position.x",
+          "position.y",
+          "position.z",
+          "quaternion.w",
+          "quaternion.x",
+          "quaternion.y",
+          "quaternion.z"
+        ],
+        "fps": 30
+      },
+      "actions.tcp_to_robot_pose": {
+        "dtype": "float32",
+        "shape": [
+          7
+        ],
+        "names": [
+          "position.x",
+          "position.y",
+          "position.z",
+          "quaternion.w",
+          "quaternion.x",
+          "quaternion.y",
+          "quaternion.z"
+        ],
+        "fps": 30
+      },
+      "master_actions.joint.position": {
+        "dtype": "float32",
+        "shape": [
+          7
+        ],
+        "names": [
+          "joint_0",
+          "joint_1",
+          "joint_2",
+          "joint_3",
+          "joint_4",
+          "joint_5",
+          "joint_6"
+        ],
+        "fps": 30
+      },
+      "master_actions.gripper.position": {
+        "dtype": "float32",
+        "shape": [
+          1
+        ],
+        "names": [
+          "gripper_0"
+        ],
+        "fps": 30
+      },
+      "master_actions.gripper.openness": {
+        "dtype": "float32",
+        "shape": [
+          1
+        ],
+        "names": [
+          "gripper_0"
+        ],
+        "fps": 30
+      },
+      "master_actions.gripper.pose": {
+        "dtype": "float32",
+        "shape": [
+          6
+        ],
+        "names": [
+          "x",
+          "y",
+          "z",
+          "roll",
+          "pitch",
+          "yaw"
+        ],
+        "fps": 30
+      },
+      "timestamp": {
+        "dtype": "float32",
+        "shape": [
+          1
+        ],
+        "names": null,
+        "fps": 30
+      },
+      "frame_index": {
+        "dtype": "int64",
+        "shape": [
+          1
+        ],
+        "names": null,
+        "fps": 30
+      },
+      "episode_index": {
+        "dtype": "int64",
+        "shape": [
+          1
+        ],
+        "names": null,
+        "fps": 30
+      },
+      "index": {
+        "dtype": "int64",
+        "shape": [
+          1
+        ],
+        "names": null,
+        "fps": 30
+      },
+      "task_index": {
+        "dtype": "int64",
+        "shape": [
+          1
+        ],
+        "names": null,
+        "fps": 30
+      }
+    }
+  },
+  "lift2": {
+    "features": {
+      "images.rgb.head": {
+        "dtype": "video",
+        "shape": [
+          360,
+          640,
+          3
+        ],
+        "names": [
+          "height",
+          "width",
+          "channel"
+        ],
+        "info": {
+          "video.height": 360,
+          "video.width": 640,
+          "video.codec": "av1",
+          "video.pix_fmt": "yuv420p",
+          "video.is_depth_map": false,
+          "video.fps": 30,
+          "video.channels": 3,
+          "has_audio": false
+        }
+      },
+      "images.rgb.hand_left": {
+        "dtype": "video",
+        "shape": [
+          480,
+          640,
+          3
+        ],
+        "names": [
+          "height",
+          "width",
+          "channel"
+        ],
+        "info": {
+          "video.height": 480,
+          "video.width": 640,
+          "video.codec": "av1",
+          "video.pix_fmt": "yuv420p",
+          "video.is_depth_map": false,
+          "video.fps": 30,
+          "video.channels": 3,
+          "has_audio": false
+        }
+      },
+      "images.rgb.hand_right": {
+        "dtype": "video",
+        "shape": [
+          480,
+          640,
+          3
+        ],
+        "names": [
+          "height",
+          "width",
+          "channel"
+        ],
+        "info": {
+          "video.height": 480,
+          "video.width": 640,
+          "video.codec": "av1",
+          "video.pix_fmt": "yuv420p",
+          "video.is_depth_map": false,
+          "video.fps": 30,
+          "video.channels": 3,
+          "has_audio": false
+        }
+      },
+      "head_camera_intrinsics": {
+        "dtype": "float32",
+        "shape": [
+          4
+        ],
+        "names": [
+          "fx",
+          "fy",
+          "cx",
+          "cy"
+        ],
+        "fps": 30
+      },
+      "hand_left_camera_intrinsics": {
+        "dtype": "float32",
+        "shape": [
+          4
+        ],
+        "names": [
+          "fx",
+          "fy",
+          "cx",
+          "cy"
+        ],
+        "fps": 30
+      },
+      "hand_right_camera_intrinsics": {
+        "dtype": "float32",
+        "shape": [
+          4
+        ],
+        "names": [
+          "fx",
+          "fy",
+          "cx",
+          "cy"
+        ],
+        "fps": 30
+      },
+      "head_camera_to_robot_extrinsics": {
+        "dtype": "float32",
+        "shape": [
+          7
+        ],
+        "names": [
+          "position.x",
+          "position.y",
+          "position.z",
+          "quaternion.w",
+          "quaternion.x",
+          "quaternion.y",
+          "quaternion.z"
+        ],
+        "fps": 30
+      },
+      "hand_left_camera_to_robot_extrinsics": {
+        "dtype": "float32",
+        "shape": [
+          7
+        ],
+        "names": [
+          "position.x",
+          "position.y",
+          "position.z",
+          "quaternion.w",
+          "quaternion.x",
+          "quaternion.y",
+          "quaternion.z"
+        ],
+        "fps": 30
+      },
+      "hand_right_camera_to_robot_extrinsics": {
+        "dtype": "float32",
+        "shape": [
+          7
+        ],
+        "names": [
+          "position.x",
+          "position.y",
+          "position.z",
+          "quaternion.w",
+          "quaternion.x",
+          "quaternion.y",
+          "quaternion.z"
+        ],
+        "fps": 30
+      },
+      "states.left_joint.position": {
+        "dtype": "float32",
+        "shape": [
+          6
+        ],
+        "names": [
+          "left_joint_0",
+          "left_joint_1",
+          "left_joint_2",
+          "left_joint_3",
+          "left_joint_4",
+          "left_joint_5"
+        ],
+        "fps": 30
+      },
+      "states.left_gripper.position": {
+        "dtype": "float32",
+        "shape": [
+          1
+        ],
+        "names": [
+          "left_gripper_0"
+        ],
+        "fps": 30
+      },
+      "states.left_ee_to_left_armbase_pose": {
+        "dtype": "float32",
+        "shape": [
+          7
+        ],
+        "names": [
+          "position.x",
+          "position.y",
+          "position.z",
+          "quaternion.w",
+          "quaternion.x",
+          "quaternion.y",
+          "quaternion.z"
+        ],
+        "fps": 30
+      },
+      "states.left_ee_to_robot_pose": {
+        "dtype": "float32",
+        "shape": [
+          7
+        ],
+        "names": [
+          "position.x",
+          "position.y",
+          "position.z",
+          "quaternion.w",
+          "quaternion.x",
+          "quaternion.y",
+          "quaternion.z"
+        ],
+        "fps": 30
+      },
+      "states.left_tcp_to_left_armbase_pose": {
+        "dtype": "float32",
+        "shape": [
+          7
+        ],
+        "names": [
+          "position.x",
+          "position.y",
+          "position.z",
+          "quaternion.w",
+          "quaternion.x",
+          "quaternion.y",
+          "quaternion.z"
+        ],
+        "fps": 30
+      },
+      "states.left_tcp_to_robot_pose": {
+        "dtype": "float32",
+        "shape": [
+          7
+        ],
+        "names": [
+          "position.x",
+          "position.y",
+          "position.z",
+          "quaternion.w",
+          "quaternion.x",
+          "quaternion.y",
+          "quaternion.z"
+        ],
+        "fps": 30
+      },
+      "states.right_joint.position": {
+        "dtype": "float32",
+        "shape": [
+          6
+        ],
+        "names": [
+          "right_joint_0",
+          "right_joint_1",
+          "right_joint_2",
+          "right_joint_3",
+          "right_joint_4",
+          "right_joint_5"
+        ],
+        "fps": 30
+      },
+      "states.right_gripper.position": {
+        "dtype": "float32",
+        "shape": [
+          1
+        ],
+        "names": [
+          "right_gripper_0"
+        ],
+        "fps": 30
+      },
+      "states.right_ee_to_right_armbase_pose": {
+        "dtype": "float32",
+        "shape": [
+          7
+        ],
+        "names": [
+          "position.x",
+          "position.y",
+          "position.z",
+          "quaternion.w",
+          "quaternion.x",
+          "quaternion.y",
+          "quaternion.z"
+        ],
+        "fps": 30
+      },
+      "states.right_ee_to_robot_pose": {
+        "dtype": "float32",
+        "shape": [
+          7
+        ],
+        "names": [
+          "position.x",
+          "position.y",
+          "position.z",
+          "quaternion.w",
+          "quaternion.x",
+          "quaternion.y",
+          "quaternion.z"
+        ],
+        "fps": 30
+      },
+      "states.right_tcp_to_right_armbase_pose": {
+        "dtype": "float32",
+        "shape": [
+          7
+        ],
+        "names": [
+          "position.x",
+          "position.y",
+          "position.z",
+          "quaternion.w",
+          "quaternion.x",
+          "quaternion.y",
+          "quaternion.z"
+        ],
+        "fps": 30
+      },
+      "states.right_tcp_to_robot_pose": {
+        "dtype": "float32",
+        "shape": [
+          7
+        ],
+        "names": [
+          "position.x",
+          "position.y",
+          "position.z",
+          "quaternion.w",
+          "quaternion.x",
+          "quaternion.y",
+          "quaternion.z"
+        ],
+        "fps": 30
+      },
+      "states.robot_to_env_pose": {
+        "dtype": "float32",
+        "shape": [
+          7
+        ],
+        "names": [
+          "position.x",
+          "position.y",
+          "position.z",
+          "quaternion.w",
+          "quaternion.x",
+          "quaternion.y",
+          "quaternion.z"
+        ],
+        "fps": 30
+      },
+      "actions.left_joint.position": {
+        "dtype": "float32",
+        "shape": [
+          6
+        ],
+        "names": [
+          "left_joint_0",
+          "left_joint_1",
+          "left_joint_2",
+          "left_joint_3",
+          "left_joint_4",
+          "left_joint_5"
+        ],
+        "fps": 30
+      },
+      "actions.left_gripper.position": {
+        "dtype": "float32",
+        "shape": [
+          1
+        ],
+        "names": [
+          "left_gripper_0"
+        ],
+        "fps": 30
+      },
+      "actions.left_ee_to_left_armbase_pose": {
+        "dtype": "float32",
+        "shape": [
+          7
+        ],
+        "names": [
+          "position.x",
+          "position.y",
+          "position.z",
+          "quaternion.w",
+          "quaternion.x",
+          "quaternion.y",
+          "quaternion.z"
+        ],
+        "fps": 30
+      },
+      "actions.left_ee_to_robot_pose": {
+        "dtype": "float32",
+        "shape": [
+          7
+        ],
+        "names": [
+          "position.x",
+          "position.y",
+          "position.z",
+          "quaternion.w",
+          "quaternion.x",
+          "quaternion.y",
+          "quaternion.z"
+        ],
+        "fps": 30
+      },
+      "actions.left_tcp_to_left_armbase_pose": {
+        "dtype": "float32",
+        "shape": [
+          7
+        ],
+        "names": [
+          "position.x",
+          "position.y",
+          "position.z",
+          "quaternion.w",
+          "quaternion.x",
+          "quaternion.y",
+          "quaternion.z"
+        ],
+        "fps": 30
+      },
+      "actions.left_tcp_to_robot_pose": {
+        "dtype": "float32",
+        "shape": [
+          7
+        ],
+        "names": [
+          "position.x",
+          "position.y",
+          "position.z",
+          "quaternion.w",
+          "quaternion.x",
+          "quaternion.y",
+          "quaternion.z"
+        ],
+        "fps": 30
+      },
+      "actions.right_joint.position": {
+        "dtype": "float32",
+        "shape": [
+          6
+        ],
+        "names": [
+          "right_joint_0",
+          "right_joint_1",
+          "right_joint_2",
+          "right_joint_3",
+          "right_joint_4",
+          "right_joint_5"
+        ],
+        "fps": 30
+      },
+      "actions.right_gripper.position": {
+        "dtype": "float32",
+        "shape": [
+          1
+        ],
+        "names": [
+          "right_gripper_0"
+        ],
+        "fps": 30
+      },
+      "actions.right_ee_to_right_armbase_pose": {
+        "dtype": "float32",
+        "shape": [
+          7
+        ],
+        "names": [
+          "position.x",
+          "position.y",
+          "position.z",
+          "quaternion.w",
+          "quaternion.x",
+          "quaternion.y",
+          "quaternion.z"
+        ],
+        "fps": 30
+      },
+      "actions.right_ee_to_robot_pose": {
+        "dtype": "float32",
+        "shape": [
+          7
+        ],
+        "names": [
+          "position.x",
+          "position.y",
+          "position.z",
+          "quaternion.w",
+          "quaternion.x",
+          "quaternion.y",
+          "quaternion.z"
+        ],
+        "fps": 30
+      },
+      "actions.right_tcp_to_right_armbase_pose": {
+        "dtype": "float32",
+        "shape": [
+          7
+        ],
+        "names": [
+          "position.x",
+          "position.y",
+          "position.z",
+          "quaternion.w",
+          "quaternion.x",
+          "quaternion.y",
+          "quaternion.z"
+        ],
+        "fps": 30
+      },
+      "actions.right_tcp_to_robot_pose": {
+        "dtype": "float32",
+        "shape": [
+          7
+        ],
+        "names": [
+          "position.x",
+          "position.y",
+          "position.z",
+          "quaternion.w",
+          "quaternion.x",
+          "quaternion.y",
+          "quaternion.z"
+        ],
+        "fps": 30
+      },
+      "master_actions.left_joint.position": {
+        "dtype": "float32",
+        "shape": [
+          6
+        ],
+        "names": [
+          "left_joint_0",
+          "left_joint_1",
+          "left_joint_2",
+          "left_joint_3",
+          "left_joint_4",
+          "left_joint_5"
+        ],
+        "fps": 30
+      },
+      "master_actions.left_gripper.position": {
+        "dtype": "float32",
+        "shape": [
+          1
+        ],
+        "names": [
+          "left_gripper_0"
+        ],
+        "fps": 30
+      },
+      "master_actions.left_gripper.openness": {
+        "dtype": "float32",
+        "shape": [
+          1
+        ],
+        "names": [
+          "left_gripper_0"
+        ],
+        "fps": 30
+      },
+      "master_actions.right_joint.position": {
+        "dtype": "float32",
+        "shape": [
+          6
+        ],
+        "names": [
+          "right_joint_0",
+          "right_joint_1",
+          "right_joint_2",
+          "right_joint_3",
+          "right_joint_4",
+          "right_joint_5"
+        ],
+        "fps": 30
+      },
+      "master_actions.right_gripper.position": {
+        "dtype": "float32",
+        "shape": [
+          1
+        ],
+        "names": [
+          "right_gripper_0"
+        ],
+        "fps": 30
+      },
+      "master_actions.right_gripper.openness": {
+        "dtype": "float32",
+        "shape": [
+          1
+        ],
+        "names": [
+          "right_gripper_0"
+        ],
+        "fps": 30
+      },
+      "timestamp": {
+        "dtype": "float32",
+        "shape": [
+          1
+        ],
+        "names": null,
+        "fps": 30
+      },
+      "frame_index": {
+        "dtype": "int64",
+        "shape": [
+          1
+        ],
+        "names": null,
+        "fps": 30
+      },
+      "episode_index": {
+        "dtype": "int64",
+        "shape": [
+          1
+        ],
+        "names": null,
+        "fps": 30
+      },
+      "index": {
+        "dtype": "int64",
+        "shape": [
+          1
+        ],
+        "names": null,
+        "fps": 30
+      },
+      "task_index": {
+        "dtype": "int64",
+        "shape": [
+          1
+        ],
+        "names": null,
+        "fps": 30
+      }
+    }
+  },
+  "split_aloha": {
+    "features": {
+      "images.rgb.head": {
+        "dtype": "video",
+        "shape": [
+          360,
+          640,
+          3
+        ],
+        "names": [
+          "height",
+          "width",
+          "channel"
+        ],
+        "info": {
+          "video.height": 360,
+          "video.width": 640,
+          "video.codec": "av1",
+          "video.pix_fmt": "yuv420p",
+          "video.is_depth_map": false,
+          "video.fps": 30,
+          "video.channels": 3,
+          "has_audio": false
+        }
+      },
+      "images.rgb.hand_left": {
+        "dtype": "video",
+        "shape": [
+          480,
+          640,
+          3
+        ],
+        "names": [
+          "height",
+          "width",
+          "channel"
+        ],
+        "info": {
+          "video.height": 480,
+          "video.width": 640,
+          "video.codec": "av1",
+          "video.pix_fmt": "yuv420p",
+          "video.is_depth_map": false,
+          "video.fps": 30,
+          "video.channels": 3,
+          "has_audio": false
+        }
+      },
+      "images.rgb.hand_right": {
+        "dtype": "video",
+        "shape": [
+          480,
+          640,
+          3
+        ],
+        "names": [
+          "height",
+          "width",
+          "channel"
+        ],
+        "info": {
+          "video.height": 480,
+          "video.width": 640,
+          "video.codec": "av1",
+          "video.pix_fmt": "yuv420p",
+          "video.is_depth_map": false,
+          "video.fps": 30,
+          "video.channels": 3,
+          "has_audio": false
+        }
+      },
+      "head_camera_intrinsics": {
+        "dtype": "float32",
+        "shape": [
+          4
+        ],
+        "names": [
+          "fx",
+          "fy",
+          "cx",
+          "cy"
+        ],
+        "fps": 30
+      },
+      "hand_left_camera_intrinsics": {
+        "dtype": "float32",
+        "shape": [
+          4
+        ],
+        "names": [
+          "fx",
+          "fy",
+          "cx",
+          "cy"
+        ],
+        "fps": 30
+      },
+      "hand_right_camera_intrinsics": {
+        "dtype": "float32",
+        "shape": [
+          4
+        ],
+        "names": [
+          "fx",
+          "fy",
+          "cx",
+          "cy"
+        ],
+        "fps": 30
+      },
+      "head_camera_to_robot_extrinsics": {
+        "dtype": "float32",
+        "shape": [
+          7
+        ],
+        "names": [
+          "position.x",
+          "position.y",
+          "position.z",
+          "quaternion.w",
+          "quaternion.x",
+          "quaternion.y",
+          "quaternion.z"
+        ],
+        "fps": 30
+      },
+      "hand_left_camera_to_robot_extrinsics": {
+        "dtype": "float32",
+        "shape": [
+          7
+        ],
+        "names": [
+          "position.x",
+          "position.y",
+          "position.z",
+          "quaternion.w",
+          "quaternion.x",
+          "quaternion.y",
+          "quaternion.z"
+        ],
+        "fps": 30
+      },
+      "hand_right_camera_to_robot_extrinsics": {
+        "dtype": "float32",
+        "shape": [
+          7
+        ],
+        "names": [
+          "position.x",
+          "position.y",
+          "position.z",
+          "quaternion.w",
+          "quaternion.x",
+          "quaternion.y",
+          "quaternion.z"
+        ],
+        "fps": 30
+      },
+      "states.left_joint.position": {
+        "dtype": "float32",
+        "shape": [
+          6
+        ],
+        "names": [
+          "left_joint_0",
+          "left_joint_1",
+          "left_joint_2",
+          "left_joint_3",
+          "left_joint_4",
+          "left_joint_5"
+        ],
+        "fps": 30
+      },
+      "states.left_gripper.position": {
+        "dtype": "float32",
+        "shape": [
+          1
+        ],
+        "names": [
+          "left_gripper_0"
+        ],
+        "fps": 30
+      },
+      "states.left_ee_to_left_armbase_pose": {
+        "dtype": "float32",
+        "shape": [
+          7
+        ],
+        "names": [
+          "position.x",
+          "position.y",
+          "position.z",
+          "quaternion.w",
+          "quaternion.x",
+          "quaternion.y",
+          "quaternion.z"
+        ],
+        "fps": 30
+      },
+      "states.left_ee_to_robot_pose": {
+        "dtype": "float32",
+        "shape": [
+          7
+        ],
+        "names": [
+          "position.x",
+          "position.y",
+          "position.z",
+          "quaternion.w",
+          "quaternion.x",
+          "quaternion.y",
+          "quaternion.z"
+        ],
+        "fps": 30
+      },
+      "states.left_tcp_to_left_armbase_pose": {
+        "dtype": "float32",
+        "shape": [
+          7
+        ],
+        "names": [
+          "position.x",
+          "position.y",
+          "position.z",
+          "quaternion.w",
+          "quaternion.x",
+          "quaternion.y",
+          "quaternion.z"
+        ],
+        "fps": 30
+      },
+      "states.left_tcp_to_robot_pose": {
+        "dtype": "float32",
+        "shape": [
+          7
+        ],
+        "names": [
+          "position.x",
+          "position.y",
+          "position.z",
+          "quaternion.w",
+          "quaternion.x",
+          "quaternion.y",
+          "quaternion.z"
+        ],
+        "fps": 30
+      },
+      "states.right_joint.position": {
+        "dtype": "float32",
+        "shape": [
+          6
+        ],
+        "names": [
+          "right_joint_0",
+          "right_joint_1",
+          "right_joint_2",
+          "right_joint_3",
+          "right_joint_4",
+          "right_joint_5"
+        ],
+        "fps": 30
+      },
+      "states.right_gripper.position": {
+        "dtype": "float32",
+        "shape": [
+          1
+        ],
+        "names": [
+          "right_gripper_0"
+        ],
+        "fps": 30
+      },
+      "states.right_ee_to_right_armbase_pose": {
+        "dtype": "float32",
+        "shape": [
+          7
+        ],
+        "names": [
+          "position.x",
+          "position.y",
+          "position.z",
+          "quaternion.w",
+          "quaternion.x",
+          "quaternion.y",
+          "quaternion.z"
+        ],
+        "fps": 30
+      },
+      "states.right_ee_to_robot_pose": {
+        "dtype": "float32",
+        "shape": [
+          7
+        ],
+        "names": [
+          "position.x",
+          "position.y",
+          "position.z",
+          "quaternion.w",
+          "quaternion.x",
+          "quaternion.y",
+          "quaternion.z"
+        ],
+        "fps": 30
+      },
+      "states.right_tcp_to_right_armbase_pose": {
+        "dtype": "float32",
+        "shape": [
+          7
+        ],
+        "names": [
+          "position.x",
+          "position.y",
+          "position.z",
+          "quaternion.w",
+          "quaternion.x",
+          "quaternion.y",
+          "quaternion.z"
+        ],
+        "fps": 30
+      },
+      "states.right_tcp_to_robot_pose": {
+        "dtype": "float32",
+        "shape": [
+          7
+        ],
+        "names": [
+          "position.x",
+          "position.y",
+          "position.z",
+          "quaternion.w",
+          "quaternion.x",
+          "quaternion.y",
+          "quaternion.z"
+        ],
+        "fps": 30
+      },
+      "states.robot_to_env_pose": {
+        "dtype": "float32",
+        "shape": [
+          7
+        ],
+        "names": [
+          "position.x",
+          "position.y",
+          "position.z",
+          "quaternion.w",
+          "quaternion.x",
+          "quaternion.y",
+          "quaternion.z"
+        ],
+        "fps": 30
+      },
+      "actions.left_joint.position": {
+        "dtype": "float32",
+        "shape": [
+          6
+        ],
+        "names": [
+          "left_joint_0",
+          "left_joint_1",
+          "left_joint_2",
+          "left_joint_3",
+          "left_joint_4",
+          "left_joint_5"
+        ],
+        "fps": 30
+      },
+      "actions.left_gripper.position": {
+        "dtype": "float32",
+        "shape": [
+          1
+        ],
+        "names": [
+          "left_gripper_0"
+        ],
+        "fps": 30
+      },
+      "actions.left_ee_to_left_armbase_pose": {
+        "dtype": "float32",
+        "shape": [
+          7
+        ],
+        "names": [
+          "position.x",
+          "position.y",
+          "position.z",
+          "quaternion.w",
+          "quaternion.x",
+          "quaternion.y",
+          "quaternion.z"
+        ],
+        "fps": 30
+      },
+      "actions.left_ee_to_robot_pose": {
+        "dtype": "float32",
+        "shape": [
+          7
+        ],
+        "names": [
+          "position.x",
+          "position.y",
+          "position.z",
+          "quaternion.w",
+          "quaternion.x",
+          "quaternion.y",
+          "quaternion.z"
+        ],
+        "fps": 30
+      },
+      "actions.left_tcp_to_left_armbase_pose": {
+        "dtype": "float32",
+        "shape": [
+          7
+        ],
+        "names": [
+          "position.x",
+          "position.y",
+          "position.z",
+          "quaternion.w",
+          "quaternion.x",
+          "quaternion.y",
+          "quaternion.z"
+        ],
+        "fps": 30
+      },
+      "actions.left_tcp_to_robot_pose": {
+        "dtype": "float32",
+        "shape": [
+          7
+        ],
+        "names": [
+          "position.x",
+          "position.y",
+          "position.z",
+          "quaternion.w",
+          "quaternion.x",
+          "quaternion.y",
+          "quaternion.z"
+        ],
+        "fps": 30
+      },
+      "actions.right_joint.position": {
+        "dtype": "float32",
+        "shape": [
+          6
+        ],
+        "names": [
+          "right_joint_0",
+          "right_joint_1",
+          "right_joint_2",
+          "right_joint_3",
+          "right_joint_4",
+          "right_joint_5"
+        ],
+        "fps": 30
+      },
+      "actions.right_gripper.position": {
+        "dtype": "float32",
+        "shape": [
+          1
+        ],
+        "names": [
+          "right_gripper_0"
+        ],
+        "fps": 30
+      },
+      "actions.right_ee_to_right_armbase_pose": {
+        "dtype": "float32",
+        "shape": [
+          7
+        ],
+        "names": [
+          "position.x",
+          "position.y",
+          "position.z",
+          "quaternion.w",
+          "quaternion.x",
+          "quaternion.y",
+          "quaternion.z"
+        ],
+        "fps": 30
+      },
+      "actions.right_ee_to_robot_pose": {
+        "dtype": "float32",
+        "shape": [
+          7
+        ],
+        "names": [
+          "position.x",
+          "position.y",
+          "position.z",
+          "quaternion.w",
+          "quaternion.x",
+          "quaternion.y",
+          "quaternion.z"
+        ],
+        "fps": 30
+      },
+      "actions.right_tcp_to_right_armbase_pose": {
+        "dtype": "float32",
+        "shape": [
+          7
+        ],
+        "names": [
+          "position.x",
+          "position.y",
+          "position.z",
+          "quaternion.w",
+          "quaternion.x",
+          "quaternion.y",
+          "quaternion.z"
+        ],
+        "fps": 30
+      },
+      "actions.right_tcp_to_robot_pose": {
+        "dtype": "float32",
+        "shape": [
+          7
+        ],
+        "names": [
+          "position.x",
+          "position.y",
+          "position.z",
+          "quaternion.w",
+          "quaternion.x",
+          "quaternion.y",
+          "quaternion.z"
+        ],
+        "fps": 30
+      },
+      "master_actions.left_joint.position": {
+        "dtype": "float32",
+        "shape": [
+          6
+        ],
+        "names": [
+          "left_joint_0",
+          "left_joint_1",
+          "left_joint_2",
+          "left_joint_3",
+          "left_joint_4",
+          "left_joint_5"
+        ],
+        "fps": 30
+      },
+      "master_actions.left_gripper.position": {
+        "dtype": "float32",
+        "shape": [
+          1
+        ],
+        "names": [
+          "left_gripper_0"
+        ],
+        "fps": 30
+      },
+      "master_actions.left_gripper.openness": {
+        "dtype": "float32",
+        "shape": [
+          1
+        ],
+        "names": [
+          "left_gripper_0"
+        ],
+        "fps": 30
+      },
+      "master_actions.right_joint.position": {
+        "dtype": "float32",
+        "shape": [
+          6
+        ],
+        "names": [
+          "right_joint_0",
+          "right_joint_1",
+          "right_joint_2",
+          "right_joint_3",
+          "right_joint_4",
+          "right_joint_5"
+        ],
+        "fps": 30
+      },
+      "master_actions.right_gripper.position": {
+        "dtype": "float32",
+        "shape": [
+          1
+        ],
+        "names": [
+          "right_gripper_0"
+        ],
+        "fps": 30
+      },
+      "master_actions.right_gripper.openness": {
+        "dtype": "float32",
+        "shape": [
+          1
+        ],
+        "names": [
+          "right_gripper_0"
+        ],
+        "fps": 30
+      },
+      "timestamp": {
+        "dtype": "float32",
+        "shape": [
+          1
+        ],
+        "names": null,
+        "fps": 30
+      },
+      "frame_index": {
+        "dtype": "int64",
+        "shape": [
+          1
+        ],
+        "names": null,
+        "fps": 30
+      },
+      "episode_index": {
+        "dtype": "int64",
+        "shape": [
+          1
+        ],
+        "names": null,
+        "fps": 30
+      },
+      "index": {
+        "dtype": "int64",
+        "shape": [
+          1
+        ],
+        "names": null,
+        "fps": 30
+      },
+      "task_index": {
+        "dtype": "int64",
+        "shape": [
+          1
+        ],
+        "names": null,
+        "fps": 30
+      }
+    }
+  },
+  "genie1": {
+    "features": {
+      "images.rgb.head": {
+        "dtype": "video",
+        "shape": [
+          360,
+          640,
+          3
+        ],
+        "names": [
+          "height",
+          "width",
+          "channel"
+        ],
+        "info": {
+          "video.height": 360,
+          "video.width": 640,
+          "video.codec": "av1",
+          "video.pix_fmt": "yuv420p",
+          "video.is_depth_map": false,
+          "video.fps": 30,
+          "video.channels": 3,
+          "has_audio": false
+        }
+      },
+      "images.rgb.hand_left": {
+        "dtype": "video",
+        "shape": [
+          480,
+          848,
+          3
+        ],
+        "names": [
+          "height",
+          "width",
+          "channel"
+        ],
+        "info": {
+          "video.height": 480,
+          "video.width": 848,
+          "video.codec": "av1",
+          "video.pix_fmt": "yuv420p",
+          "video.is_depth_map": false,
+          "video.fps": 30,
+          "video.channels": 3,
+          "has_audio": false
+        }
+      },
+      "images.rgb.hand_right": {
+        "dtype": "video",
+        "shape": [
+          480,
+          848,
+          3
+        ],
+        "names": [
+          "height",
+          "width",
+          "channel"
+        ],
+        "info": {
+          "video.height": 480,
+          "video.width": 848,
+          "video.codec": "av1",
+          "video.pix_fmt": "yuv420p",
+          "video.is_depth_map": false,
+          "video.fps": 30,
+          "video.channels": 3,
+          "has_audio": false
+        }
+      },
+      "head_camera_intrinsics": {
+        "dtype": "float32",
+        "shape": [
+          4
+        ],
+        "names": [
+          "fx",
+          "fy",
+          "cx",
+          "cy"
+        ],
+        "fps": 30
+      },
+      "hand_left_camera_intrinsics": {
+        "dtype": "float32",
+        "shape": [
+          4
+        ],
+        "names": [
+          "fx",
+          "fy",
+          "cx",
+          "cy"
+        ],
+        "fps": 30
+      },
+      "hand_right_camera_intrinsics": {
+        "dtype": "float32",
+        "shape": [
+          4
+        ],
+        "names": [
+          "fx",
+          "fy",
+          "cx",
+          "cy"
+        ],
+        "fps": 30
+      },
+      "head_camera_to_robot_extrinsics": {
+        "dtype": "float32",
+        "shape": [
+          7
+        ],
+        "names": [
+          "position.x",
+          "position.y",
+          "position.z",
+          "quaternion.w",
+          "quaternion.x",
+          "quaternion.y",
+          "quaternion.z"
+        ],
+        "fps": 30
+      },
+      "hand_left_camera_to_robot_extrinsics": {
+        "dtype": "float32",
+        "shape": [
+          7
+        ],
+        "names": [
+          "position.x",
+          "position.y",
+          "position.z",
+          "quaternion.w",
+          "quaternion.x",
+          "quaternion.y",
+          "quaternion.z"
+        ],
+        "fps": 30
+      },
+      "hand_right_camera_to_robot_extrinsics": {
+        "dtype": "float32",
+        "shape": [
+          7
+        ],
+        "names": [
+          "position.x",
+          "position.y",
+          "position.z",
+          "quaternion.w",
+          "quaternion.x",
+          "quaternion.y",
+          "quaternion.z"
+        ],
+        "fps": 30
+      },
+      "states.left_joint.position": {
+        "dtype": "float32",
+        "shape": [
+          7
+        ],
+        "names": [
+          "left_joint_0",
+          "left_joint_1",
+          "left_joint_2",
+          "left_joint_3",
+          "left_joint_4",
+          "left_joint_5",
+          "left_joint_6"
+        ],
+        "fps": 30
+      },
+      "states.left_gripper.position": {
+        "dtype": "float32",
+        "shape": [
+          1
+        ],
+        "names": [
+          "left_gripper_0"
+        ],
+        "fps": 30
+      },
+      "states.left_ee_to_left_armbase_pose": {
+        "dtype": "float32",
+        "shape": [
+          7
+        ],
+        "names": [
+          "position.x",
+          "position.y",
+          "position.z",
+          "quaternion.w",
+          "quaternion.x",
+          "quaternion.y",
+          "quaternion.z"
+        ],
+        "fps": 30
+      },
+      "states.left_ee_to_robot_pose": {
+        "dtype": "float32",
+        "shape": [
+          7
+        ],
+        "names": [
+          "position.x",
+          "position.y",
+          "position.z",
+          "quaternion.w",
+          "quaternion.x",
+          "quaternion.y",
+          "quaternion.z"
+        ],
+        "fps": 30
+      },
+      "states.left_tcp_to_left_armbase_pose": {
+        "dtype": "float32",
+        "shape": [
+          7
+        ],
+        "names": [
+          "position.x",
+          "position.y",
+          "position.z",
+          "quaternion.w",
+          "quaternion.x",
+          "quaternion.y",
+          "quaternion.z"
+        ],
+        "fps": 30
+      },
+      "states.left_tcp_to_robot_pose": {
+        "dtype": "float32",
+        "shape": [
+          7
+        ],
+        "names": [
+          "position.x",
+          "position.y",
+          "position.z",
+          "quaternion.w",
+          "quaternion.x",
+          "quaternion.y",
+          "quaternion.z"
+        ],
+        "fps": 30
+      },
+      "states.right_joint.position": {
+        "dtype": "float32",
+        "shape": [
+          7
+        ],
+        "names": [
+          "right_joint_0",
+          "right_joint_1",
+          "right_joint_2",
+          "right_joint_3",
+          "right_joint_4",
+          "right_joint_5",
+          "right_joint_6"
+        ],
+        "fps": 30
+      },
+      "states.right_gripper.position": {
+        "dtype": "float32",
+        "shape": [
+          1
+        ],
+        "names": [
+          "right_gripper_0"
+        ],
+        "fps": 30
+      },
+      "states.right_ee_to_right_armbase_pose": {
+        "dtype": "float32",
+        "shape": [
+          7
+        ],
+        "names": [
+          "position.x",
+          "position.y",
+          "position.z",
+          "quaternion.w",
+          "quaternion.x",
+          "quaternion.y",
+          "quaternion.z"
+        ],
+        "fps": 30
+      },
+      "states.right_ee_to_robot_pose": {
+        "dtype": "float32",
+        "shape": [
+          7
+        ],
+        "names": [
+          "position.x",
+          "position.y",
+          "position.z",
+          "quaternion.w",
+          "quaternion.x",
+          "quaternion.y",
+          "quaternion.z"
+        ],
+        "fps": 30
+      },
+      "states.right_tcp_to_right_armbase_pose": {
+        "dtype": "float32",
+        "shape": [
+          7
+        ],
+        "names": [
+          "position.x",
+          "position.y",
+          "position.z",
+          "quaternion.w",
+          "quaternion.x",
+          "quaternion.y",
+          "quaternion.z"
+        ],
+        "fps": 30
+      },
+      "states.right_tcp_to_robot_pose": {
+        "dtype": "float32",
+        "shape": [
+          7
+        ],
+        "names": [
+          "position.x",
+          "position.y",
+          "position.z",
+          "quaternion.w",
+          "quaternion.x",
+          "quaternion.y",
+          "quaternion.z"
+        ],
+        "fps": 30
+      },
+      "states.robot_to_env_pose": {
+        "dtype": "float32",
+        "shape": [
+          7
+        ],
+        "names": [
+          "position.x",
+          "position.y",
+          "position.z",
+          "quaternion.w",
+          "quaternion.x",
+          "quaternion.y",
+          "quaternion.z"
+        ],
+        "fps": 30
+      },
+      "actions.left_joint.position": {
+        "dtype": "float32",
+        "shape": [
+          7
+        ],
+        "names": [
+          "left_joint_0",
+          "left_joint_1",
+          "left_joint_2",
+          "left_joint_3",
+          "left_joint_4",
+          "left_joint_5",
+          "left_joint_6"
+        ],
+        "fps": 30
+      },
+      "actions.left_gripper.position": {
+        "dtype": "float32",
+        "shape": [
+          1
+        ],
+        "names": [
+          "left_gripper_0"
+        ],
+        "fps": 30
+      },
+      "actions.left_ee_to_left_armbase_pose": {
+        "dtype": "float32",
+        "shape": [
+          7
+        ],
+        "names": [
+          "position.x",
+          "position.y",
+          "position.z",
+          "quaternion.w",
+          "quaternion.x",
+          "quaternion.y",
+          "quaternion.z"
+        ],
+        "fps": 30
+      },
+      "actions.left_ee_to_robot_pose": {
+        "dtype": "float32",
+        "shape": [
+          7
+        ],
+        "names": [
+          "position.x",
+          "position.y",
+          "position.z",
+          "quaternion.w",
+          "quaternion.x",
+          "quaternion.y",
+          "quaternion.z"
+        ],
+        "fps": 30
+      },
+      "actions.left_tcp_to_left_armbase_pose": {
+        "dtype": "float32",
+        "shape": [
+          7
+        ],
+        "names": [
+          "position.x",
+          "position.y",
+          "position.z",
+          "quaternion.w",
+          "quaternion.x",
+          "quaternion.y",
+          "quaternion.z"
+        ],
+        "fps": 30
+      },
+      "actions.left_tcp_to_robot_pose": {
+        "dtype": "float32",
+        "shape": [
+          7
+        ],
+        "names": [
+          "position.x",
+          "position.y",
+          "position.z",
+          "quaternion.w",
+          "quaternion.x",
+          "quaternion.y",
+          "quaternion.z"
+        ],
+        "fps": 30
+      },
+      "actions.right_joint.position": {
+        "dtype": "float32",
+        "shape": [
+          7
+        ],
+        "names": [
+          "right_joint_0",
+          "right_joint_1",
+          "right_joint_2",
+          "right_joint_3",
+          "right_joint_4",
+          "right_joint_5",
+          "right_joint_6"
+        ],
+        "fps": 30
+      },
+      "actions.right_gripper.position": {
+        "dtype": "float32",
+        "shape": [
+          1
+        ],
+        "names": [
+          "right_gripper_0"
+        ],
+        "fps": 30
+      },
+      "actions.right_ee_to_right_armbase_pose": {
+        "dtype": "float32",
+        "shape": [
+          7
+        ],
+        "names": [
+          "position.x",
+          "position.y",
+          "position.z",
+          "quaternion.w",
+          "quaternion.x",
+          "quaternion.y",
+          "quaternion.z"
+        ],
+        "fps": 30
+      },
+      "actions.right_ee_to_robot_pose": {
+        "dtype": "float32",
+        "shape": [
+          7
+        ],
+        "names": [
+          "position.x",
+          "position.y",
+          "position.z",
+          "quaternion.w",
+          "quaternion.x",
+          "quaternion.y",
+          "quaternion.z"
+        ],
+        "fps": 30
+      },
+      "actions.right_tcp_to_right_armbase_pose": {
+        "dtype": "float32",
+        "shape": [
+          7
+        ],
+        "names": [
+          "position.x",
+          "position.y",
+          "position.z",
+          "quaternion.w",
+          "quaternion.x",
+          "quaternion.y",
+          "quaternion.z"
+        ],
+        "fps": 30
+      },
+      "actions.right_tcp_to_robot_pose": {
+        "dtype": "float32",
+        "shape": [
+          7
+        ],
+        "names": [
+          "position.x",
+          "position.y",
+          "position.z",
+          "quaternion.w",
+          "quaternion.x",
+          "quaternion.y",
+          "quaternion.z"
+        ],
+        "fps": 30
+      },
+      "master_actions.left_joint.position": {
+        "dtype": "float32",
+        "shape": [
+          7
+        ],
+        "names": [
+          "left_joint_0",
+          "left_joint_1",
+          "left_joint_2",
+          "left_joint_3",
+          "left_joint_4",
+          "left_joint_5",
+          "left_joint_6"
+        ],
+        "fps": 30
+      },
+      "master_actions.left_gripper.position": {
+        "dtype": "float32",
+        "shape": [
+          1
+        ],
+        "names": [
+          "left_gripper_0"
+        ],
+        "fps": 30
+      },
+      "master_actions.left_gripper.openness": {
+        "dtype": "float32",
+        "shape": [
+          1
+        ],
+        "names": [
+          "left_gripper_0"
+        ],
+        "fps": 30
+      },
+      "master_actions.right_joint.position": {
+        "dtype": "float32",
+        "shape": [
+          7
+        ],
+        "names": [
+          "right_joint_0",
+          "right_joint_1",
+          "right_joint_2",
+          "right_joint_3",
+          "right_joint_4",
+          "right_joint_5",
+          "right_joint_6"
+        ],
+        "fps": 30
+      },
+      "master_actions.right_gripper.position": {
+        "dtype": "float32",
+        "shape": [
+          1
+        ],
+        "names": [
+          "right_gripper_0"
+        ],
+        "fps": 30
+      },
+      "master_actions.right_gripper.openness": {
+        "dtype": "float32",
+        "shape": [
+          1
+        ],
+        "names": [
+          "right_gripper_0"
+        ],
+        "fps": 30
+      },
+      "timestamp": {
+        "dtype": "float32",
+        "shape": [
+          1
+        ],
+        "names": null,
+        "fps": 30
+      },
+      "frame_index": {
+        "dtype": "int64",
+        "shape": [
+          1
+        ],
+        "names": null,
+        "fps": 30
+      },
+      "episode_index": {
+        "dtype": "int64",
+        "shape": [
+          1
+        ],
+        "names": null,
+        "fps": 30
+      },
+      "index": {
+        "dtype": "int64",
+        "shape": [
+          1
+        ],
+        "names": null,
+        "fps": 30
+      },
+      "task_index": {
+        "dtype": "int64",
+        "shape": [
+          1
+        ],
+        "names": null,
+        "fps": 30
+      }
+    }
+  },
+  "A2D": {
+    "features": {
+      "images.rgb.head": {
+        "dtype": "video",
+        "shape": [
+          480,
+          640,
+          3
+        ],
+        "names": [
+          "height",
+          "width",
+          "rgb"
+        ],
+        "info": {
+          "video.fps": 30.0,
+          "video.height": 480,
+          "video.width": 640,
+          "video.channels": 3,
+          "video.codec": "av1",
+          "video.pix_fmt": "yuv420p",
+          "video.is_depth_map": false,
+          "has_audio": false
+        }
+      },
+      "images.rgb.hand_left": {
+        "dtype": "video",
+        "shape": [
+          480,
+          640,
+          3
+        ],
+        "names": [
+          "height",
+          "width",
+          "rgb"
+        ],
+        "info": {
+          "video.fps": 30.0,
+          "video.height": 480,
+          "video.width": 640,
+          "video.channels": 3,
+          "video.codec": "av1",
+          "video.pix_fmt": "yuv420p",
+          "video.is_depth_map": false,
+          "has_audio": false
+        }
+      },
+      "images.rgb.hand_right": {
+        "dtype": "video",
+        "shape": [
+          480,
+          640,
+          3
+        ],
+        "names": [
+          "height",
+          "width",
+          "rgb"
+        ],
+        "info": {
+          "video.fps": 30.0,
+          "video.height": 480,
+          "video.width": 640,
+          "video.channels": 3,
+          "video.codec": "av1",
+          "video.pix_fmt": "yuv420p",
+          "video.is_depth_map": false,
+          "has_audio": false
+        }
+      },
+      "states.effector.position": {
+        "dtype": "float32",
+        "shape": [
+          2
+        ],
+        "names": [
+          "left_gripper",
+          "right_gripper"
+        ]
+      },
+      "states.head.position": {
+        "dtype": "float32",
+        "shape": [
+          2
+        ],
+        "names": [
+          "yaw",
+          "patch"
+        ]
+      },
+      "states.joint.position": {
+        "dtype": "float32",
+        "shape": [
+          14
+        ],
+        "names": [
+          "left_arm_0",
+          "left_arm_1",
+          "left_arm_2",
+          "left_arm_3",
+          "left_arm_4",
+          "left_arm_5",
+          "left_arm_6",
+          "right_arm_0",
+          "right_arm_1",
+          "right_arm_2",
+          "right_arm_3",
+          "right_arm_4",
+          "right_arm_5",
+          "right_arm_6"
+        ]
+      },
+      "states.waist.position": {
+        "dtype": "float32",
+        "shape": [
+          2
+        ],
+        "names": [
+          "pitch",
+          "lift"
+        ]
+      },
+      "states.robot.orientation": {
+        "dtype": "float32",
+        "shape": [
+          4
+        ],
+        "names": [
+          "x",
+          "y",
+          "z",
+          "w"
+        ]
+      },
+      "states.robot.position": {
+        "dtype": "float32",
+        "shape": [
+          3
+        ],
+        "names": [
+          "x",
+          "y",
+          "z"
+        ]
+      },
+      "actions.effector.position": {
+        "dtype": "float32",
+        "shape": [
+          2
+        ],
+        "names": [
+          "left_gripper",
+          "right_gripper"
+        ]
+      },
+      "actions.head.position": {
+        "dtype": "float32",
+        "shape": [
+          2
+        ],
+        "names": [
+          "yaw",
+          "patch"
+        ]
+      },
+      "actions.joint.position": {
+        "dtype": "float32",
+        "shape": [
+          14
+        ],
+        "names": [
+          "left_arm_0",
+          "left_arm_1",
+          "left_arm_2",
+          "left_arm_3",
+          "left_arm_4",
+          "left_arm_5",
+          "left_arm_6",
+          "right_arm_0",
+          "right_arm_1",
+          "right_arm_2",
+          "right_arm_3",
+          "right_arm_4",
+          "right_arm_5",
+          "right_arm_6"
+        ]
+      },
+      "actions.waist.position": {
+        "dtype": "float32",
+        "shape": [
+          2
+        ],
+        "names": [
+          "pitch",
+          "lift"
+        ]
+      },
+      "timestamp": {
+        "dtype": "float32",
+        "shape": [
+          1
+        ],
+        "names": null
+      },
+      "frame_index": {
+        "dtype": "int64",
+        "shape": [
+          1
+        ],
+        "names": null
+      },
+      "episode_index": {
+        "dtype": "int64",
+        "shape": [
+          1
+        ],
+        "names": null
+      },
+      "index": {
+        "dtype": "int64",
+        "shape": [
+          1
+        ],
+        "names": null
+      },
+      "task_index": {
+        "dtype": "int64",
+        "shape": [
+          1
+        ],
+        "names": null
+      }
+    }
+  }
+}

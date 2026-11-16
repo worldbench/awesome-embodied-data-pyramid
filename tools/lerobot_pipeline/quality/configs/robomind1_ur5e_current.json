@@ -1,0 +1,101 @@
+{
+  "schema_version": "lerobot_fk_config_v1",
+  "base_link": "ur5e_base",
+  "left_ee_link": "ur5e_l6",
+  "dataset_from_fk_base": [
+    [
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "left_ee_link_to_dataset_ee_candidates": [
+    [
+      [
+        1,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        1
+      ]
+    ],
+    [
+      [
+        1,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        0.1745
+      ],
+      [
+        0,
+        0,
+        0,
+        1
+      ]
+    ]
+  ],
+  "left_joint_names": [
+    "ur5e_j1",
+    "ur5e_j2",
+    "ur5e_j3",
+    "ur5e_j4",
+    "ur5e_j5",
+    "ur5e_j6"
+  ],
+  "active_sides": [
+    "left"
+  ],
+  "urdf": "../robot_models/universal_robots/ur5e_kinematic.urdf",
+  "qpos_widths": [
+    7
+  ],
+  "candidate_rotation_weight_m_per_deg": 0.001
+}

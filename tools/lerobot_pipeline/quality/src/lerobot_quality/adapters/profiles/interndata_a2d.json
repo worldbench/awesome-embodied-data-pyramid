@@ -1,0 +1,109 @@
+{
+  "id": "interndata_a2d",
+  "robot_type": "a2d",
+  "source_family": "interndata",
+  "format_version": "converted_release_20261013",
+  "qpos_width": 16,
+  "qpos_names": {
+    "state.qpos": [
+      "left_arm_0",
+      "left_arm_1",
+      "left_arm_2",
+      "left_arm_3",
+      "left_arm_4",
+      "left_arm_5",
+      "left_arm_6",
+      "left_gripper",
+      "right_arm_0",
+      "right_arm_1",
+      "right_arm_2",
+      "right_arm_3",
+      "right_arm_4",
+      "right_arm_5",
+      "right_arm_6",
+      "right_gripper"
+    ],
+    "action.qpos": [
+      "left_arm_0",
+      "left_arm_1",
+      "left_arm_2",
+      "left_arm_3",
+      "left_arm_4",
+      "left_arm_5",
+      "left_arm_6",
+      "left_gripper",
+      "right_arm_0",
+      "right_arm_1",
+      "right_arm_2",
+      "right_arm_3",
+      "right_arm_4",
+      "right_arm_5",
+      "right_arm_6",
+      "right_gripper"
+    ]
+  },
+  "arm_indices": {
+    "left": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "right": [
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14
+    ]
+  },
+  "action_mask_groups": [
+    [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    [
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15
+    ]
+  ],
+  "ee_representation": "xyz_xyzw",
+  "ee_sides": [
+    "left",
+    "right"
+  ],
+  "feature_widths": {
+    "state.qpos": 16,
+    "state.ee": 14,
+    "state.ee_valid": 2,
+    "state.waist": 2,
+    "action.qpos": 16,
+    "action.qpos_valid": 2,
+    "action.ee": 14,
+    "action.ee_valid": 2,
+    "action.waist": 2
+  },
+  "default_fk_config": null,
+  "notes": [
+    "Source units are preserved. Joint and EE-position step thresholds are source-native numeric thresholds; confirm units before interpreting them as rad/metres."
+  ],
+  "fk_calibration_status": "candidate_no_observed_ee",
+  "fk_comparison_unavailable_reason": "Current physical release has no independent EE observations (EE masks are zero); candidate model/frame mapping is not validated."
+}

@@ -1,0 +1,33 @@
+{
+  "urdf": "../robot_models/galaxea/r1pro_2025_kinematic.urdf",
+  "base_link": "torso_link4",
+  "active_sides": [
+    "left",
+    "right"
+  ],
+  "qpos_widths": [
+    16
+  ],
+  "left_ee_link": "left_gripper_link",
+  "left_joint_names": [
+    "left_arm_joint1",
+    "left_arm_joint2",
+    "left_arm_joint3",
+    "left_arm_joint4",
+    "left_arm_joint5",
+    "left_arm_joint6",
+    "left_arm_joint7"
+  ],
+  "right_ee_link": "right_gripper_link",
+  "right_joint_names": [
+    "right_arm_joint1",
+    "right_arm_joint2",
+    "right_arm_joint3",
+    "right_arm_joint4",
+    "right_arm_joint5",
+    "right_arm_joint6",
+    "right_arm_joint7"
+  ],
+  "schema_version": "lerobot_fk_config_v1",
+  "candidate_rotation_weight_m_per_deg": 0.001
+}

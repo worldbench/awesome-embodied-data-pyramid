@@ -1,0 +1,102 @@
+{
+  "schema_version": "lerobot_fk_config_v1",
+  "base_link": "panda_link0",
+  "left_ee_link": "panda_link8",
+  "dataset_from_fk_base": [
+    [
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "left_ee_link_to_dataset_ee_candidates": [
+    [
+      [
+        0.7071067812,
+        0.7071067812,
+        0,
+        0.0
+      ],
+      [
+        -0.7071067812,
+        0.7071067812,
+        0,
+        0.0
+      ],
+      [
+        0,
+        0,
+        1,
+        0.0
+      ],
+      [
+        0,
+        0,
+        0,
+        1
+      ]
+    ],
+    [
+      [
+        1,
+        0,
+        0,
+        0.0
+      ],
+      [
+        0,
+        1,
+        0,
+        0.0
+      ],
+      [
+        0,
+        0,
+        1,
+        0.0
+      ],
+      [
+        0,
+        0,
+        0,
+        1
+      ]
+    ]
+  ],
+  "left_joint_names": [
+    "panda_joint1",
+    "panda_joint2",
+    "panda_joint3",
+    "panda_joint4",
+    "panda_joint5",
+    "panda_joint6",
+    "panda_joint7"
+  ],
+  "active_sides": [
+    "left"
+  ],
+  "urdf": "../robot_models/franka/panda_arm_polymetis.urdf",
+  "qpos_widths": [
+    8
+  ],
+  "candidate_rotation_weight_m_per_deg": 0.001
+}

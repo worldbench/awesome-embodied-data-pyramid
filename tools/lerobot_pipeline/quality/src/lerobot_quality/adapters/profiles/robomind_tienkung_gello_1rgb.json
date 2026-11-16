@@ -1,0 +1,98 @@
+{
+  "id": "robomind_tienkung_gello_1rgb",
+  "robot_type": "tienkung_gello_1rgb",
+  "source_family": "robomind",
+  "format_version": "converted_release_20261013",
+  "qpos_width": 16,
+  "qpos_names": {
+    "state.qpos": [
+      "state/qpos.left_arm_0",
+      "state/qpos.left_arm_1",
+      "state/qpos.left_arm_2",
+      "state/qpos.left_arm_3",
+      "state/qpos.left_arm_4",
+      "state/qpos.left_arm_5",
+      "state/qpos.left_arm_6",
+      "state/qpos.left hand_closure",
+      "state/qpos.right_arm_0",
+      "state/qpos.right_arm_1",
+      "state/qpos.right_arm_2",
+      "state/qpos.right_arm_3",
+      "state/qpos.right_arm_4",
+      "state/qpos.right_arm_5",
+      "state/qpos.right_arm_6",
+      "state/qpos.right hand closure"
+    ],
+    "action.qpos": [
+      "action/qpos.left_arm_0",
+      "action/qpos.left_arm_1",
+      "action/qpos.left_arm_2",
+      "action/qpos.left_arm_3",
+      "action/qpos.left_arm_4",
+      "action/qpos.left_arm_5",
+      "action/qpos.left_arm_6",
+      "action/qpos.left hand_closure",
+      "action/qpos.right_arm_0",
+      "action/qpos.right_arm_1",
+      "action/qpos.right_arm_2",
+      "action/qpos.right_arm_3",
+      "action/qpos.right_arm_4",
+      "action/qpos.right_arm_5",
+      "action/qpos.right_arm_6",
+      "action/qpos.right hand closure"
+    ]
+  },
+  "arm_indices": {
+    "left": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "right": [
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14
+    ]
+  },
+  "action_mask_groups": [
+    [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15
+    ]
+  ],
+  "ee_representation": "absent",
+  "ee_sides": [
+    "left",
+    "right"
+  ],
+  "feature_widths": {
+    "state.qpos": 16,
+    "action.qpos": 16,
+    "action.qpos_valid": 1
+  },
+  "default_fk_config": null,
+  "notes": [],
+  "fk_calibration_status": "model_mapping_only_no_observed_ee"
+}

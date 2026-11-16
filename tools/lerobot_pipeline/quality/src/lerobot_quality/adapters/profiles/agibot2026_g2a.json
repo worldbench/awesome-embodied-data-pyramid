@@ -1,0 +1,106 @@
+{
+  "id": "agibot2026_g2a",
+  "robot_type": "g2a",
+  "source_family": "agibot2026",
+  "format_version": "converted_release_20261013",
+  "qpos_width": 16,
+  "qpos_names": {
+    "state.qpos": [
+      "state/joint/position.left_joint_0",
+      "state/joint/position.left_joint_1",
+      "state/joint/position.left_joint_2",
+      "state/joint/position.left_joint_3",
+      "state/joint/position.left_joint_4",
+      "state/joint/position.left_joint_5",
+      "state/joint/position.left_joint_6",
+      "state/left_effector/position",
+      "state/joint/position.right_joint_0",
+      "state/joint/position.right_joint_1",
+      "state/joint/position.right_joint_2",
+      "state/joint/position.right_joint_3",
+      "state/joint/position.right_joint_4",
+      "state/joint/position.right_joint_5",
+      "state/joint/position.right_joint_6",
+      "state/right_effector/position"
+    ],
+    "action.qpos": [
+      "action/joint/position.left_joint_0",
+      "action/joint/position.left_joint_1",
+      "action/joint/position.left_joint_2",
+      "action/joint/position.left_joint_3",
+      "action/joint/position.left_joint_4",
+      "action/joint/position.left_joint_5",
+      "action/joint/position.left_joint_6",
+      "action/left_effector/position",
+      "action/joint/position.right_joint_0",
+      "action/joint/position.right_joint_1",
+      "action/joint/position.right_joint_2",
+      "action/joint/position.right_joint_3",
+      "action/joint/position.right_joint_4",
+      "action/joint/position.right_joint_5",
+      "action/joint/position.right_joint_6",
+      "action/right_effector/position"
+    ]
+  },
+  "arm_indices": {
+    "left": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "right": [
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14
+    ]
+  },
+  "action_mask_groups": [
+    [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    [
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15
+    ]
+  ],
+  "ee_representation": "xyz_xyzw",
+  "ee_sides": [
+    "left",
+    "right"
+  ],
+  "feature_widths": {
+    "state.qpos": 16,
+    "state.ee": 14,
+    "state.ee_valid": 2,
+    "action.qpos": 16,
+    "action.qpos_valid": 2,
+    "action.ee": 14,
+    "action.ee_valid": 2,
+    "state.waist": 5,
+    "action.waist": 5
+  },
+  "default_fk_config": "agibotworld2026_g2.json",
+  "notes": [],
+  "fk_calibration_status": "validated_current_samples"
+}

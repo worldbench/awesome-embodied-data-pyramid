@@ -1,0 +1,95 @@
+{
+  "id": "robomind_tienkung_xsens_1rgb",
+  "robot_type": "tienkung_xsens_1rgb",
+  "source_family": "robomind",
+  "format_version": "converted_release_20261013",
+  "qpos_width": 14,
+  "qpos_names": {
+    "state.qpos": [
+      "state/qpos.left_arm_0",
+      "state/qpos.left_arm_1",
+      "state/qpos.left_arm_2",
+      "state/qpos.left_arm_3",
+      "state/qpos.left_arm_4",
+      "state/qpos.left_arm_5",
+      "state/qpos.left_arm_6",
+      "state/qpos.right_arm_0",
+      "state/qpos.right_arm_1",
+      "state/qpos.right_arm_2",
+      "state/qpos.right_arm_3",
+      "state/qpos.right_arm_4",
+      "state/qpos.right_arm_5",
+      "state/qpos.right_arm_6"
+    ],
+    "action.qpos": [
+      "action/qpos.left_arm_0",
+      "action/qpos.left_arm_1",
+      "action/qpos.left_arm_2",
+      "action/qpos.left_arm_3",
+      "action/qpos.left_arm_4",
+      "action/qpos.left_arm_5",
+      "action/qpos.left_arm_6",
+      "action/qpos.right_arm_0",
+      "action/qpos.right_arm_1",
+      "action/qpos.right_arm_2",
+      "action/qpos.right_arm_3",
+      "action/qpos.right_arm_4",
+      "action/qpos.right_arm_5",
+      "action/qpos.right_arm_6"
+    ]
+  },
+  "arm_indices": {
+    "left": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "right": [
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13
+    ]
+  },
+  "action_mask_groups": [
+    [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13
+    ]
+  ],
+  "ee_representation": "absent",
+  "ee_sides": [
+    "left",
+    "right"
+  ],
+  "feature_widths": {
+    "state.end_effector": 12,
+    "state.qpos": 14,
+    "action.end_effector": 12,
+    "action.end_effector_valid": 1,
+    "action.qpos": 14,
+    "action.qpos_valid": 1
+  },
+  "default_fk_config": null,
+  "notes": [],
+  "fk_calibration_status": "model_mapping_only_no_observed_ee"
+}

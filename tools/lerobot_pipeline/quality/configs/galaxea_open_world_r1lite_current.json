@@ -1,0 +1,109 @@
+{
+  "schema_version": "lerobot_fk_config_v1",
+  "base_link": "torso_link3",
+  "left_ee_link": "left_arm_link6",
+  "right_ee_link": "right_arm_link6",
+  "dataset_from_fk_base": [
+    [
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "left_ee_link_to_dataset_ee": [
+    [
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "right_ee_link_to_dataset_ee": [
+    [
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "left_joint_names": [
+    "left_arm_joint1",
+    "left_arm_joint2",
+    "left_arm_joint3",
+    "left_arm_joint4",
+    "left_arm_joint5",
+    "left_arm_joint6"
+  ],
+  "right_joint_names": [
+    "right_arm_joint1",
+    "right_arm_joint2",
+    "right_arm_joint3",
+    "right_arm_joint4",
+    "right_arm_joint5",
+    "right_arm_joint6"
+  ],
+  "active_sides": [
+    "left",
+    "right"
+  ],
+  "urdf": "../robot_models/galaxea/r1_lite_galaxea_manip_sim.urdf",
+  "qpos_widths": [
+    14
+  ],
+  "candidate_rotation_weight_m_per_deg": 0.001
+}

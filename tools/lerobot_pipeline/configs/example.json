@@ -1,0 +1,10 @@
+{
+  "raw_root": "../data/raw",
+  "converted_root": "../data/converted",
+  "cleaned_root": "../data/cleaned",
+  "work_root": "../data/work",
+  "conversion_workers": 8,
+  "cleaning_workers": 16,
+  "ffmpeg": "ffmpeg",
+  "batch_size": 65536
+}

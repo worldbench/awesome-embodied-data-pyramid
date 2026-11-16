@@ -1,0 +1,111 @@
+{
+  "schema_version": "lerobot_fk_config_v1",
+  "base_link": "fr3_link0",
+  "left_ee_link": "fr3_link8",
+  "right_ee_link": "fr3_link8",
+  "dataset_from_fk_base": [
+    [
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "left_ee_link_to_dataset_ee": [
+    [
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "right_ee_link_to_dataset_ee": [
+    [
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "left_joint_names": [
+    "fr3_joint1",
+    "fr3_joint2",
+    "fr3_joint3",
+    "fr3_joint4",
+    "fr3_joint5",
+    "fr3_joint6",
+    "fr3_joint7"
+  ],
+  "right_joint_names": [
+    "fr3_joint1",
+    "fr3_joint2",
+    "fr3_joint3",
+    "fr3_joint4",
+    "fr3_joint5",
+    "fr3_joint6",
+    "fr3_joint7"
+  ],
+  "active_sides": [
+    "left",
+    "right"
+  ],
+  "urdf": "../robot_models/franka/fr3_arm_kinematic.urdf",
+  "qpos_widths": [
+    16
+  ],
+  "candidate_rotation_weight_m_per_deg": 0.001
+}
