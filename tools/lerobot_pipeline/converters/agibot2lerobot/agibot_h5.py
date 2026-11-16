@@ -473,4 +473,3 @@ class AgiBotAdapter(BaseAdapter):
             remaining_ids.update(EXCLUDED_TASK_IDS)
             return task_id not in remaining_ids
         return task_id in self.type_task_ids
-
