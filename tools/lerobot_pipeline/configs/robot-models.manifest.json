@@ -1,0 +1,70 @@
+{
+  "files": [
+    {
+      "path": "franka/fr3_arm_kinematic.urdf",
+      "bytes": 1704,
+      "sha256": "f0e54c7e5e616f8de041e7286ee5ff1624ac25f023c672564c4aa311d4239da2",
+      "redistribution_status": "not included in public source; upstream permission not fully audited"
+    },
+    {
+      "path": "franka/panda_arm_polymetis.urdf",
+      "bytes": 8363,
+      "sha256": "cfb685b84cb67412d31a9824182b9f63ccbf92c7e29f1d3a87fc9ac3ce74ff95",
+      "redistribution_status": "not included in public source; upstream permission not fully audited"
+    },
+    {
+      "path": "galaxea/r1_lite_galaxea_manip_sim.urdf",
+      "bytes": 38356,
+      "sha256": "10faad4e9fe39c25ec68b658b0fc8d8975f124c623debbbc883909c547d33954",
+      "redistribution_status": "not included in public source; upstream permission not fully audited"
+    },
+    {
+      "path": "galaxea/r1pro_2025_kinematic.urdf",
+      "bytes": 14093,
+      "sha256": "4850b9ff3e6d7a56965a04f6756bed210c02495be1d8b3767bd740dcfe3b1398",
+      "redistribution_status": "not included in public source; upstream permission not fully audited"
+    },
+    {
+      "path": "geniesim/G1_omnipicker.urdf",
+      "bytes": 45973,
+      "sha256": "856939b3791cef3ddceadd2e5fef097cd6d4d686eb701903a687234eb1bd79eb",
+      "redistribution_status": "not included in public source; upstream permission not fully audited"
+    },
+    {
+      "path": "geniesim/G2_omnipicker_fixed_dual.urdf",
+      "bytes": 67256,
+      "sha256": "eb782de0b6f1faf1fcddfb5e2f7004a39e350c4f297ca51a56003ce8f9ad8319",
+      "redistribution_status": "not included in public source; upstream permission not fully audited"
+    },
+    {
+      "path": "i2rt/yam_v1.urdf",
+      "bytes": 9128,
+      "sha256": "5b9ccf966aa353ccf1e82ad6e751b899333fab7c0b4d1071316172201da68c4e",
+      "redistribution_status": "not included in public source; upstream permission not fully audited"
+    },
+    {
+      "path": "interndata_a1/arx5_ac1.urdf",
+      "bytes": 10327,
+      "sha256": "ff615a672082c6cc5b3da5506dc56b1e91e415f0a4503c9695a2c11153caa47b",
+      "redistribution_status": "not included in public source; upstream permission not fully audited"
+    },
+    {
+      "path": "interndata_a1/piper_description_v100.urdf",
+      "bytes": 11722,
+      "sha256": "f45e318ad58339945e5845f4e7a6db22dd334c1f8d4f1f1004285b6fd3be8529",
+      "redistribution_status": "not included in public source; upstream permission not fully audited"
+    },
+    {
+      "path": "robomind/LICENSE",
+      "bytes": 11357,
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+      "redistribution_status": "not included in public source; upstream permission not fully audited"
+    },
+    {
+      "path": "universal_robots/ur5e_kinematic.urdf",
+      "bytes": 1693,
+      "sha256": "e0c99a7eeb90d6f801f1fa94c9505040ab96640da46fe17bbc45d26485a1c84c",
+      "redistribution_status": "not included in public source; upstream permission not fully audited"
+    }
+  ]
+}

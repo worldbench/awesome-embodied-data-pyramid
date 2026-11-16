@@ -1,0 +1,33 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "lerobot-quality-checks"
+version = "0.1.0"
+description = "FK and structured-signal quality checks for the selected LeRobot release"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+  "numpy>=1.24",
+  "pyarrow>=14",
+]
+
+[project.optional-dependencies]
+test = ["pytest>=7"]
+
+[project.scripts]
+lerobot-quality-export = "lerobot_quality.export:main"
+lerobot-quality-pipeline = "lerobot_quality.pipeline:main"
+lerobot-fk-compare = "lerobot_quality.fk_compare:main"
+lerobot-fk-dataset-stats = "lerobot_quality.fk_dataset_stats:main"
+lerobot-signal-quality = "lerobot_quality.signal_quality:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+
+[tool.setuptools.package-data]
+"lerobot_quality.adapters" = ["profiles/*.json"]

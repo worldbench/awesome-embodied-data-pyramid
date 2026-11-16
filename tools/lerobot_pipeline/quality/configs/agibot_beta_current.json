@@ -1,0 +1,122 @@
+{
+  "base_link": "base_link",
+  "left_ee_link": "arm_l_link7",
+  "right_ee_link": "arm_r_link7",
+  "dataset_from_fk_base": [
+    [
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      -0.3
+    ],
+    [
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "left_ee_link_to_dataset_ee": [
+    [
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "right_ee_link_to_dataset_ee": [
+    [
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "urdf": "../robot_models/geniesim/G1_omnipicker.urdf",
+  "active_sides": [
+    "left",
+    "right"
+  ],
+  "qpos_widths": [
+    16,
+    26
+  ],
+  "extra_joints": {
+    "idx01_body_joint1": {
+      "feature": "state.waist",
+      "index": 1
+    },
+    "idx02_body_joint2": {
+      "feature": "state.waist",
+      "index": 0
+    }
+  },
+  "left_joint_names": [
+    "idx21_arm_l_joint1",
+    "idx22_arm_l_joint2",
+    "idx23_arm_l_joint3",
+    "idx24_arm_l_joint4",
+    "idx25_arm_l_joint5",
+    "idx26_arm_l_joint6",
+    "idx27_arm_l_joint7"
+  ],
+  "right_joint_names": [
+    "idx61_arm_r_joint1",
+    "idx62_arm_r_joint2",
+    "idx63_arm_r_joint3",
+    "idx64_arm_r_joint4",
+    "idx65_arm_r_joint5",
+    "idx66_arm_r_joint6",
+    "idx67_arm_r_joint7"
+  ],
+  "schema_version": "lerobot_fk_config_v1",
+  "candidate_rotation_weight_m_per_deg": 0.001
+}

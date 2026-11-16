@@ -1,0 +1,25 @@
+{
+  "python": "3.12.14",
+  "platform": "Linux x86_64",
+  "packages": {
+    "lerobot": "0.6.1",
+    "datatrove": "0.10.0",
+    "torch": "2.11.0",
+    "torchcodec": "0.11.1",
+    "numpy": "2.2.6",
+    "pandas": "2.3.3",
+    "pyarrow": "25.0.1",
+    "datasets": "4.8.5",
+    "av": "15.1.0",
+    "h5py": "3.16.0",
+    "opencv-python-headless": "4.13.0.92",
+    "mcap": "1.4.0",
+    "mcap-protobuf-support": "0.5.4",
+    "multiprocess": "0.70.19",
+    "dill": "0.4.1",
+    "huggingface-hub": "1.29.0",
+    "safetensors": "0.8.0",
+    "pillow": "12.3.0"
+  },
+  "ffmpeg": "ffmpeg version 7.0.2-static https://johnvansickle.com/ffmpeg/  Copyright (c) 2000-2024 the FFmpeg developers"
+}

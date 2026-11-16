@@ -1,0 +1,20 @@
+{
+  "raw_root": "../data/raw",
+  "converted_root": "../data/converted",
+  "cleaned_root": "../data/cleaned",
+  "work_root": "../data/work",
+  "conversion_workers": 8,
+  "cleaning_workers": 16,
+  "ffmpeg": "ffmpeg",
+  "batch_size": 65536,
+  "four_rules": {
+    "version": "four_rules_v1",
+    "alpha": 10.0,
+    "motion_alpha": 10.0,
+    "smoothing_frames": 5,
+    "max_lag_frames": 15,
+    "direction_min_speed": 0.01,
+    "direction_min_agreement": 0.5,
+    "min_moving_joints": 2
+  }
+}

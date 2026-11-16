@@ -1,0 +1,115 @@
+{
+  "version": "cleaned-release-1721-v1",
+  "description": "Rebuild the exact accepted 1721 repositories from matching raw inputs, then annotate all applicable quality checks.",
+  "datasets": {
+    "beta": {
+      "source": "AgiBot-World-Beta",
+      "outputs": {
+        "AgiBotWorld_Beta_v3/gripper": {
+          "episodes": 147838,
+          "repositories": 183
+        },
+        "AgiBotWorld_Beta_v3/dexhand": {
+          "episodes": 5851,
+          "repositories": 19
+        }
+      },
+      "source_missing_episodes": 12707,
+      "policy": "Audit missing HDF5/videos including LFS pointers; retain malformed all-zero empty-index EE action with valid mask zero; preserve waist; aggregate by task_id."
+    },
+    "abc": {
+      "source": "ABC-130k",
+      "outputs": {
+        "ABC-130k-train": {
+          "episodes": 106297,
+          "repositories": 1
+        },
+        "ABC-130k-val": {
+          "episodes": 1351,
+          "repositories": 1
+        }
+      },
+      "policy": "Existing alignment validation and skip reports; missing EE fill with validity masks; train/val remain separate."
+    },
+    "agibot2026": {
+      "source": "AgiBotWorld2026",
+      "outputs": {
+        "AgiBotWorld2026_real_59448dbe8b": {
+          "episodes": 264,
+          "repositories": 1
+        },
+        "AgiBotWorld2026_real_a182a1d445": {
+          "episodes": 27266,
+          "repositories": 1
+        },
+        "AgiBotWorld2026_rl_5d519f3486": {
+          "episodes": 2092,
+          "repositories": 1
+        },
+        "AgiBotWorld2026_simulation_71d7bded9f": {
+          "episodes": 1395,
+          "repositories": 1
+        }
+      },
+      "policy": "Fast collection pipeline; exclude simulation depth overlay as before."
+    },
+    "robomind": {
+      "source": "RoboMIND-v1.2",
+      "pattern": "RoboMIND_v12_*/meta/info.json",
+      "episodes": 67202,
+      "repositories": 35,
+      "exclude_tasks": [
+        "place_yellow_banana_on_plastic_plate"
+      ],
+      "policy": "Only the seven listed real-robot embodiments; exclude the known truncated source task. Preserve camera repair, split handling and failed-archive isolation.",
+      "embodiments": [
+        "franka_1rgb",
+        "franka_3rgb",
+        "franka_fr3_dual",
+        "tienkung_gello_1rgb",
+        "tienkung_prod1_gello_1rgb",
+        "tienkung_xsens_1rgb",
+        "ur_1rgb"
+      ]
+    },
+    "galaxea": {
+      "source": "Galaxea-Open-World-Dataset",
+      "outputs": {
+        "Galaxea_r1lite_v3": {
+          "episodes": 19085,
+          "repositories": 1
+        },
+        "Galaxea_r1pro_v3": {
+          "episodes": 20,
+          "repositories": 1
+        }
+      },
+      "exclude_lite": [
+        "Boil_The_Water_20250714_006"
+      ],
+      "pro_sources": [
+        "Put_The_Items_Into_The_Storage_Box_20250929_002_007"
+      ],
+      "policy": "Exclude 98 timestamp-anomalous Lite episodes explicitly; retain state.waist[4] and Lite action.waist_velocity[6]."
+    },
+    "interndata": {
+      "source": "InternData-A1",
+      "pattern": "InternData_A1_v3/**/meta/info.json",
+      "episodes": 593663,
+      "repositories": 1476,
+      "exclude_jobs": [
+        "sim__basic_tasks__split_aloha__stack_the_boxes_part2",
+        "sim__long_horizon_tasks__split_aloha__clean_the_dirt_with_sponge_left_arm"
+      ],
+      "policy": "Reproduce the 274 successful jobs plus four published, validated subdatasets (2022 episodes) from the third failed job. Skip two entirely failed jobs; restrict parallel_pick_and_place_right_left to basket/bowl/dish/flower_pot. Exclude pan and later unpublished roots, retaining count checks.",
+      "job_roots": {
+        "sim__pick_and_place_tasks__split_aloha__parallel_pick_and_place_right_left": [
+          "basket",
+          "bowl",
+          "dish",
+          "flower_pot"
+        ]
+      }
+    }
+  }
+}

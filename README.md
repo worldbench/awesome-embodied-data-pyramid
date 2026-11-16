@@ -14,6 +14,7 @@ This repository accompanies a survey on the **data pyramid** for robotics and em
 
 This project is actively maintained and continuously updated to make embodied data resources easier for the open-source community to discover, access, and download.
 
+- **2026-11-16:** Added the [DataPyramid ModelScope collection](https://www.modelscope.cn/datasets/jasper0519/DataPyramid) and [LeRobot conversion/quality code](tools/lerobot_pipeline/); the dataset upload is ongoing and uses the earlier 20261016 policy, while the code includes the alpha10 four-rule policy.
 - **2026-10-30:** Added [FineART](https://huggingface.co/datasets/lerobot/FineART) to real-robot datasets and updated the existing [Daimon-Infinity / TacClaw-Infinity](https://huggingface.co/datasets/daimonrobotics/Daimon-Infinity) UMI entry with its paper and Hugging Face download link; distinguished the paper's 10,000+ hours from the dataset card's first 1,000-hour release.
 - **2026-10-21:** Added 11 paper/resource records on gaze-aligned teleoperation, human vision-motion-touch capture, human-to-robot data conversion, and simulation data generation; retained explicit release, access, and asset-license limits.
 - **2026-10-11:** Added 12 verified literature/resource entries across real-robot data, UMI engineering, egocentric supervision, simulation generation, and data curation; separated collected scale from released scale and consolidated World-Env / RehearseVLA.
@@ -25,6 +26,16 @@ This project is actively maintained and continuously updated to make embodied da
 We sincerely thank all open-source dataset creators and contributors for their valuable work and continued support of the community. **You can also use task-based search on the [project website](https://jasper-aaa.github.io/embodied-data-pyramid/) to find and download datasets.**
 
 > If you have suggestions for new resources, improvements to methodologies, or corrections for broken links, please don't hesitate to open an issue or submit a pull request. Contributions of all kinds are welcome and greatly appreciated.
+
+## DataPyramid collection and processing code
+
+[ModelScope dataset](https://www.modelscope.cn/datasets/jasper0519/DataPyramid) · [Conversion and cleaning code](tools/lerobot_pipeline/) · [Quick start](tools/lerobot_pipeline/docs/QUICKSTART.md)
+
+DataPyramid consolidates six existing dataset families into LeRobot v3 repositories: AgiBot Beta, ABC-130k, AgiBotWorld2026, Galaxea, InternData A1 and RoboMIND. It includes both real and simulated robot demonstrations and is a processed collection, not a new independent capture dataset.
+
+The processed inventory contains **1,721 repositories, 972,324 episodes and approximately 10,207.57 trajectory hours**. These are full processed-scope counts, not a claim that every file is already downloadable: **ModelScope upload is still in progress** (checked 2026-11-16). Access is subject to the dataset page's current controls and the constituent datasets' licenses.
+
+**Version distinction:** the ongoing dataset upload contains the **20261016** quality annotations. The accompanying code also provides the later **alpha10** four-rule configuration; it does not imply that the uploaded Parquet files have been replaced with that version. Cleaning retains rows and original columns and adds `quality.valid`; users must apply the flag and existing target masks during training. FK models require separately supplied, authorized assets; they are not redistributed with the source.
 
 ## Table of Contents
 

@@ -1,0 +1,9 @@
+{
+  "base_conversion_commit": "9d82954",
+  "working_tree_quality_updates_included": true,
+  "release": "1721 cleaned repositories, including 17 missing-EE supplements",
+  "repository_count": 1721,
+  "episode_count": 972324,
+  "frame_count": 1077451809,
+  "policy": "Keep released numerical mapping and quality thresholds; external data/tool locations supplied by runtime config."
+}

@@ -1,0 +1,10 @@
+{
+  "version": "four_rules_v1",
+  "alpha": 10.0,
+  "motion_alpha": 10.0,
+  "smoothing_frames": 5,
+  "max_lag_frames": 15,
+  "direction_min_speed": 0.01,
+  "direction_min_agreement": 0.5,
+  "min_moving_joints": 2
+}

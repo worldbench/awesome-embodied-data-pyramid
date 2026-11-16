@@ -1,0 +1,23 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+*.egg-info/
+.venv/
+config.local.json
+data/
+runs/
+*.log
+
+configs/local.json
+
+# Local-only assets and credentials
+quality/robot_models/
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+.DS_Store
+._*
+build/
+dist/

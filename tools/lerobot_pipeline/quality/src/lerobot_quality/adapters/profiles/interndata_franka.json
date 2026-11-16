@@ -1,0 +1,70 @@
+{
+  "id": "interndata_franka",
+  "robot_type": "Franka",
+  "source_family": "interndata",
+  "format_version": "converted_release_20261013",
+  "qpos_width": 8,
+  "qpos_names": {
+    "state.qpos": [
+      "joint_0",
+      "joint_1",
+      "joint_2",
+      "joint_3",
+      "joint_4",
+      "joint_5",
+      "joint_6",
+      "gripper_0"
+    ],
+    "action.qpos": [
+      "joint_0",
+      "joint_1",
+      "joint_2",
+      "joint_3",
+      "joint_4",
+      "joint_5",
+      "joint_6",
+      "gripper_0"
+    ]
+  },
+  "arm_indices": {
+    "left": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ]
+  },
+  "action_mask_groups": [
+    [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ]
+  ],
+  "ee_representation": "xyz_xyzw",
+  "ee_sides": [
+    "left"
+  ],
+  "feature_widths": {
+    "state.qpos": 8,
+    "state.ee": 7,
+    "state.ee_valid": 1,
+    "action.qpos": 8,
+    "action.qpos_valid": 1,
+    "action.ee": 7,
+    "action.ee_valid": 1
+  },
+  "default_fk_config": "interndata_franka_current.json",
+  "notes": [
+    "Source units are preserved. Joint and EE-position step thresholds are source-native numeric thresholds; confirm units before interpreting them as rad/metres."
+  ],
+  "fk_calibration_status": "validated_current_samples"
+}

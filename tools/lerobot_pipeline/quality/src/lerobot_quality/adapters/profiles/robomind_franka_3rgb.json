@@ -1,0 +1,67 @@
+{
+  "id": "robomind_franka_3rgb",
+  "robot_type": "franka_3rgb",
+  "source_family": "robomind",
+  "format_version": "converted_release_20261013",
+  "qpos_width": 8,
+  "qpos_names": {
+    "state.qpos": [
+      "state/qpos.joint_0",
+      "state/qpos.joint_1",
+      "state/qpos.joint_2",
+      "state/qpos.joint_3",
+      "state/qpos.joint_4",
+      "state/qpos.joint_5",
+      "state/qpos.joint_6",
+      "state/qpos.gripper"
+    ],
+    "action.qpos": [
+      "action/qpos.joint_0",
+      "action/qpos.joint_1",
+      "action/qpos.joint_2",
+      "action/qpos.joint_3",
+      "action/qpos.joint_4",
+      "action/qpos.joint_5",
+      "action/qpos.joint_6",
+      "action/qpos.gripper"
+    ]
+  },
+  "arm_indices": {
+    "left": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ]
+  },
+  "action_mask_groups": [
+    [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ]
+  ],
+  "ee_representation": "xyz_euler_xyz",
+  "ee_sides": [
+    "left"
+  ],
+  "feature_widths": {
+    "state.ee": 6,
+    "state.qpos": 8,
+    "action.qpos": 8,
+    "action.qpos_valid": 1
+  },
+  "default_fk_config": "robomind1_franka_single_current.json",
+  "notes": [
+    "Native EE is converted to XYZW only inside checks; exported source columns are unchanged."
+  ],
+  "fk_calibration_status": "validated_current_samples"
+}
