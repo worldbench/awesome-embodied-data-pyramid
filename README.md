@@ -14,7 +14,7 @@ This repository accompanies a survey on the **data pyramid** for robotics and em
 
 This project is actively maintained and continuously updated to make embodied data resources easier for the open-source community to discover, access, and download.
 
-- **2026-11-16:** Added the [DataPyramid ModelScope collection](https://www.modelscope.cn/datasets/jasper0519/DataPyramid) and [LeRobot conversion/quality code](tools/lerobot_pipeline/); the dataset upload is ongoing and uses the earlier 20261016 policy, while the code includes the alpha10 four-rule policy.
+- **2026-11-16:** Added the [DataPyramid ModelScope collection](https://www.modelscope.cn/datasets/jasper0519/DataPyramid) and [LeRobot conversion/quality code](tools/lerobot_pipeline/).
 - **2026-10-30:** Added [FineART](https://huggingface.co/datasets/lerobot/FineART) to real-robot datasets and updated the existing [Daimon-Infinity / TacClaw-Infinity](https://huggingface.co/datasets/daimonrobotics/Daimon-Infinity) UMI entry with its paper and Hugging Face download link; distinguished the paper's 10,000+ hours from the dataset card's first 1,000-hour release.
 - **2026-10-21:** Added 11 paper/resource records on gaze-aligned teleoperation, human vision-motion-touch capture, human-to-robot data conversion, and simulation data generation; retained explicit release, access, and asset-license limits.
 - **2026-10-11:** Added 12 verified literature/resource entries across real-robot data, UMI engineering, egocentric supervision, simulation generation, and data curation; separated collected scale from released scale and consolidated World-Env / RehearseVLA.
